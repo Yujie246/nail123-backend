@@ -1,0 +1,213 @@
+{
+  "id": "black-cat-eye-aura",
+  "name": "黑曜猫眼气场",
+  "image": "/nails/09_69614397f0ecb559b98cb46a5a46f3b32642714.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/09_69614397f0ecb559b98cb46a5a46f3b32642714.png",
+  "reason": "黑曜底色叠猫眼光带，适合聚会、夜拍和强气场穿搭。",
+  "tags": [
+    "黑曜",
+    "猫眼",
+    "气场"
+  ],
+  "generatedAt": "2026-06-05T00:54:12",
+  "latencyMs": 33094,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1334062,
+    "prepared_bytes": 112189,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "透裸黑星星钻饰跳色长美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "long",
+      "nail_shape": "almond",
+      "base_colors": [
+        {
+          "name": "透裸色",
+          "tone": "warm",
+          "opacity": "translucent",
+          "coverage": "accent"
+        },
+        {
+          "name": "纯黑色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "accent"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "solid_color",
+        "sticker",
+        "rhinestone"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "middle",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透裸色",
+        "tip_style": "无",
+        "pattern": "两颗黑色五角星分布在甲面",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "tiny",
+            "color": "透明",
+            "position": "between two stars",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸底搭配黑色五角星，带一颗小钻",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "纯黑色",
+        "tip_style": "无",
+        "pattern": "无图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [],
+        "notes": "全纯黑色亮面美甲",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸色",
+        "tip_style": "无",
+        "pattern": "三颗黑色五角星沿甲面分布",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "2",
+            "size": "tiny",
+            "color": "透明",
+            "position": "near cuticle and center",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸底搭配三颗黑色五角星，带两颗小钻",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "纯黑色",
+        "tip_style": "无",
+        "pattern": "无图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [],
+        "notes": "全纯黑色亮面美甲",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透裸色",
+        "tip_style": "无",
+        "pattern": "一颗黑色五角星在甲面下半部分",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "2",
+            "size": "tiny",
+            "color": "透明",
+            "position": "center and near tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸底搭配一颗黑色五角星，带两颗小钻",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "tiny",
+        "position": "between two black stars",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "rhinestone",
+        "count": "2",
+        "size": "tiny",
+        "position": "near cuticle and center of nail",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "rhinestone",
+        "count": "2",
+        "size": "tiny",
+        "position": "center and near tip of nail",
+        "must_keep": true
+      },
+      {
+        "finger": "all",
+        "type": "sticker",
+        "count": "approx",
+        "size": "medium",
+        "position": "accent nail surface",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留跳色设计：食指无名指全黑，其余为裸底",
+      "保留黑色五角星的数量、位置和颜色",
+      "保留所有小透明钻的位置和数量",
+      "保留长杏仁甲型和亮面质感",
+      "仅修改指甲区域，保留原手的所有特征",
+      "颜色按参考款式复刻，不要自行改色"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand photo, Image 2 is the reference nail art style. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Replicate the reference nail style: long almond shaped glossy nails, jump color design: index and ring fingers are solid opaque black, thumb, middle and pinky fingers are translucent warm nude base with black star decals and small clear rhinestones. Apply the design to matching fingers of Image 1's hand, do not output Image 2, do not output collage or reference board.",
+    "negative_prompt": "do not change background, do not alter skin tone, do not modify hand shape and composition, do not remove decorations, do not change finger positions, do not alter original color of the style, do not add extra nail pieces, do not output collage or reference images, do not distort rhinestones or star patterns, do not change the jump color design, do not delete existing decorations.",
+    "quality_checks": [
+      "Only modify nail area, keep all original hand features",
+      "Jump color design is correct: index and ring are solid black",
+      "Positions of black stars and rhinestones are correct",
+      "Keep glossy finish and correct long almond nail shape",
+      "No extra or missing decorations",
+      "Output is a single try-on image, not a collage",
+      "Color matches the reference style",
+      "Background and skin tone are unchanged from original"
+    ]
+  },
+  "skipped": false
+}

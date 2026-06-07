@@ -1,0 +1,215 @@
+{
+  "id": "black-white-grid",
+  "name": "黑白棋盘涂鸦",
+  "image": "/nails/07_2ac2d01a9bc78320edbe2b545b485b4a2132292.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/07_2ac2d01a9bc78320edbe2b545b485b4a2132292.png",
+  "reason": "黑白格纹、涂鸦线条和跳色组合，适合想要强辨识度的人。",
+  "tags": [
+    "格纹",
+    "涂鸦",
+    "黑白"
+  ],
+  "generatedAt": "2026-06-05T00:53:02",
+  "latencyMs": 54033,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1261101,
+    "prepared_bytes": 100334,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "银渐变豹纹超长尖款美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "extra_long",
+      "nail_shape": "stiletto",
+      "base_colors": [
+        {
+          "name": "裸粉色",
+          "tone": "neutral",
+          "opacity": "sheer",
+          "coverage": "gradient"
+        },
+        {
+          "name": "银色",
+          "tone": "cool",
+          "opacity": "opaque",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "gradient",
+        "glitter",
+        "hand_painted"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "index",
+        "middle",
+        "ring",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "裸粉色渐变银色闪粉",
+        "tip_style": "无",
+        "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "棕黑色",
+            "position": "silver gradient area",
+            "must_keep": true
+          }
+        ],
+        "notes": "同全手统一设计",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "裸粉色渐变银色闪粉",
+        "tip_style": "无",
+        "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "棕黑色",
+            "position": "silver gradient area",
+            "must_keep": true
+          }
+        ],
+        "notes": "同全手统一设计",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "裸粉色渐变银色闪粉",
+        "tip_style": "无",
+        "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "棕黑色",
+            "position": "silver gradient area",
+            "must_keep": true
+          }
+        ],
+        "notes": "同全手统一设计",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "裸粉色渐变银色闪粉",
+        "tip_style": "无",
+        "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "棕黑色",
+            "position": "silver gradient area",
+            "must_keep": true
+          }
+        ],
+        "notes": "同全手统一设计",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "裸粉色渐变银色闪粉",
+        "tip_style": "无",
+        "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "棕黑色",
+            "position": "silver gradient area",
+            "must_keep": true
+          }
+        ],
+        "notes": "同全手统一设计",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "all",
+        "type": "painted_detail",
+        "count": "approx",
+        "size": "small",
+        "position": "银色渐变区域",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留裸粉色根部到银闪尖的自然渐变过渡",
+      "保留银闪区域棕黑色手绘豹纹斑点",
+      "保持超长细尖头甲型不变",
+      "保留亮面闪粉的质感",
+      "全手所有手指均应用该同款设计",
+      "保留用户原手的肤色手型背景构图"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, retain Image 1's canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Image 2 is the reference nail design: extra long stiletto nails, sheer nude pink base gradient to silver glitter tip, small brown black leopard spots painted on the silver area, glossy finish. Transfer the design to matching fingers of Image 1, exactly reproduce all design features in this JSON, do not output Image 2, do not output collage, do not change any content except nails.",
+    "negative_prompt": "do not change background, skin tone, hand shape or composition, do not lose leopard print details, do not distort gradient colors, do not remove silver glitter, do not change nail shape, do not add extra nails, do not output collage or reference image, do not alter the original design",
+    "quality_checks": [
+      "仅修改指甲区域，保留用户原手所有特征",
+      "保持裸粉根部到银尖的自然渐变过渡",
+      "正确保留银区的棕黑色豹纹手绘斑点",
+      "保持超长细尖头的甲型不变",
+      "保持亮面闪粉的质感正确",
+      "不新增多余装饰，不修改原有设计",
+      "输出不是拼图也不是原参考图",
+      "所有手指保持设计一致"
+    ]
+  },
+  "skipped": false
+}

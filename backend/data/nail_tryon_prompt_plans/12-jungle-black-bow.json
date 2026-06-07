@@ -1,0 +1,244 @@
+{
+  "id": "jungle-black-bow",
+  "name": "森野黑钻蝴蝶结",
+  "image": "/nails/12_43cc4ced977a3dd271f60ee2f05607772681747.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/12_43cc4ced977a3dd271f60ee2f05607772681747.png",
+  "reason": "黑色装饰、蝴蝶结和钻饰点缀，适合小众酷甜风。",
+  "tags": [
+    "黑钻",
+    "蝴蝶结",
+    "小众"
+  ],
+  "generatedAt": "2026-06-05T00:57:21",
+  "latencyMs": 74346,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1534373,
+    "prepared_bytes": 170553,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "黑金小花法式超长美甲",
+    "confidence": 0.98,
+    "style_spec": {
+      "nail_length": "extra_long",
+      "nail_shape": "stiletto",
+      "base_colors": [
+        {
+          "name": "裸米色",
+          "tone": "neutral",
+          "opacity": "translucent",
+          "coverage": "most"
+        },
+        {
+          "name": "纯黑色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "tip"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "french_tip",
+        "floral",
+        "hand_painted",
+        "metal_charm"
+      ],
+      "accent_fingers": [
+        "index",
+        "middle",
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透裸米色",
+        "tip_style": "黑色法式边",
+        "pattern": "无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "黑色法式尖，透裸米色基底无花纹",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "透裸米色",
+        "tip_style": "无",
+        "pattern": "甲面绘制两朵黑色五瓣小花，上下排列",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "upper flower center",
+            "must_keep": true
+          },
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "lower flower center",
+            "must_keep": true
+          }
+        ],
+        "notes": "全透裸底，两朵黑色实心五瓣花",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸米色",
+        "tip_style": "黑色法式边",
+        "pattern": "甲面绘制两朵描金黑色小花",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "upper flower center",
+            "must_keep": true
+          },
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "lower flower center",
+            "must_keep": true
+          }
+        ],
+        "notes": "尖端黑色法式，两朵描金黑色小花",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "透裸米色",
+        "tip_style": "无",
+        "pattern": "甲面绘制两朵黑色五瓣小花上下排列",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "upper flower center",
+            "must_keep": true
+          },
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "lower flower center",
+            "must_keep": true
+          }
+        ],
+        "notes": "全透裸底，两朵黑色实心五瓣小花",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透裸米色",
+        "tip_style": "黑色斜法式边",
+        "pattern": "无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "黑色斜法式尖，透裸米色基底无花纹",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "index",
+        "type": "metal_charm",
+        "count": "2",
+        "size": "tiny",
+        "position": "flower centers on index nail",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "metal_charm",
+        "count": "2",
+        "size": "tiny",
+        "position": "flower centers on middle nail",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "metal_charm",
+        "count": "2",
+        "size": "tiny",
+        "position": "flower centers on ring nail",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留extra long stiletto甲型和黑金配色设计",
+      "保留透裸米色基底+黑色法式+黑色小花的款式结构",
+      "保留每朵花心的tiny金色金属装饰，不能丢失",
+      "保留用户原手图的背景、肤色、手型、构图，仅改指甲",
+      "按对应手指迁移款式设计，位置匹配"
+    ],
+    "tryon_prompt": "Use Image 1 as the base image, keep Image 1's original canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Use Image 2 as style reference, replicate this extra long stiletto nail design: translucent nude beige base, black french tip on accent nails, black hand-painted floral patterns on selected nails, tiny gold metal charm at each flower center, glossy finish. Transfer the design to matching fingers on Image 1, do not change any content except nails, do not output Image 2, do not output collage or reference board.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose gold metal decorations, do not change flower pattern, do not alter nail shape and length, do not change color palette, do not add extra nails, do not output collage, do not output reference image, do not change finger positions",
+    "quality_checks": [
+      "仅修改指甲区域，保留原手图所有非指甲内容不变",
+      "所有黑色小花和金色花心装饰完整保留",
+      "甲长甲型和黑金配色匹配目标款式",
+      "按对应手指迁移设计，位置正确",
+      "未输出拼图、参考图，仅输出单张试戴结果"
+    ]
+  },
+  "skipped": false
+}

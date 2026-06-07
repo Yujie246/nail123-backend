@@ -1,0 +1,197 @@
+{
+  "id": "aurora-silver-cat-eye",
+  "name": "极光银猫眼",
+  "image": "/nails/22_5b985a1c661ae2e964286178e6c0b0f92258113.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/22_5b985a1c661ae2e964286178e6c0b0f92258113.png",
+  "reason": "银色猫眼光带叠极光背景，清冷又很有未来感。",
+  "tags": [
+    "极光",
+    "银色",
+    "猫眼"
+  ],
+  "generatedAt": "2026-06-05T01:06:55",
+  "latencyMs": 39739,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1270162,
+    "prepared_bytes": 93573,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "玫瑰金镜面纯色美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "square",
+      "base_colors": [
+        {
+          "name": "玫瑰金",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "all"
+        }
+      ],
+      "finish": [
+        "chrome"
+      ],
+      "design_features": [
+        "solid_color",
+        "chrome"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "index",
+        "middle",
+        "ring",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "玫瑰金",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "chrome"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色镜面无额外装饰",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "玫瑰金",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "chrome"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色镜面无额外装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "玫瑰金",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "chrome"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色镜面无额外装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "玫瑰金",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "chrome"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色镜面无额外装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "玫瑰金",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "chrome"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色镜面无额外装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "all",
+        "type": "unknown",
+        "count": "unknown",
+        "size": "unknown",
+        "position": "full_nail",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留用户原手的手型、肤色、背景和构图，仅修改指甲",
+      "全手所有指甲复刻玫瑰金镜面纯色款式",
+      "保持甲型为方形，甲长为中等长度",
+      "保留镀铬镜面的高亮金属质感"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, Image 2 is the reference nail style. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail area. Replicate the rose gold solid color chrome mirror nail style, use medium length square nail shape, all nails get full coverage opaque warm rose gold chrome finish, no extra decorations. Apply the design to matching fingers of Image 1, do not output Image 2, do not output collage, do not change any content except nail area.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not distort nail style, do not alter rose gold color, do not add extra nails, do not add extra decorations, do not output collage, do not output reference image, do not change original hand pose.",
+    "quality_checks": [
+      "仅修改指甲区域，保留原图所有非指甲内容不变",
+      "所有指甲均为玫瑰金纯色镜面镀铬质感",
+      "甲形保持方形，长度符合要求",
+      "无额外装饰添加，未改变原款式",
+      "输出为单张试戴图，无拼接参考图"
+    ]
+  },
+  "skipped": false
+}

@@ -1,0 +1,235 @@
+{
+  "id": "espresso-leopard-grid",
+  "name": "咖啡豹纹格纹",
+  "image": "/nails/20_d5eedc75b0021f79381962fc145b0bc62301165.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/20_d5eedc75b0021f79381962fc145b0bc62301165.png",
+  "reason": "咖啡色、豹纹和格纹混搭，适合喜欢复杂细节的人。",
+  "tags": [
+    "咖啡",
+    "豹纹",
+    "格纹"
+  ],
+  "generatedAt": "2026-06-05T01:05:30",
+  "latencyMs": 51259,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1381726,
+    "prepared_bytes": 122851,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "裸透闪棕大钻豹纹长款美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "extra_long",
+      "nail_shape": "almond",
+      "base_colors": [
+        {
+          "name": "冰透裸粉色",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "glitter",
+        "hand_painted",
+        "rhinestone",
+        "three_d_decoration"
+      ],
+      "accent_fingers": [
+        "middle"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "partial",
+        "base_color": "冰透裸粉色带细闪",
+        "tip_style": "无",
+        "pattern": "深棕色豹纹斑点在指甲远端",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "approx",
+            "size": "small",
+            "color": "透明",
+            "position": "near_cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸闪底加豹纹加小钻",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "冰透裸粉色带细闪",
+        "tip_style": "无",
+        "pattern": "深棕色手绘豹纹斑点分布甲面",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "approx",
+            "size": "small",
+            "color": "透明",
+            "position": "near_cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸闪底加豹纹加小堆钻",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "冰透裸粉色带细闪",
+        "tip_style": "无",
+        "pattern": "甲面中下部有一根细白色线条",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1 large + approx sma",
+            "size": "large",
+            "color": "透明切割水钻",
+            "position": "near_cuticle_center",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸闪底加细白线加超大主钻",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "冰透裸粉色带细闪",
+        "tip_style": "无",
+        "pattern": "深棕色豹纹斑点分布甲面",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "3",
+            "size": "small",
+            "color": "透明",
+            "position": "near_cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸闪底加豹纹加三小钻",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "冰透裸粉色带细闪",
+        "tip_style": "无",
+        "pattern": "深棕色豹纹斑点分布甲面",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "3",
+            "size": "small",
+            "color": "透明",
+            "position": "near_cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸闪底加豹纹加三小钻",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "rhinestone",
+        "count": "approx",
+        "size": "small",
+        "position": "near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "rhinestone",
+        "count": "approx",
+        "size": "small",
+        "position": "near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "rhinestone",
+        "count": "1 large + approx 3 s",
+        "size": "large",
+        "position": "near cuticle center",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "rhinestone",
+        "count": "3",
+        "size": "small",
+        "position": "near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "rhinestone",
+        "count": "3",
+        "size": "small",
+        "position": "near cuticle",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留超长杏仁甲型，保留冰透裸粉闪粉渐变底",
+      "保留所有手指对应位置的深棕色豹纹图案",
+      "保留所有钻饰的位置大小，中指必须保留大钻",
+      "保留中指甲面的细白色线条装饰",
+      "保留亮面带细闪的甲面质感"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area of Image 1, transfer the nail design to matching fingers of Image 1: the design is extra long almond nails with sheer warm nude pink gradient glitter base, glossy finish, hand-painted dark brown leopard spots, rhinestone decorations on all visible fingers, large oval accent rhinestone on middle finger, thin white line on middle finger. Replicate all design features exactly, do not output Image 2, do not output collage, do not change non-nail areas.",
+    "negative_prompt": "do not change background, skin tone, hand shape or composition of Image 1. do not remove or deform rhinestones, do not change the original design color, do not change finger positions, do not add extra nails, do not output collage or reference image, do not change leopard pattern, do not alter nail shape, do not lose decorations.",
+    "quality_checks": [
+      "保持用户原手的手型、肤色、背景完全不变",
+      "所有钻饰位置大小正确，中指大钻完整保留",
+      "豹纹图案正确复刻到对应手指上",
+      "甲型长度正确，为超长杏仁形",
+      "底色质感正确，冰透裸粉色带细闪亮面",
+      "没有产生拼图，没有输出参考图，无多余内容"
+    ]
+  },
+  "skipped": false
+}

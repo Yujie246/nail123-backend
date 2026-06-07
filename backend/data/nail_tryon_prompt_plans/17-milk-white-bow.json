@@ -1,0 +1,238 @@
+{
+  "id": "milk-white-bow",
+  "name": "奶白蝴蝶结短甲",
+  "image": "/nails/17_ec437f6291295904c2f894edb8c01cb82131722.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/17_ec437f6291295904c2f894edb8c01cb82131722.png",
+  "reason": "奶白短甲配小蝴蝶结和轻装饰，甜但不重。",
+  "tags": [
+    "奶白",
+    "蝴蝶结",
+    "短甲"
+  ],
+  "generatedAt": "2026-06-05T01:02:32",
+  "latencyMs": 61877,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1369801,
+    "prepared_bytes": 117800,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "裸粉奶白法式钻饰珍珠长美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "long",
+      "nail_shape": "coffin",
+      "base_colors": [
+        {
+          "name": "裸粉色",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "gradient"
+        },
+        {
+          "name": "奶白色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "tip"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "french_tip",
+        "rhinestone",
+        "pearl",
+        "three_d_decoration"
+      ],
+      "accent_fingers": [
+        "middle",
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透裸粉色甲床+奶白色甲尖",
+        "tip_style": "奶白法式",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "pearl",
+            "count": "approx 5",
+            "size": "small",
+            "color": "白色",
+            "position": "boundary between pink base and white tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "法式拼接设计，珍珠排列装饰",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "透裸粉色甲床+奶白色甲尖",
+        "tip_style": "奶白法式",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "pearl",
+            "count": "approx 4",
+            "size": "small",
+            "color": "白色",
+            "position": "boundary between pink base and white tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "法式拼接设计，珍珠排列装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸粉色甲床+奶白色甲尖",
+        "tip_style": "奶白法式",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "large",
+            "color": "透明切割水钻",
+            "position": "boundary between pink base and white tip",
+            "must_keep": true
+          },
+          {
+            "type": "pearl",
+            "count": "1",
+            "size": "small",
+            "color": "白色",
+            "position": "next to large rhinestone",
+            "must_keep": true
+          }
+        ],
+        "notes": "法式拼接设计，大钻加珍珠装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "透裸粉色甲床+奶白色甲尖",
+        "tip_style": "奶白法式",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "large",
+            "color": "透明切割水钻",
+            "position": "boundary between pink base and white tip",
+            "must_keep": true
+          },
+          {
+            "type": "pearl",
+            "count": "approx 3",
+            "size": "small",
+            "color": "白色",
+            "position": "next to large rhinestone",
+            "must_keep": true
+          }
+        ],
+        "notes": "法式拼接设计，大钻加珍珠装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透裸粉色甲床+奶白色甲尖",
+        "tip_style": "奶白法式",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "pearl",
+            "count": "approx 3",
+            "size": "small",
+            "color": "白色",
+            "position": "boundary between pink base and white tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "法式拼接设计，珍珠排列装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "all",
+        "type": "pearl",
+        "count": "approx",
+        "size": "small",
+        "position": "boundary between base and tip",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "large",
+        "position": "boundary between base and tip",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "large",
+        "position": "boundary between base and tip",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留裸粉+奶白法式拼接的配色设计",
+      "保留长梯形（coffin）甲型",
+      "保留所有珍珠和大钻的装饰位置",
+      "中指和无名指保留大颗主钻装饰",
+      "保留亮面高光的美甲质感",
+      "只修改指甲区域，保留原手所有特征"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape completely unchanged. Image 2 is the reference nail design. Only change the nail area of Image 1 to replicate the design from Image 2: long coffin shaped nails, sheer warm pink base, opaque warm off-white french tip at nail end, glossy finish, small pearls and large clear 3d rhinestones placed on the boundary between pink base and white tip. Transfer the design to the corresponding same-named finger of Image 1, do not change anything except the nail area. Do not output Image 2, do not output collage, do not output reference design board, keep all decorations as reference.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone or pearl decorations, do not deform 3d decorations, do not change nail color, do not add extra nail pieces, do not output collage, do not output reference image, do not swap fingers, do not move decorations, do not change nail shape",
+    "quality_checks": [
+      "仅修改指甲区域，保留原手肤色手型背景不变",
+      "装饰位置类型大小与参考图保持一致",
+      "保留裸粉加奶白的法式配色设计",
+      "保留长 coffin 甲型",
+      "所有立体钻和珍珠不丢失不变形",
+      "输出不是拼图，仅保留试戴后的手",
+      "无额外新增的甲片或错误装饰"
+    ]
+  },
+  "skipped": false
+}

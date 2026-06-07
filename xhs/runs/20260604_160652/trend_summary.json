@@ -1,0 +1,353 @@
+{
+  "generated_at": "2026-06-04T16:25:39",
+  "product": "NailMindAI",
+  "keyword": "美甲",
+  "analysis_days": 90,
+  "image_days": 30,
+  "total_posts_90d": 43,
+  "styles": [
+    {
+      "style": "多巴胺渐变",
+      "status": "上涨 194%",
+      "status_type": "up",
+      "growth": 194,
+      "count": 4,
+      "score_90d": 13229,
+      "score_30d": 8055,
+      "likes": 13229,
+      "collects": 0,
+      "recommendation": "热度高但需降低日常门槛，提供低饱和改款。",
+      "examples": [
+        {
+          "title": "冰蓝粉渐变美甲｜温柔到骨子里的清冷甜妹感",
+          "url": "https://www.xiaohongshu.com/explore/69e5cea2000000002200d381",
+          "likes": 2742,
+          "published_at": "2026-04-20T14:58:42",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/bcf683117884d31ea613c6e6a0405dc2/1040g00831v63m1udk0005pifmv81on54eij9dog!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "Nail🫧夏日美女味很浓的显白纯欲渐变美甲💅",
+          "url": "https://www.xiaohongshu.com/explore/6a12b71b000000000803db68",
+          "likes": 6578,
+          "published_at": "2026-05-24T16:30:19",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/90631f9a3046c32ddc4d22bcee38ec12/notes_pre_post/1040g3k0320hv31bt6e0049e7vtv06cipphnbcdo!nc_n_webp_mw_1",
+          "image_path": "D:\\NailMindAI\\xhs\\runs\\20260604_160652\\images\\02_nail🫧夏日美女味很浓的显白纯欲渐变美甲💅.webp"
+        },
+        {
+          "title": "渐变玻璃珠🫧💐梦幻ins水灵灵小短甲～",
+          "url": "https://www.xiaohongshu.com/explore/69cceee7000000002102c07b",
+          "likes": 2432,
+          "published_at": "2026-04-01T18:09:43",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/60e826826fd48387615c4c1d72538dd3/1040g2sg31udp4vlo1meg5np60mk083ang2at958!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "淡人高级感",
+      "status": "上涨 100%",
+      "status_type": "up",
+      "growth": 100,
+      "count": 5,
+      "score_90d": 10025,
+      "score_30d": 5787,
+      "likes": 10025,
+      "collects": 0,
+      "recommendation": "补充案例图和团购标题，测试上新转化。",
+      "examples": [
+        {
+          "title": "💅🏻春日淡颜系美甲",
+          "url": "https://www.xiaohongshu.com/explore/69afa8c6000000000601df0f",
+          "likes": 4238,
+          "published_at": "2026-03-10T13:14:46",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/2583d32e778dbe1923941d42b20c34cb/1040g00831th7hhqh62605nbtgsug8tqf7bjgsq0!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "mark 美女感很浓的夏日长甲款式",
+          "url": "https://www.xiaohongshu.com/explore/6a1509bc000000003501d39b",
+          "likes": 1559,
+          "published_at": "2026-05-26T10:47:24",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/f78e57ede2ef46550268e9be4ff92e30/1040g2sg320k7ipcd6oe049f32ba67pd89gn22v0!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "💅Mark一些很有美女味儿的淡人美甲1.0",
+          "url": "https://www.xiaohongshu.com/explore/6a1199810000000037036f91",
+          "likes": 998,
+          "published_at": "2026-05-23T20:11:45",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/1ec29484545cf835940404bf95b280d6/notes_pre_post/1040g3k8320gs0ptemee05q9hfvoto1atcovk5rg!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "甜妹蝴蝶结",
+      "status": "上涨 100%",
+      "status_type": "up",
+      "growth": 100,
+      "count": 4,
+      "score_90d": 19940,
+      "score_30d": 3839,
+      "likes": 19940,
+      "collects": 0,
+      "recommendation": "补充案例图和团购标题，测试上新转化。",
+      "examples": [
+        {
+          "title": "软萌暴击！粉蓝蝴蝶结豹纹甲",
+          "url": "https://www.xiaohongshu.com/explore/69ff421a000000001a03540d",
+          "likes": 3839,
+          "published_at": "2026-05-09T22:18:02",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/d12aa7f7899d11e9dc2f3019f18eb08b/1040g00831vuuq9oajq0g5p1kvgp7uevfjlpkf60!nc_n_webp_mw_1",
+          "image_path": "D:\\NailMindAI\\xhs\\runs\\20260604_160652\\images\\01_软萌暴击！粉蓝蝴蝶结豹纹甲.webp"
+        },
+        {
+          "title": "春日限定甜妹美甲！把蝴蝶结焊在指尖",
+          "url": "https://www.xiaohongshu.com/explore/69c9d419000000002103986a",
+          "likes": 3497,
+          "published_at": "2026-03-30T09:38:33",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/b16973011c66bd89ec009b6ebbe2e6f9/spectrum/1040g34o31uapbpj62s405pq0g8bndiotlp90t0g!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "少女心的夏天，小花美甲💅",
+          "url": "https://www.xiaohongshu.com/explore/69b56a470000000020039202",
+          "likes": 4732,
+          "published_at": "2026-03-14T22:01:43",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/c2f337d9cf6ad5b6e6bab0f1645f40d1/notes_pre_post/1040g3k031tmre8tvmu005nq58uh0bgu5sblo3lo!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "花朵晕染",
+      "status": "稳定观察",
+      "status_type": "stable",
+      "growth": -43,
+      "count": 4,
+      "score_90d": 20660,
+      "score_30d": 2498,
+      "likes": 20660,
+      "collects": 0,
+      "recommendation": "继续观察，适合内容种草和轻量备料。",
+      "examples": [
+        {
+          "title": "🎧ྀི♪ \"夏日水光感藤蔓珍珠猫眼~好温柔啊✨",
+          "url": "https://www.xiaohongshu.com/explore/69c22a0500000000230202ca",
+          "likes": 7732,
+          "published_at": "2026-03-24T14:07:01",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/0f36837b8f7f1198e9612f625612fb09/notes_pre_post/1040g3k831u39r3n51m005pemnav1e9n6dj3pvcg!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "软软糯糯的奶油晕染美甲～🦙",
+          "url": "https://www.xiaohongshu.com/explore/6a1a67df000000003701e59f",
+          "likes": 2498,
+          "published_at": "2026-05-30T12:30:23",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/1844ec46cee45a81ed40b20a6f638091/note_pre_post_uhdr/1040g3r0320pfann56e7g5ojibq0och4a0ckoq3o!nc_n_webp_mw_1",
+          "image_path": "D:\\NailMindAI\\xhs\\runs\\20260604_160652\\images\\04_软软糯糯的奶油晕染美甲～🦙.webp"
+        },
+        {
+          "title": "温柔暴击！薄荷绿小花真的焊死",
+          "url": "https://www.xiaohongshu.com/explore/69de2a5d000000001a031992",
+          "likes": 4393,
+          "published_at": "2026-04-14T19:51:57",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/ae23752977fd72b34d78678faaee260f/spectrum/1040g34o31uukr0d23m5g5obvofdk1md6a6bvhug!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "春夏显白",
+      "status": "上涨 100%",
+      "status_type": "up",
+      "growth": 100,
+      "count": 2,
+      "score_90d": 2370,
+      "score_30d": 2370,
+      "likes": 2370,
+      "collects": 0,
+      "recommendation": "补充案例图和团购标题，测试上新转化。",
+      "examples": [
+        {
+          "title": "ins风 超级美✨粉粉嫩嫩的美甲💅敲温柔",
+          "url": "https://www.xiaohongshu.com/explore/6a0acf6d000000003700d16d",
+          "likes": 1197,
+          "published_at": "2026-05-18T16:35:57",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/6d6bcea3c05543c7e08f9860c5c8ba12/notes_pre_post/1040g3k8320a7s9gnm2b05pcdc22oihak5f5scv0!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "被夸爆的春日美甲💅、巨好看显白美甲",
+          "url": "https://www.xiaohongshu.com/explore/69f88a26000000003503b4b2",
+          "likes": 1173,
+          "published_at": "2026-05-04T19:59:34",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/e8e52a16ea36fd5ccabd99d03d0553c0/notes_pre_post/1040g3k031vod1jf4k85g5p0g9fg7u3g0k1c18k0!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "冰感清透",
+      "status": "稳定观察",
+      "status_type": "stable",
+      "growth": -84,
+      "count": 3,
+      "score_90d": 13955,
+      "score_30d": 1976,
+      "likes": 13955,
+      "collects": 0,
+      "recommendation": "继续观察，适合内容种草和轻量备料。",
+      "examples": [
+        {
+          "title": "「海盐冰气泡」美甲也太会了吧",
+          "url": "https://www.xiaohongshu.com/explore/69f49fa0000000002003b43a",
+          "likes": 2666,
+          "published_at": "2026-05-01T20:42:08",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/97b5edc9ef28244567935a5e218f699d/spectrum/1040g34o31vkimi5m48405pq0gi273fk61g175h8!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "buling闪闪✨ 冰透蓝眼泪法式🌊好适合度假喔",
+          "url": "https://www.xiaohongshu.com/explore/69ec6530000000001b0229d6",
+          "likes": 9313,
+          "published_at": "2026-04-25T14:54:40",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/84a051b87294b5f38ea4ed8280de34cc/notes_pre_post/1040g3k831vch646oiihg5pnvl0d7earfb8upeqo!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "Live美甲💙✨🌌“寂蓝星海”流动的梦幻光泽",
+          "url": "https://www.xiaohongshu.com/explore/6a19928800000000060331e8",
+          "likes": 1976,
+          "published_at": "2026-05-29T21:20:08",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/12934f15b76ff5ea11de43b1f9929d85/notes_pre_post/1040g3k8320ohhf6mmeg05ngnabp095miu11dk3o!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "海莉醋酸",
+      "status": "稳定观察",
+      "status_type": "stable",
+      "growth": 0,
+      "count": 3,
+      "score_90d": 72335,
+      "score_30d": 0,
+      "likes": 72335,
+      "collects": 0,
+      "recommendation": "继续观察，适合内容种草和轻量备料。",
+      "examples": [
+        {
+          "title": "Nails Share | 海莉醋酸玫瑰金法式美甲",
+          "url": "https://www.xiaohongshu.com/explore/69afc9ed0000000008032812",
+          "likes": 22000,
+          "published_at": "2026-03-10T15:36:13",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/1c664142af0de7dae0be8fc557c75e33/notes_pre_post/1040g3k031thavj7km20045fgrou30tqf96pmqng!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "海莉美甲",
+          "url": "https://www.xiaohongshu.com/explore/69cc79be0000000021004b42",
+          "likes": 1335,
+          "published_at": "2026-04-01T09:49:50",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/8c656a632e3cdfa740a623fcecbbf77f/1040g2sg31udbvr3ghue05olsggh6smqdgip81m0!nc_n_webp_mw_1",
+          "image_path": ""
+        },
+        {
+          "title": "海莉醋酸美甲好好看",
+          "url": "https://www.xiaohongshu.com/explore/69b2d9d40000000006031731",
+          "likes": 49000,
+          "published_at": "2026-03-12T23:20:52",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/db2d1208bea7ff98680a378b54aa6a2d/note_pre_post_uhdr/1040g3r031tkb9rbv6u0g5n99n24k4bicefne1n0!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "闪粉亮片",
+      "status": "稳定观察",
+      "status_type": "stable",
+      "growth": 0,
+      "count": 1,
+      "score_90d": 12000,
+      "score_30d": 0,
+      "likes": 12000,
+      "collects": 0,
+      "recommendation": "继续观察，适合内容种草和轻量备料。",
+      "examples": [
+        {
+          "title": "𓍯₊ ✨亮闪闪的春日感",
+          "url": "https://www.xiaohongshu.com/explore/69ce24bd00000000220016d0",
+          "likes": 12000,
+          "published_at": "2026-04-02T16:11:41",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041607/798ca755e63ca26184800490eaed3806/note_pre_post_uhdr/1040g3r831uf02ig22g705n1nba31rsidcvk45qg!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "奶茶裸粉",
+      "status": "稳定高转化",
+      "status_type": "stable",
+      "growth": -100,
+      "count": 1,
+      "score_90d": 2797,
+      "score_30d": 0,
+      "likes": 2797,
+      "collects": 0,
+      "recommendation": "适合作为稳定基础款，主打低翻车率和复购。",
+      "examples": [
+        {
+          "title": "春日约会本命！裸粉闪爱心美甲甜晕了🌸",
+          "url": "https://www.xiaohongshu.com/explore/69d62b000000000023010380",
+          "likes": 2797,
+          "published_at": "2026-04-08T18:16:32",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606041606/e6eb6c2ef29e051a7abb090457a33118/spectrum/1040g0k031umqn6no2s005pq0g8bndiotsffmung!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    }
+  ],
+  "ai_summary": {
+    "summary": "过去90天小红书美甲数据显示，海莉醋酸、多巴胺渐变、甜妹蝴蝶结为TOP3热门款式，其中海莉醋酸以超7.2万90天互动量占据绝对热度榜首；多巴胺渐变增速最快，涨幅达194%，淡人高级感、甜妹蝴蝶结、春夏显白等款式也实现翻倍增长，整体用户偏好偏向高颜值、显白且适配春夏场景的美甲风格。",
+    "hot_styles": [
+      "海莉醋酸：90天互动量72335，单篇最高点赞49000，主打高级轻奢的法式醋酸质感，是长期稳定的爆款；",
+      "多巴胺渐变：90天互动量13229，涨幅194%，热门配色为冰蓝粉系，兼具甜美与清冷感，用户接受度快速提升；",
+      "甜妹蝴蝶结：90天互动量19940，涨幅100%，结合豹纹、粉蓝等元素，主打少女心，适配年轻女性用户；",
+      "花朵晕染：90天互动量20660，呈现稳定热度，主打温柔水光感，适合日常轻量风格需求。"
+    ],
+    "growth_trends": [
+      "高增长赛道：多巴胺渐变涨幅194%，为增速最快款式；淡人高级感、甜妹蝴蝶结、春夏显白涨幅均达100%，属于快速起势的热门品类；",
+      "稳定爆款赛道：海莉醋酸长期占据热度榜首，无明显波动，属于持续受欢迎的经典款；",
+      "波动观察赛道：冰感清透（增长-84）、花朵晕染（增长-43）呈小幅下滑，暂无明确上涨信号；奶茶裸粉（增长-100）热度回落明显，可减少备货。"
+    ],
+    "store_actions": [
+      "重点布局高增长款式：针对多巴胺渐变、甜妹蝴蝶结、淡人高级感开发低门槛改款（如缩短甲长、简化钻饰），适配日常通勤需求；",
+      "强化海莉醋酸的种草营销：增加不同配色、场景（通勤/约会）的案例图，推出团购套餐绑定该爆款，提升转化率；",
+      "轻量备货观察款：花朵晕染、冰感清透备少量基础材料，后续根据内容热度调整备货量；",
+      "突出显白卖点：所有款式营销中强化‘春夏显白’属性，针对学生党、年轻女性推出性价比套餐，扩大受众群体。"
+    ],
+    "demo_lines": [
+      "多巴胺渐变：上涨 194%",
+      "淡人高级感：上涨 100%",
+      "甜妹蝴蝶结：上涨 100%",
+      "春夏显白：上涨 100%",
+      "冰感清透：稳定观察",
+      "花朵晕染：稳定观察",
+      "海莉醋酸：稳定高热度",
+      "奶茶裸粉：下跌 100%"
+    ]
+  },
+  "demo_lines": [
+    "多巴胺渐变：上涨 194%",
+    "淡人高级感：上涨 100%",
+    "甜妹蝴蝶结：上涨 100%",
+    "花朵晕染：稳定观察",
+    "春夏显白：上涨 100%",
+    "冰感清透：稳定观察",
+    "海莉醋酸：稳定观察",
+    "闪粉亮片：稳定观察"
+  ],
+  "closing_sentence": "过去运营靠人工看图、看评论、看感觉；现在我们把每次试戴变成实时趋势信号，把趋势直接变成可执行策略。"
+}

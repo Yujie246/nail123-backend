@@ -1,0 +1,271 @@
+{
+  "id": "champagne-crystal-almond",
+  "name": "香槟水钻杏仁",
+  "image": "/nails/19_5fad21e6d38656170bf726ff3973a4501918338.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/19_5fad21e6d38656170bf726ff3973a4501918338.png",
+  "reason": "香槟裸透底配水钻点缀，适合想要精致存在感的人。",
+  "tags": [
+    "香槟",
+    "水钻",
+    "杏仁甲"
+  ],
+  "generatedAt": "2026-06-05T01:04:39",
+  "latencyMs": 56847,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1430337,
+    "prepared_bytes": 137266,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "香槟裸钻精致长杏仁美甲",
+    "confidence": 0.98,
+    "style_spec": {
+      "nail_length": "extra_long",
+      "nail_shape": "almond",
+      "base_colors": [
+        {
+          "name": "浅香槟裸色",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "gradient",
+        "glitter",
+        "rhinestone",
+        "pearl",
+        "metal_charm",
+        "three_d_decoration"
+      ],
+      "accent_fingers": [
+        "middle"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "浅香槟裸渐变透底",
+        "tip_style": "无",
+        "pattern": "金闪分布靠近甲根半甲",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "small",
+            "color": "香槟金色",
+            "position": "side near tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "小钻点缀侧边缘",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "浅香槟裸渐变透底",
+        "tip_style": "无",
+        "pattern": "金闪分布靠近甲根半甲",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "pearl",
+            "count": "1",
+            "size": "tiny",
+            "color": "米白色",
+            "position": "center near cuticle",
+            "must_keep": true
+          },
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "small",
+            "color": "香槟金色",
+            "position": "center below pearl",
+            "must_keep": true
+          }
+        ],
+        "notes": "珍珠加金属饰组合点缀",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "浅奶香槟半实底色",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "approx",
+            "size": "large",
+            "color": "香槟金主钻配小闪钻",
+            "position": "nail center",
+            "must_keep": true
+          }
+        ],
+        "notes": "大颗香槟主钻，周围配小碎钻",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "浅香槟裸渐变透底",
+        "tip_style": "无",
+        "pattern": "金闪分布靠近甲根半甲",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "香槟金色",
+            "position": "half nail near cuticle",
+            "must_keep": true
+          },
+          {
+            "type": "rhinestone",
+            "count": "approx",
+            "size": "small",
+            "color": "香槟金色",
+            "position": "center near cuticle",
+            "must_keep": true
+          },
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "small",
+            "color": "香槟金色",
+            "position": "center near cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "金闪加混合小装饰点缀半甲",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "浅香槟裸渐变透底",
+        "tip_style": "无",
+        "pattern": "金闪分布靠近甲根半甲",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "small",
+            "color": "香槟金色",
+            "position": "center near cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "单金属小饰点缀甲根",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "small",
+        "position": "side near tip",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "pearl",
+        "count": "1",
+        "size": "tiny",
+        "position": "center near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "metal_charm",
+        "count": "1",
+        "size": "small",
+        "position": "center near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "rhinestone",
+        "count": "approx",
+        "size": "large",
+        "position": "center of nail",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "unknown",
+        "count": "approx",
+        "size": "unknown",
+        "position": "half nail near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "metal_charm",
+        "count": "1",
+        "size": "small",
+        "position": "center near cuticle",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留浅香槟裸渐变透底加金闪的基础配色",
+      "保留extra long杏仁甲型的长度和形状",
+      "保留中指大香槟钻作为主装饰的设计",
+      "保留每个手指对应装饰的大小和位置",
+      "保留整体亮面精致的质感",
+      "保留所有立体装饰的闪耀效果"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape completely, only modify the nail area. Image 2 is the reference nail style: extra long almond nails, sheer warm champagne nude gradient base, glossy finish, with gold glitter and 3D champagne rhinestone, pearl and metal charm decorations, accent middle finger with a large main rhinestone. Transfer the design to matching fingers of Image 1, replicate all color, shape, texture, pattern and decorations exactly as the style in Image 2. Do not output Image 2, do not output collage, do not change anything except nails.",
+    "negative_prompt": "do not change background, skin tone, hand shape, composition of Image 1. Do not lose rhinestone, pearl, metal charm or glitter decorations, do not deform decorations. Do not change finger positions, do not alter base color, do not add extra nails. Do not output collage, do not output reference image, do not change the size and position of decorations.",
+    "quality_checks": [
+      "仅修改指甲区域，保留原手的肤色手型背景",
+      "装饰位置大小和原款式一致，不能丢失钻饰",
+      "保留浅香槟裸渐变底色的颜色和透感",
+      "保留长杏仁甲型，长度符合原款式",
+      "中指必须保留大颗香槟主钻设计",
+      "保持整体亮面质感，保留钻饰闪耀感",
+      "不要拼接图片，输出完整的试戴手图",
+      "不要改变原有手指的位置和数量"
+    ]
+  },
+  "skipped": false
+}

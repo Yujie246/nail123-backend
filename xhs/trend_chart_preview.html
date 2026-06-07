@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>趋势热度图预览</title>
+    <style>
+      :root {
+        --ink: #27282b;
+        --muted: #74777f;
+        --line: rgba(50, 54, 62, 0.12);
+        --rise: #e85d6a;
+        --rise-soft: rgba(232, 93, 106, 0.12);
+        --stable: #2f9b7c;
+        --stable-soft: rgba(47, 155, 124, 0.13);
+        --heat: #f0a43a;
+        --heat-soft: rgba(240, 164, 58, 0.16);
+        --paper: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 28px;
+        background: #f4f5f7;
+        color: var(--ink);
+        font-family:
+          Inter,
+          "PingFang SC",
+          "Microsoft YaHei",
+          Arial,
+          sans-serif;
+      }
+
+      .preview {
+        width: min(720px, 100%);
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: var(--paper);
+        box-shadow: 0 18px 44px rgba(35, 39, 46, 0.1);
+      }
+
+      .head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 20px;
+        line-height: 1.25;
+      }
+
+      .badge {
+        flex: 0 0 auto;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: var(--rise-soft);
+        color: var(--rise);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .chart {
+        display: grid;
+        gap: 12px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 104px minmax(0, 1fr) 92px;
+        gap: 12px;
+        padding: 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fbfbfc;
+      }
+
+      .name {
+        align-self: center;
+        font-size: 14px;
+        font-weight: 850;
+      }
+
+      .metrics {
+        display: grid;
+        gap: 8px;
+      }
+
+      .metric-line {
+        display: grid;
+        grid-template-columns: 44px minmax(0, 1fr);
+        align-items: center;
+        gap: 8px;
+      }
+
+      .metric-label {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .track {
+        height: 9px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(48, 52, 61, 0.1);
+      }
+
+      .fill {
+        display: block;
+        height: 100%;
+        border-radius: inherit;
+      }
+
+      .fill.growth {
+        background: var(--rise);
+      }
+
+      .fill.stable {
+        width: 16%;
+        background: var(--stable);
+      }
+
+      .fill.heat {
+        background: var(--heat);
+      }
+
+      .status {
+        align-self: center;
+        text-align: right;
+      }
+
+      .status strong {
+        display: block;
+        color: var(--rise);
+        font-size: 14px;
+        line-height: 1.2;
+      }
+
+      .status.stable strong {
+        color: var(--stable);
+      }
+
+      .status span {
+        display: block;
+        margin-top: 5px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 14px;
+        margin-top: 14px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .legend span {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .dot {
+        width: 9px;
+        height: 9px;
+        border-radius: 999px;
+      }
+
+      .dot.growth {
+        background: var(--rise);
+      }
+
+      .dot.heat {
+        background: var(--heat);
+      }
+
+      .dot.stable {
+        background: var(--stable);
+      }
+
+      @media (max-width: 560px) {
+        body {
+          padding: 16px;
+        }
+
+        .head,
+        .row {
+          grid-template-columns: 1fr;
+        }
+
+        .head {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        .status {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="preview" aria-label="趋势热度图预览">
+      <div class="head">
+        <h1>趋势热度图</h1>
+        <span class="badge">涨幅 + 热度双指标</span>
+      </div>
+
+      <div class="chart">
+        <article class="row">
+          <div class="name">多巴胺渐变</div>
+          <div class="metrics">
+            <div class="metric-line">
+              <span class="metric-label">涨幅</span>
+              <span class="track"><span class="fill growth" style="width: 100%"></span></span>
+            </div>
+            <div class="metric-line">
+              <span class="metric-label">热度</span>
+              <span class="track"><span class="fill heat" style="width: 100%"></span></span>
+            </div>
+          </div>
+          <div class="status">
+            <strong>上涨 194%</strong>
+            <span>热度 8055</span>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="name">淡人高级感</div>
+          <div class="metrics">
+            <div class="metric-line">
+              <span class="metric-label">涨幅</span>
+              <span class="track"><span class="fill growth" style="width: 52%"></span></span>
+            </div>
+            <div class="metric-line">
+              <span class="metric-label">热度</span>
+              <span class="track"><span class="fill heat" style="width: 72%"></span></span>
+            </div>
+          </div>
+          <div class="status">
+            <strong>上涨 100%</strong>
+            <span>热度 5787</span>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="name">甜妹蝴蝶结</div>
+          <div class="metrics">
+            <div class="metric-line">
+              <span class="metric-label">涨幅</span>
+              <span class="track"><span class="fill growth" style="width: 52%"></span></span>
+            </div>
+            <div class="metric-line">
+              <span class="metric-label">热度</span>
+              <span class="track"><span class="fill heat" style="width: 48%"></span></span>
+            </div>
+          </div>
+          <div class="status">
+            <strong>上涨 100%</strong>
+            <span>热度 3839</span>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="name">花朵晕染</div>
+          <div class="metrics">
+            <div class="metric-line">
+              <span class="metric-label">涨幅</span>
+              <span class="track"><span class="fill stable"></span></span>
+            </div>
+            <div class="metric-line">
+              <span class="metric-label">热度</span>
+              <span class="track"><span class="fill heat" style="width: 31%"></span></span>
+            </div>
+          </div>
+          <div class="status stable">
+            <strong>热度稳定</strong>
+            <span>热度 2498</span>
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="name">春夏显白</div>
+          <div class="metrics">
+            <div class="metric-line">
+              <span class="metric-label">涨幅</span>
+              <span class="track"><span class="fill growth" style="width: 52%"></span></span>
+            </div>
+            <div class="metric-line">
+              <span class="metric-label">热度</span>
+              <span class="track"><span class="fill heat" style="width: 29%"></span></span>
+            </div>
+          </div>
+          <div class="status">
+            <strong>上涨 100%</strong>
+            <span>热度 2370</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="legend">
+        <span><i class="dot growth"></i>涨幅条：按 growth 比例</span>
+        <span><i class="dot heat"></i>热度条：按近 30 天热度指数</span>
+        <span><i class="dot stable"></i>稳定款：显示热度体量，不硬算上涨</span>
+      </div>
+    </section>
+  </body>
+</html>

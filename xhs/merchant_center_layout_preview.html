@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>商家中心新版布局预览</title>
+    <style>
+      :root {
+        --ink: #2f2227;
+        --soft: #6f5d62;
+        --muted: #948287;
+        --rose: #df5c75;
+        --rose-soft: #ffe8ee;
+        --paper: rgba(255, 255, 255, 0.86);
+        --line: rgba(194, 96, 112, 0.2);
+        --sage: #6e9e85;
+        --gold: #c7923f;
+        --shadow: 0 18px 48px rgba(118, 61, 72, 0.12);
+        --radius: 8px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background:
+          linear-gradient(135deg, rgba(255, 247, 249, 0.96), rgba(255, 252, 248, 0.96)),
+          #fff7f5;
+        color: var(--ink);
+        font-family:
+          Inter,
+          "PingFang SC",
+          "Microsoft YaHei",
+          Arial,
+          sans-serif;
+      }
+
+      button {
+        font: inherit;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 250, 249, 0.9);
+        backdrop-filter: blur(16px);
+      }
+
+      .topbar-inner,
+      .page {
+        width: min(100% - 48px, 1480px);
+        margin: 0 auto;
+      }
+
+      .topbar-inner {
+        min-height: 76px;
+        display: grid;
+        grid-template-columns: 280px 1fr auto;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .brand-mark {
+        width: 42px;
+        height: 42px;
+        display: grid;
+        place-items: center;
+        border: 1px solid rgba(223, 92, 117, 0.28);
+        border-radius: 50%;
+        background: var(--rose-soft);
+        color: var(--rose);
+        font-size: 22px;
+        font-weight: 900;
+      }
+
+      .brand strong {
+        display: block;
+        color: #b6445c;
+        font-size: 24px;
+      }
+
+      .brand span:last-child {
+        display: block;
+        color: var(--soft);
+        font-size: 12px;
+        letter-spacing: 0.08em;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        gap: 34px;
+        color: var(--soft);
+        font-weight: 850;
+      }
+
+      .nav .active {
+        color: var(--rose);
+        border-bottom: 3px solid var(--rose);
+        padding-bottom: 8px;
+      }
+
+      .avatar {
+        width: 42px;
+        height: 42px;
+        border: 2px solid rgba(223, 92, 117, 0.28);
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .page {
+        padding: 30px 0 46px;
+      }
+
+      .merchant-shell {
+        display: grid;
+        grid-template-columns: minmax(320px, 1.04fr) minmax(320px, 0.98fr) minmax(300px, 0.78fr);
+        grid-template-areas:
+          "site outside core"
+          "site outside demand"
+          "agent agent agent";
+        grid-template-rows: 176px minmax(500px, auto) minmax(190px, auto);
+        gap: 18px;
+      }
+
+      .site-panel {
+        grid-area: site;
+      }
+
+      .outside-panel {
+        grid-area: outside;
+      }
+
+      .core-panel {
+        grid-area: core;
+      }
+
+      .demand-panel {
+        grid-area: demand;
+      }
+
+      .agent-panel {
+        grid-area: agent;
+      }
+
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      .core-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .metric,
+      .panel {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--paper);
+        box-shadow: var(--shadow);
+      }
+
+      .metric {
+        min-height: 64px;
+        display: grid;
+        align-content: center;
+        gap: 4px;
+        padding: 11px 12px;
+      }
+
+      .metric span {
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .metric strong {
+        font-size: 24px;
+        line-height: 1;
+      }
+
+      .metric.hot strong {
+        font-size: 18px;
+      }
+
+      .core-panel .metric.hot {
+        grid-column: 1 / -1;
+      }
+
+      .panel {
+        min-height: 360px;
+        padding: 22px;
+      }
+
+      .site-panel,
+      .outside-panel {
+        min-height: 690px;
+      }
+
+      .core-panel {
+        min-height: 0;
+        padding: 18px;
+      }
+
+      .demand-panel {
+        min-height: 494px;
+      }
+
+      .agent-panel {
+        min-height: 190px;
+      }
+
+      .panel-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+
+      .panel-title {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        font-size: 26px;
+        line-height: 1.1;
+      }
+
+      .panel-title small {
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .mini-sync {
+        width: 96px;
+        display: grid;
+        gap: 5px;
+      }
+
+      .mini-sync button {
+        min-height: 30px;
+        border: 1px solid rgba(223, 92, 117, 0.24);
+        border-radius: 999px;
+        background: #fff;
+        color: var(--rose);
+        font-size: 12px;
+        font-weight: 850;
+      }
+
+      .progress {
+        height: 4px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(110, 93, 98, 0.13);
+      }
+
+      .progress span {
+        display: block;
+        width: 72%;
+        height: 100%;
+        border-radius: inherit;
+        background: var(--rose);
+      }
+
+      .trend-stack,
+      .order-stack,
+      .agent-stack {
+        display: grid;
+        gap: 12px;
+      }
+
+      .trend-row,
+      .agent-row {
+        display: grid;
+        align-items: center;
+        gap: 12px;
+        padding: 12px;
+        border: 1px solid rgba(194, 96, 112, 0.16);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.62);
+      }
+
+      .trend-row {
+        grid-template-columns: 58px minmax(0, 1fr) auto;
+      }
+
+      .trend-row img {
+        width: 58px;
+        height: 58px;
+        border-radius: 7px;
+        object-fit: cover;
+      }
+
+      .trend-row strong,
+      .agent-row strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      .signal {
+        color: var(--rose);
+        font-weight: 900;
+      }
+
+      .heat-chart {
+        display: grid;
+        gap: 9px;
+        margin: 14px 0;
+        padding: 12px;
+        border: 1px solid rgba(50, 54, 62, 0.1);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.58);
+      }
+
+      .heat-line {
+        display: grid;
+        grid-template-columns: 86px minmax(0, 1fr) 74px;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        font-weight: 850;
+      }
+
+      .bar {
+        height: 8px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(48, 52, 61, 0.1);
+      }
+
+      .bar span {
+        display: block;
+        height: 100%;
+        border-radius: inherit;
+        background: #e85d6a;
+      }
+
+      .order-card {
+        display: grid;
+        grid-template-columns: 132px minmax(0, 1fr);
+        gap: 18px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.7);
+      }
+
+      .order-card img {
+        width: 132px;
+        height: 132px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+
+      .order-card h3 {
+        margin-bottom: 10px;
+        font-size: 27px;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+
+      .tag {
+        padding: 5px 10px;
+        border: 1px solid rgba(223, 92, 117, 0.25);
+        border-radius: 999px;
+        background: var(--rose-soft);
+        color: var(--rose);
+        font-size: 12px;
+        font-weight: 850;
+      }
+
+      .order-actions,
+      .agent-actions {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 14px;
+      }
+
+      .demand-panel .order-card {
+        grid-template-columns: 96px minmax(0, 1fr);
+        gap: 14px;
+      }
+
+      .demand-panel .order-card img {
+        width: 96px;
+        height: 96px;
+      }
+
+      .demand-panel .order-card h3 {
+        font-size: 22px;
+      }
+
+      .demand-panel .order-actions {
+        grid-template-columns: 1fr;
+      }
+
+      .btn {
+        min-height: 42px;
+        border: 1px solid rgba(223, 92, 117, 0.28);
+        border-radius: 8px;
+        background: #fff;
+        color: var(--rose);
+        font-weight: 900;
+      }
+
+      .btn.primary {
+        border: 0;
+        background: linear-gradient(135deg, #e85d79, #d63d64);
+        color: #fff;
+      }
+
+      .agent-row {
+        grid-template-columns: 34px minmax(0, 1fr) 26px;
+        min-height: 72px;
+      }
+
+      .agent-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .agent-panel .agent-actions {
+        width: min(560px, 100%);
+      }
+
+      .agent-icon {
+        width: 32px;
+        height: 32px;
+        display: grid;
+        place-items: center;
+        border-radius: 8px;
+        background: var(--rose-soft);
+        color: var(--rose);
+        font-weight: 900;
+      }
+
+      .note {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 1120px) {
+        .merchant-shell {
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            "core"
+            "demand"
+            "site"
+            "outside"
+            "agent";
+          grid-template-rows: auto;
+        }
+
+        .core-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .site-panel,
+        .outside-panel,
+        .demand-panel,
+        .agent-panel {
+          min-height: 0;
+        }
+
+        .agent-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 680px) {
+        .topbar-inner,
+        .page {
+          width: min(100% - 28px, 760px);
+        }
+
+        .topbar-inner {
+          grid-template-columns: 1fr;
+          padding: 14px 0;
+        }
+
+        .nav {
+          justify-content: flex-start;
+          overflow-x: auto;
+        }
+
+        .core-grid,
+        .order-actions,
+        .agent-actions,
+        .agent-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .order-card,
+        .trend-row,
+        .agent-row,
+        .heat-line {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <div class="brand-mark">◇</div>
+          <div>
+            <strong>甲市雷达 Nail AI</strong>
+            <span>AI NAIL RADAR</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <span>首页</span>
+          <span>AI分析</span>
+          <span>需求发布</span>
+          <span>门店预约</span>
+          <span class="active">商家中心</span>
+          <span>我的</span>
+        </nav>
+        <img class="avatar" src="./Nail/public/assets/user-avatar.jpg" alt="用户头像" />
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="merchant-shell">
+        <aside class="panel site-panel">
+          <div class="panel-head">
+            <h2 class="panel-title">站内趋势</h2>
+          </div>
+
+          <div class="trend-stack">
+            <article class="trend-row">
+              <img src="./Nail/public/assets/style-ice-cat.jpg" alt="冰透猫眼" />
+              <div>
+                <strong>今日上涨款：冰透猫眼</strong>
+                <span class="muted">站内试戴、收藏、需求发布均上涨</span>
+              </div>
+              <span class="signal">+38%</span>
+            </article>
+            <article class="trend-row">
+              <img src="./Nail/public/assets/style-milktea.jpg" alt="奶茶裸粉" />
+              <div>
+                <strong>稳定高转化：奶茶裸粉</strong>
+                <span class="muted">复购和通勤需求稳定</span>
+              </div>
+              <span class="signal">稳</span>
+            </article>
+            <article class="trend-row">
+              <img src="./Nail/public/assets/style-glitter.jpg" alt="多巴胺渐变" />
+              <div>
+                <strong>高试戴低预约：多巴胺渐变</strong>
+                <span class="muted">建议补一个低饱和改款</span>
+              </div>
+              <span class="signal">需优化</span>
+            </article>
+          </div>
+
+          <div class="heat-chart">
+            <div class="heat-line">
+              <span>试戴热度</span>
+              <span class="bar"><span style="width:92%"></span></span>
+              <b class="signal">87</b>
+            </div>
+            <div class="heat-line">
+              <span>预约转化</span>
+              <span class="bar"><span style="width:68%"></span></span>
+              <b class="signal">62</b>
+            </div>
+            <div class="heat-line">
+              <span>本地供给</span>
+              <span class="bar"><span style="width:46%"></span></span>
+              <b class="signal">缺口</b>
+            </div>
+          </div>
+        </aside>
+
+        <aside class="panel outside-panel">
+          <div class="panel-head">
+            <h2 class="panel-title">站外趋势</h2>
+            <div class="mini-sync">
+              <button type="button">更新</button>
+              <div class="progress"><span></span></div>
+            </div>
+          </div>
+
+          <div class="heat-chart">
+            <div class="heat-line">
+              <span>多巴胺渐变</span>
+              <span class="bar"><span style="width:100%"></span></span>
+              <b class="signal">涨 194%</b>
+            </div>
+            <div class="heat-line">
+              <span>淡人高级感</span>
+              <span class="bar"><span style="width:52%"></span></span>
+              <b class="signal">涨 100%</b>
+            </div>
+            <div class="heat-line">
+              <span>甜妹蝴蝶结</span>
+              <span class="bar"><span style="width:52%"></span></span>
+              <b class="signal">涨 100%</b>
+            </div>
+          </div>
+
+          <div class="trend-stack">
+            <article class="trend-row">
+              <img src="./Nail/public/assets/xhs-trends/latest/xhs_latest_02.webp" alt="显白纯欲渐变" />
+              <div>
+                <strong>高热爆款：显白纯欲渐变</strong>
+                <span class="muted">小红书 6578 点赞 · 近 30 天样本</span>
+              </div>
+              <span class="signal">6.6k</span>
+            </article>
+            <article class="trend-row">
+              <img src="./Nail/public/assets/xhs-trends/latest/xhs_latest_01.webp" alt="甜妹蝴蝶结" />
+              <div>
+                <strong>上涨机会：甜妹蝴蝶结</strong>
+                <span class="muted">适合拍照、约会、生日场景</span>
+              </div>
+              <span class="signal">涨</span>
+            </article>
+            <article class="trend-row">
+              <img src="./Nail/public/assets/xhs-trends/latest/xhs_latest_07.webp" alt="冰感清透" />
+              <div>
+                <strong>春夏主推：冰感清透</strong>
+                <span class="muted">清凉色系稳定观察</span>
+              </div>
+              <span class="signal">稳</span>
+            </article>
+          </div>
+        </aside>
+
+        <section class="panel core-panel">
+          <div class="panel-head">
+            <h2 class="panel-title">核心数据</h2>
+          </div>
+          <div class="core-grid" aria-label="核心数据">
+            <article class="metric">
+              <span>新增需求</span>
+              <strong>18</strong>
+            </article>
+            <article class="metric">
+              <span>待报价</span>
+              <strong>7</strong>
+            </article>
+            <article class="metric">
+              <span>今日预约</span>
+              <strong>12</strong>
+            </article>
+            <article class="metric">
+              <span>建议上新</span>
+              <strong>3</strong>
+            </article>
+            <article class="metric hot">
+              <span>本周热度最高</span>
+              <strong>冰透猫眼</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel demand-panel">
+          <div class="panel-head">
+            <h2 class="panel-title">需求接单池</h2>
+            <span class="tag">实时预约</span>
+          </div>
+
+          <div class="order-stack">
+            <article class="order-card">
+              <img src="./Nail/public/assets/merchant-demand.jpg" alt="冰透猫眼轻法式" />
+              <div>
+                <h3>冰透猫眼轻法式</h3>
+                <div class="tags">
+                  <span class="tag">冰透</span>
+                  <span class="tag">猫眼</span>
+                  <span class="tag">轻法式</span>
+                </div>
+                <p class="muted">Nail BTI：奶茶通勤系 · 热度 87</p>
+                <p class="muted">预约时间：今天 16:00 · 待商家确认</p>
+                <div class="order-actions">
+                  <button class="btn primary" type="button">报价接单</button>
+                  <button class="btn" type="button">上传案例</button>
+                  <button class="btn" type="button">推荐改款</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="order-card">
+              <img src="./Nail/public/assets/merchant-demand-2.jpg" alt="多巴胺渐变" />
+              <div>
+                <h3>多巴胺渐变</h3>
+                <p class="muted">Nail BTI：个性潮流系 · 热度 62</p>
+                <p class="muted">预约时间：明天 14:00 · 待商家确认</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel agent-panel">
+          <div class="panel-head">
+            <h2 class="panel-title">智能运营 Agent</h2>
+          </div>
+
+          <div class="agent-grid">
+            <article class="agent-row">
+              <div class="agent-icon">上</div>
+              <strong>今天上什么：冰透猫眼轻法式</strong>
+              <span class="signal">□</span>
+            </article>
+            <article class="agent-row">
+              <div class="agent-icon">接</div>
+              <strong>今天接什么：5 个冰透猫眼相关需求</strong>
+              <span class="signal">□</span>
+            </article>
+            <article class="agent-row">
+              <div class="agent-icon">推</div>
+              <strong>今天推给谁：25-35 岁通勤用户</strong>
+              <span class="signal">□</span>
+            </article>
+            <article class="agent-row">
+              <div class="agent-icon">备</div>
+              <strong>今天怎么准备：周末增加预约位</strong>
+              <span class="signal">□</span>
+            </article>
+          </div>
+
+          <div class="agent-actions">
+            <button class="btn primary" type="button">生成运营方案</button>
+            <button class="btn" type="button">一键上架</button>
+            <button class="btn" type="button">推送用户</button>
+          </div>
+          <p class="note">这是独立效果稿，暂未修改正式网站文件。</p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

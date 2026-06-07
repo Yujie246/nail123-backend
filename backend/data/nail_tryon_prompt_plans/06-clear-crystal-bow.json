@@ -1,0 +1,209 @@
+{
+  "id": "clear-crystal-bow",
+  "name": "冰透水晶蝴蝶结",
+  "image": "/nails/06_6c857edd85a5fa4bcec59698fe9416cb1913981.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/06_6c857edd85a5fa4bcec59698fe9416cb1913981.png",
+  "reason": "透明延长甲叠水晶和蝴蝶结，甜感强但保留清透空气感。",
+  "tags": [
+    "冰透",
+    "水晶",
+    "蝴蝶结"
+  ],
+  "generatedAt": "2026-06-05T00:52:08",
+  "latencyMs": 41419,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1291166,
+    "prepared_bytes": 106570,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "裸棕渐变爱心钻长款美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "long",
+      "nail_shape": "coffin",
+      "base_colors": [
+        {
+          "name": "裸棕色",
+          "tone": "warm",
+          "opacity": "translucent",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "gradient",
+        "glitter",
+        "rhinestone",
+        "metal_charm",
+        "three_d_decoration"
+      ],
+      "accent_fingers": [
+        "middle",
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "partial",
+        "base_color": "裸棕透渐变",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "small",
+            "color": "银色闪钻",
+            "position": "tip_edge",
+            "must_keep": true
+          }
+        ],
+        "notes": "部分可见，渐变裸棕亮面甲",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "裸棕透渐变",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [],
+        "notes": "纯色渐变长亮面甲，无额外装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "裸棕透渐变",
+        "tip_style": "无",
+        "pattern": "渐变底加银闪粉",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "metal_charm",
+            "count": "1",
+            "size": "large",
+            "color": "银白立体爱心",
+            "position": "center_near_tip",
+            "must_keep": true
+          },
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "银色闪粉",
+            "position": "root_area",
+            "must_keep": true
+          }
+        ],
+        "notes": "主款带立体爱心装饰和闪粉",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "裸棕透渐变",
+        "tip_style": "无",
+        "pattern": "幻彩小圆亮片搭配细闪",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "幻彩浅色系亮片",
+            "position": "center_near_tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "跳款带幻彩亮片装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "裸棕透渐变",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [],
+        "notes": "纯色渐变长亮面甲，无额外装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "middle",
+        "type": "metal_charm",
+        "count": "1",
+        "size": "large",
+        "position": "center of nail near tip",
+        "must_keep": true
+      },
+      {
+        "finger": "thumb",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "small",
+        "position": "nail tip edge",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "glitter",
+        "count": "approx",
+        "size": "tiny",
+        "position": "center of nail near tip",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留原款式裸棕透渐变底色和亮面光泽",
+      "保留对应手指的装饰，立体爱心不能丢失变形",
+      "保持原款式长 coffin 甲型和长度",
+      "仅修改指甲区域，保留用户原图的手型肤色背景",
+      "按照同名手指对应迁移美甲款式",
+      "保持渐变过渡自然，质感清透"
+    ],
+    "tryon_prompt": "Use Image 1 as the base hand image, keep Image 1's original canvas, composition, lighting, skin tone, hand shape and background. Only modify the nail area to match the nail style from Image 2. This style is long coffin nails, warm translucent nude brown gradient base, glossy finish, with large 3D silver heart charm and glitter on middle finger, iridescent glitter accents on ring finger, small rhinestone on partial thumb, other fingers are solid gradient. Transfer the design to the corresponding matching fingers of Image 1's hand, do not output Image 2, do not output collage, do not change anything except nails.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose decorations, do not change nail shape, do not alter base color, do not add extra nails, do not output collage, do not output reference image, do not deform the 3D heart charm, do not remove glitter accents, do not change gradient transition.",
+    "quality_checks": [
+      "仅修改指甲区域，保留原手所有特征不变",
+      "装饰位置和样式保留对应手指，无丢失",
+      "裸棕渐变底色正确，清透亮面质感保留",
+      "没有输出拼图或者参考款式图",
+      "甲型长度符合原款式要求",
+      "立体爱心装饰没有变形丢失"
+    ]
+  },
+  "skipped": false
+}

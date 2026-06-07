@@ -1,0 +1,204 @@
+{
+  "id": "black-gold-short",
+  "name": "黑金短甲小香",
+  "image": "/nails/08_d15c06e8c2137d4f39f3b60476a90cf92026957.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/08_d15c06e8c2137d4f39f3b60476a90cf92026957.png",
+  "reason": "黑金短甲和小香风质感，短甲也能有强气场。",
+  "tags": [
+    "黑金",
+    "短甲",
+    "轻奢"
+  ],
+  "generatedAt": "2026-06-05T00:53:39",
+  "latencyMs": 36353,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1454656,
+    "prepared_bytes": 135088,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "透裸黑法式钻饰轻奢长美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "extra_long",
+      "nail_shape": "stiletto",
+      "base_colors": [
+        {
+          "name": "透裸色",
+          "tone": "neutral",
+          "opacity": "translucent",
+          "coverage": "most"
+        },
+        {
+          "name": "黑色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "tip"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "french_tip",
+        "glitter",
+        "rhinestone"
+      ],
+      "accent_fingers": [
+        "index",
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "partial",
+        "base_color": "透裸色",
+        "tip_style": "无",
+        "pattern": "unknown",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "tiny",
+            "color": "银色透明",
+            "position": "near_tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "指甲部分可见，带小钻装饰",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "透裸色",
+        "tip_style": "黑色法式",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "approx",
+            "size": "unknown",
+            "color": "银色透明",
+            "position": "french junction",
+            "must_keep": true
+          }
+        ],
+        "notes": "错位黑色法式，分界处堆钻",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸色带细闪",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [],
+        "notes": "全甲透闪裸色",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "透裸色",
+        "tip_style": "黑色法式",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "small",
+            "color": "银色方形",
+            "position": "center near cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "错位黑色法式，甲根带小方钻",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透裸色带细闪",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [],
+        "notes": "全甲透闪裸色",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "tiny",
+        "position": "near nail tip",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "rhinestone",
+        "count": "approx",
+        "size": "unknown",
+        "position": "black french tip junction",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "small",
+        "position": "nail center near cuticle",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留extra_long stiletto甲型和错位黑法式设计",
+      "保留所有钻饰的位置、大小，不丢失装饰",
+      "保留透裸底+跳甲细闪的设计布局",
+      "保留亮面高光质感不变",
+      "仅修改指甲区域，保留原手的手型、肤色、背景"
+    ],
+    "tryon_prompt": "Image 1 is the target hand to modify, Image 2 is the reference nail design. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged, only change the nail areas. Apply the reference design: extra long stiletto nails, sheer nude neutral base, black french tips on index and ring fingers, scattered glitter on middle and pinky nails, keep all rhinestone decorations on correct positions per corresponding finger, retain glossy finish, replicate all design details exactly. Do not output Image 2, do not output collage, do not change any content outside the nail area.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone decorations, do not alter nail shape, do not change base or french tip color, do not add extra nails, do not output collage, do not output reference image, do not move design elements, do not remove glitter, do not distort nail shape",
+    "quality_checks": [
+      "仅修改指甲区域，未改变原手的手型、肤色和背景",
+      "所有钻饰位置和大小都保留，没有丢失",
+      "黑法式的位置和颜色正确，错位设计保留",
+      "透裸底加细闪跳甲的布局正确",
+      "甲型长度和参考一致，是超长尖头",
+      "输出不是拼图，只有修改后的完整手部"
+    ]
+  },
+  "skipped": false
+}

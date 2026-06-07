@@ -1,0 +1,169 @@
+{
+  "id": "nude-mica-french",
+  "name": "云母裸粉轻法式",
+  "image": "/nails/01_87797733466cfd525625a5947767e2ff1794125.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/01_87797733466cfd525625a5947767e2ff1794125.png",
+  "reason": "裸粉底叠轻法式和细闪云母感，干净显手白，适合日常通勤。",
+  "tags": [
+    "裸粉",
+    "轻法式",
+    "通勤"
+  ],
+  "generatedAt": "2026-06-05T00:47:32",
+  "latencyMs": 40578,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1221491,
+    "prepared_bytes": 86093,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "奶裸色纯色通勤美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "oval",
+      "base_colors": [
+        {
+          "name": "奶裸色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "all"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "solid_color"
+      ],
+      "accent_fingers": []
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "not_visible",
+        "base_color": "unknown",
+        "tip_style": "unknown",
+        "pattern": "unknown",
+        "finish": [],
+        "decorations": [],
+        "notes": "拇指不可见，无法识别款式",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "奶裸色",
+        "tip_style": "无",
+        "pattern": "纯色无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色奶裸亮面美甲，无装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "奶裸色",
+        "tip_style": "无",
+        "pattern": "纯色无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色奶裸亮面美甲，无装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "奶裸色",
+        "tip_style": "无",
+        "pattern": "纯色无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色奶裸亮面美甲，无装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "奶裸色",
+        "tip_style": "无",
+        "pattern": "纯色无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "unknown",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色奶裸亮面美甲，无装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [],
+    "transfer_priority": [
+      "保持所有可见指甲为统一奶裸纯色亮面",
+      "保留中等长度椭圆形甲型",
+      "仅修改指甲区域，保留原图手型肤色背景",
+      "按同名手指迁移目标美甲款式"
+    ],
+    "tryon_prompt": "Use Image 1 (user's real hand image) as base image, keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail area of Image 1 to match the nail style from Image 2. Target style: medium length oval nails, solid warm nude beige, full coverage, glossy finish, no extra decorations. Apply the style to corresponding fingers of Image 1. Do not output Image 2, do not output collage, do not change content outside nail area.",
+    "negative_prompt": "change background, change skin tone, change hand shape, alter original composition, add extra decorations, change nail color, deform nail shape, lose design details, output collage, output reference image, add extra fake nail pieces, change finger positions",
+    "quality_checks": [
+      "仅修改指甲区域，保留原图手型肤色背景构图",
+      "所有指甲保持统一奶裸纯色亮面质感",
+      "甲型为椭圆形，长度中等，符合目标款式",
+      "无额外装饰，未输出参考图或拼接图"
+    ]
+  },
+  "skipped": false
+}

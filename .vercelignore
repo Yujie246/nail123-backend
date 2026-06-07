@@ -1,0 +1,21 @@
+.git/
+.vercel/
+__pycache__/
+*.py[cod]
+*.log
+node_modules/
+
+# Keep heavyweight/local-only model services out of the serverless bundle.
+models/
+services/
+requirements-yolo.txt
+requirements-mobile-sam.txt
+
+# Browser automation helpers are local-only on this Vercel deployment.
+scripts/*.mjs
+
+# Secrets and local login/session state.
+.env
+backend/.env
+backend/.meituan_session.json
+xhs/data/xhs_storage_state.json

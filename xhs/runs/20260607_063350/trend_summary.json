@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-06-07T06:35:04",
+  "product": "NailMindAI",
+  "keyword": "美甲",
+  "analysis_days": 90,
+  "image_days": 30,
+  "total_posts_90d": 4,
+  "styles": [
+    {
+      "style": "春夏显白",
+      "status": "上涨 100%",
+      "status_type": "up",
+      "growth": 100,
+      "count": 1,
+      "score_90d": 1381,
+      "score_30d": 1381,
+      "likes": 1381,
+      "collects": 0,
+      "recommendation": "补充案例图和团购标题，测试上新转化。",
+      "examples": [
+        {
+          "title": "ins风 超级美✨粉粉嫩嫩的美甲💅敲温柔",
+          "url": "https://www.xiaohongshu.com/explore/6a0acf6d000000003700d16d",
+          "likes": 1381,
+          "published_at": "2026-05-18T16:35:57",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/1278320e2931d5d477fb7ddfbaf60d13/notes_pre_post/1040g3k8320a7s9gnm2b05pcdc22oihak5f5scv0!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "冰感清透",
+      "status": "稳定观察",
+      "status_type": "stable",
+      "growth": -100,
+      "count": 1,
+      "score_90d": 9792,
+      "score_30d": 0,
+      "likes": 9792,
+      "collects": 0,
+      "recommendation": "继续观察，适合内容种草和轻量备料。",
+      "examples": [
+        {
+          "title": "buling闪闪✨ 冰透蓝眼泪法式🌊好适合度假喔",
+          "url": "https://www.xiaohongshu.com/explore/69ec6530000000001b0229d6",
+          "likes": 9792,
+          "published_at": "2026-04-25T14:54:40",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/71431da01fb48d6e87e7b510ad933f39/notes_pre_post/1040g3k831vch646oiihg5pnvl0d7earfb8upeqo!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    },
+    {
+      "style": "淡人高级感",
+      "status": "稳定观察",
+      "status_type": "stable",
+      "growth": 0,
+      "count": 1,
+      "score_90d": 4414,
+      "score_30d": 0,
+      "likes": 4414,
+      "collects": 0,
+      "recommendation": "继续观察，适合内容种草和轻量备料。",
+      "examples": [
+        {
+          "title": "💅🏻春日淡颜系美甲",
+          "url": "https://www.xiaohongshu.com/explore/69afa8c6000000000601df0f",
+          "likes": 4414,
+          "published_at": "2026-03-10T13:14:46",
+          "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/9acb6c1c9cbdb99d4ec8a5e982e4cc29/1040g00831th7hhqh62605nbtgsug8tqf7bjgsq0!nc_n_webp_mw_1",
+          "image_path": ""
+        }
+      ]
+    }
+  ],
+  "ai_summary": {
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1020)>"
+  },
+  "demo_lines": [
+    "春夏显白：上涨 100%",
+    "冰感清透：稳定观察",
+    "淡人高级感：稳定观察"
+  ],
+  "closing_sentence": "过去运营靠人工看图、看评论、看感觉；现在我们把每次试戴变成实时趋势信号，把趋势直接变成可执行策略。"
+}

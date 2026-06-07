@@ -1,0 +1,229 @@
+{
+  "id": "silver-mirror-french",
+  "name": "银镜冷光法式",
+  "image": "/nails/04_fc8fe60e78341d77a5070fc2f8e520072098070.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/04_fc8fe60e78341d77a5070fc2f8e520072098070.png",
+  "reason": "银灰镜面光泽和冷调法式边，适合清冷骨感手型。",
+  "tags": [
+    "银灰",
+    "镜面",
+    "冷感"
+  ],
+  "generatedAt": "2026-06-05T00:50:11",
+  "latencyMs": 53148,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1419247,
+    "prepared_bytes": 125355,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "奶灰银调跳色镜面美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "squoval",
+      "base_colors": [
+        {
+          "name": "奶灰色",
+          "tone": "cool",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "爆闪银色",
+          "tone": "cool",
+          "opacity": "opaque",
+          "coverage": "accent"
+        },
+        {
+          "name": "镜面银色",
+          "tone": "cool",
+          "opacity": "opaque",
+          "coverage": "accent"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "chrome",
+        "glitter"
+      ],
+      "design_features": [
+        "solid_color",
+        "line_art",
+        "glitter",
+        "chrome"
+      ],
+      "accent_fingers": [
+        "ring",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "奶灰色",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色奶灰亮面美甲",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "奶灰色",
+        "tip_style": "细金边",
+        "pattern": "细金色线沿指甲边缘描边",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "tiny",
+            "color": "金色",
+            "position": "nail_edge",
+            "must_keep": true
+          }
+        ],
+        "notes": "奶灰底加细金色边缘描边",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "奶灰色",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色奶灰亮面美甲",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "镜面银色",
+        "tip_style": "无",
+        "pattern": "none",
+        "finish": [
+          "chrome",
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "unknown",
+            "count": "1",
+            "size": "large",
+            "color": "镜面银色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "全甲镜面银色美甲",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "爆闪银色",
+        "tip_style": "无",
+        "pattern": "全甲铺银色闪粉",
+        "finish": [
+          "glitter",
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "medium",
+            "color": "爆闪银色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "全甲铺满银色爆闪粉",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "index",
+        "type": "painted_detail",
+        "count": "1",
+        "size": "tiny",
+        "position": "nail edge",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "unknown",
+        "count": "1",
+        "size": "large",
+        "position": "full nail",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "glitter",
+        "count": "approx",
+        "size": "medium",
+        "position": "full nail",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留用户原图的手型、肤色、背景、构图，仅修改指甲",
+      "按同名手指迁移对应美甲款式，不要错位",
+      "保留奶灰纯色+金边+镜面银+爆闪银的跳色设计",
+      "保留各指甲对应光泽质感，不要改变材质",
+      "不要新增、删除装饰，不要改变装饰位置"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, keep its canvas, composition, lighting, skin tone, hand shape and background completely, only modify the nail area. Image 2 is the reference nail style to replicate. Replicate this style: medium length squoval nails, main color is cool milk gray glossy solid, index finger has thin gold edge line, ring finger is full nail chrome silver, pinky is full nail silver glitter. Apply the design to matching fingers of Image 1, do not change any content except nails, do not output Image 2, do not output collage, do not alter original hand features.",
+    "negative_prompt": "change background, change skin tone, change hand shape, change composition, lose decorations, change design position, wrong color, add extra nails, output collage, output reference image, distort chrome finish, remove silver glitter, mismatch nail shape, mismatch nail length, blur gold line detail",
+    "quality_checks": [
+      "仅修改指甲区域，未改动原手的手型肤色背景",
+      "款式对应到正确同名手指，未发生错位",
+      "保留了金边、镜面银、爆闪银的设计与质感",
+      "未新增丢失装饰，装饰位置符合原款式",
+      "输出不是拼图，未包含参考图，符合要求"
+    ]
+  },
+  "skipped": false
+}

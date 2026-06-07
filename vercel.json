@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
+  ],
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{models/**,services/**,scripts/**,requirements-yolo.txt,requirements-mobile-sam.txt,**/__pycache__/**,**/*.pyc,**/*.pyo}"
+    }
+  }
+}

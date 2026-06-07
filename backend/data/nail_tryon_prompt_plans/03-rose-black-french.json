@@ -1,0 +1,221 @@
+{
+  "id": "rose-black-french",
+  "name": "玫瑰黑茶法式",
+  "image": "/nails/03_7bb5bc0c2c741f9f0aa63787a601d7ad2604877.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/03_7bb5bc0c2c741f9f0aa63787a601d7ad2604877.png",
+  "reason": "黑茶色法式边配玫瑰氛围，显白又有轻奢感。",
+  "tags": [
+    "黑茶",
+    "法式",
+    "玫瑰"
+  ],
+  "generatedAt": "2026-06-05T00:49:18",
+  "latencyMs": 62232,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1442019,
+    "prepared_bytes": 141444,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "甜酷红黑棋盘格跳色美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "squoval",
+      "base_colors": [
+        {
+          "name": "纯黑色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "桃红色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "accent"
+        },
+        {
+          "name": "透棕色",
+          "tone": "warm",
+          "opacity": "translucent",
+          "coverage": "accent"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "solid_color",
+        "plaid",
+        "painted_detail"
+      ],
+      "accent_fingers": [
+        "index",
+        "ring",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "纯黑色",
+        "tip_style": "无",
+        "pattern": "无图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯亮面黑色纯色美甲",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "桃红色",
+        "tip_style": "无",
+        "pattern": "全甲红黑棋盘格",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "全甲红黑棋盘格图案设计",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "纯黑色",
+        "tip_style": "无",
+        "pattern": "甲面中上有一颗粉色桃心",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "small",
+            "color": "粉色",
+            "position": "center near cuticle",
+            "must_keep": true
+          }
+        ],
+        "notes": "黑色底带手绘粉色小桃心",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "透棕色",
+        "tip_style": "无",
+        "pattern": "全甲带星星和小圆点手绘",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx 4",
+            "size": "tiny",
+            "color": "深棕色",
+            "position": "full nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "透棕底带手绘星星圆点装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "桃红色",
+        "tip_style": "无",
+        "pattern": "全甲红黑棋盘格",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "全甲红黑棋盘格图案设计",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "middle",
+        "type": "painted_detail",
+        "count": "1",
+        "size": "small",
+        "position": "nail center near cuticle",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "painted_detail",
+        "count": "approx 4",
+        "size": "tiny",
+        "position": "full nail",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留原甲型甲长，所有指甲保持亮面质感",
+      "拇指保持纯黑色纯色设计，不添加额外图案",
+      "食指和小指保持全甲红黑棋盘格图案",
+      "中指保留黑色底加粉色手绘桃心设计",
+      "无名指保留透棕色底加手绘星点设计",
+      "仅修改指甲区域，保留原图手型肤色背景"
+    ],
+    "tryon_prompt": "Image 1 is user's original hand image, keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area on Image 1, transfer the nail design to matching fingers: thumb is medium length squoval glossy solid opaque black nail; index is medium length squoval glossy red and black full nail checkered; middle is medium length squoval glossy black nail with a small pink painted heart on center; ring is medium length squoval glossy translucent warm brown nail with tiny painted star and dot details; pinky is medium length squoval glossy red and black full nail checkered. Replicate all design features exactly according to the specification, do not change any design details, do not output Image 2, do not output collage, keep all decorations correctly.",
+    "negative_prompt": "do not change background, do not alter skin tone, do not modify hand shape, do not change original composition, do not lose any painted decorations, do not reorder fingers, do not change nail colors incorrectly, do not add extra nail pieces, do not output reference image, do not output collage, do not remove the pink heart or star dot details, do not distort the checkered pattern.",
+    "quality_checks": [
+      "仅修改指甲区域，保留原手的背景、肤色、手型和构图",
+      "准确还原食指和小指的红黑棋盘格图案",
+      "保留中指甲面的粉色手绘小桃心",
+      "保留无名指透棕色底和手绘星点细节",
+      "保持所有指甲的亮面 glossy 质感",
+      "没有输出参考图、拼图或者额外内容",
+      "指甲数量正确，没有新增或者缺失指甲",
+      "颜色和设计细节和目标款式一致"
+    ]
+  },
+  "skipped": false
+}

@@ -1,0 +1,212 @@
+{
+  "id": "caramel-tortoise-short",
+  "name": "焦糖玳瑁短甲",
+  "image": "/nails/21_f4b69d45af5d3b496adbd9d21e768a8e2195181.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/21_f4b69d45af5d3b496adbd9d21e768a8e2195181.png",
+  "reason": "焦糖玳瑁纹理和短甲比例，复古但很好驾驭。",
+  "tags": [
+    "焦糖",
+    "玳瑁",
+    "短甲"
+  ],
+  "generatedAt": "2026-06-05T01:06:16",
+  "latencyMs": 45542,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1411927,
+    "prepared_bytes": 136243,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "焦糖蓝边渐变钻饰短美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "short",
+      "nail_shape": "squoval",
+      "base_colors": [
+        {
+          "name": "焦糖奶棕色",
+          "tone": "warm",
+          "opacity": "translucent",
+          "coverage": "gradient"
+        },
+        {
+          "name": "雾霾蓝色",
+          "tone": "cool",
+          "opacity": "opaque",
+          "coverage": "tip"
+        },
+        {
+          "name": "透灰蓝色",
+          "tone": "cool",
+          "opacity": "translucent",
+          "coverage": "accent"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "gradient",
+        "french_tip",
+        "glitter",
+        "rhinestone"
+      ],
+      "accent_fingers": [
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透奶茶棕渐变",
+        "tip_style": "蓝色法式边",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [],
+        "notes": "透色渐变棕底搭配蓝色法式边",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "透棕灰渐变",
+        "tip_style": "无",
+        "pattern": "金箔闪粉分布甲面",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "金色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "渐变底搭配金色闪粉装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "奶茶棕渐变",
+        "tip_style": "蓝色法式边",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [],
+        "notes": "渐变棕底搭配蓝色法式边",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "焦糖棕色",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "large",
+            "color": "香槟金色方形",
+            "position": "center",
+            "must_keep": true
+          }
+        ],
+        "notes": "焦糖底中心镶嵌大方形香槟钻",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透灰棕渐变",
+        "tip_style": "无",
+        "pattern": "金箔闪粉分布甲面",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "金色",
+            "position": "partial nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "透渐变底搭配金色闪粉装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "ring",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "large",
+        "position": "nail center",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "glitter",
+        "count": "approx",
+        "size": "tiny",
+        "position": "nail surface",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "glitter",
+        "count": "approx",
+        "size": "tiny",
+        "position": "nail surface",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留无名指中心的大方形香槟钻装饰",
+      "保留食指和小指的金色闪粉金箔装饰",
+      "保留拇指、中指的蓝色法式边设计",
+      "保持焦糖棕渐变底色和亮面质感",
+      "保持短款方圆形甲型",
+      "仅修改指甲区域，保留用户原手所有特征"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand photo, keep its canvas, composition, lighting, skin tone, background and hand shape completely unchanged, only modify the nail areas. Image 2 is the reference nail style to replicate: short squoval nails, warm caramel brown translucent gradient base, blue french tip on thumb and middle finger, gold glitter on index and pinky nails, one large champagne square rhinestone at the center of ring finger, glossy finish. Transfer the design to matching fingers on Image 1, do not output Image 2, do not output collage, do not change anything except nails, keep all decorations correctly placed.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone or glitter decorations, do not deform the large diamond, do not change the original color scheme, do not add extra fake nails, do not output collage, do not output reference image, do not change finger positions, do not remove the blue french tip",
+    "quality_checks": [
+      "检查是否仅修改指甲，保留原手肤色背景手型构图",
+      "检查无名指中心大香槟钻位置大小是否正确",
+      "检查食指小指的金色闪粉是否保留",
+      "检查拇指中指蓝色法式边是否正确还原",
+      "检查甲型长度是否为短款方圆形",
+      "检查是否保持亮面glossy质感",
+      "检查没有多余输出或拼图"
+    ]
+  },
+  "skipped": false
+}

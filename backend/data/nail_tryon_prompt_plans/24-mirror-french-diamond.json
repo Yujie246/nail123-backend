@@ -1,0 +1,218 @@
+{
+  "id": "mirror-french-diamond",
+  "name": "镜面法式钻饰",
+  "image": "/nails/24_e80e1d25e48d7ef5c505b29ee8e331822641412.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/24_e80e1d25e48d7ef5c505b29ee8e331822641412.png",
+  "reason": "镜面法式边和钻饰线条，适合高完成度精致款。",
+  "tags": [
+    "镜面",
+    "法式",
+    "钻饰"
+  ],
+  "generatedAt": "2026-06-05T01:08:16",
+  "latencyMs": 35958,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1491955,
+    "prepared_bytes": 154298,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "银灰猫眼跳幻彩亮片美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "oval",
+      "base_colors": [
+        {
+          "name": "银灰色",
+          "tone": "cool",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "透粉色",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "accent"
+        }
+      ],
+      "finish": [
+        "cat_eye",
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "cat_eye",
+        "glitter",
+        "solid_color"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "middle"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透粉色",
+        "tip_style": "无",
+        "pattern": "满甲铺幻彩大颗粒亮片",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "unknown",
+            "color": "幻彩多色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "满甲铺混合尺寸幻彩大亮片，透粉底色",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "银灰色",
+        "tip_style": "无",
+        "pattern": "纯色",
+        "finish": [
+          "glossy",
+          "cat_eye"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "none",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色银灰猫眼，镜面光泽",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透粉色",
+        "tip_style": "无",
+        "pattern": "满甲铺幻彩大颗粒亮片",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "unknown",
+            "color": "幻彩多色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "满甲铺混合尺寸幻彩大亮片，透粉底色",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "银灰色",
+        "tip_style": "无",
+        "pattern": "纯色",
+        "finish": [
+          "glossy",
+          "cat_eye"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "none",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色银灰猫眼，镜面光泽",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "银灰色",
+        "tip_style": "无",
+        "pattern": "纯色",
+        "finish": [
+          "glossy",
+          "cat_eye"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "none",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色银灰猫眼，镜面光泽",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "glitter",
+        "count": "approx",
+        "size": "unknown",
+        "position": "full_nail",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "glitter",
+        "count": "approx",
+        "size": "unknown",
+        "position": "full_nail",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留跳款设计：拇指中指做亮片款，其余做银灰猫眼",
+      "保留 medium 长度椭圆甲型",
+      "保留银灰猫眼的光泽猫眼光感",
+      "保留跳甲满甲幻彩亮片的质感",
+      "保持原手的手型肤色背景构图，仅修改指甲"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, Image 2 is the reference nail style. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Replicate the nail style from Image 2: medium length oval nails, glossy cool silver gray cat eye on index, ring and pinky fingers, full nail mixed iridescent glitter on accent thumb and middle fingers. Follow same finger mapping, keep all design features, do not output Image 2, do not output collage, only output the modified hand image with new nails.",
+    "negative_prompt": "do not change background, skin tone, hand shape, composition, do not lose glitter decoration, do not remove cat eye effect, do not swap finger designs, do not change nail colors, do not add extra nails, do not output collage, do not output reference image, do not distort nail shape, do not remove decorations",
+    "quality_checks": [
+      "保持原手手型肤色构图背景完全不变",
+      "仅修改指甲区域，其余部分不做修改",
+      "拇指中指为满甲幻彩亮片，其余为银灰猫眼",
+      "正确还原猫眼光泽和亮片闪粉质感",
+      "跳色设计正确，没有调换手指款式",
+      "没有输出拼图、参考图，只输出修改后的手图"
+    ]
+  },
+  "skipped": false
+}

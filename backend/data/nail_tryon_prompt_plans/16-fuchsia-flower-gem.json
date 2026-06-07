@@ -1,0 +1,225 @@
+{
+  "id": "fuchsia-flower-gem",
+  "name": "玫粉花园宝石",
+  "image": "/nails/16_137aad1f6a36655ae395cf7dc57604642782680.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/16_137aad1f6a36655ae395cf7dc57604642782680.png",
+  "reason": "玫粉主色和花朵宝石感，热烈、明亮、很适合出片。",
+  "tags": [
+    "玫粉",
+    "花朵",
+    "宝石"
+  ],
+  "generatedAt": "2026-06-05T01:01:31",
+  "latencyMs": 80352,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1477113,
+    "prepared_bytes": 154480,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "透裸彩点玫粉渐变约会美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "oval",
+      "base_colors": [
+        {
+          "name": "透裸粉",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "accent"
+        },
+        {
+          "name": "玫粉色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "jelly"
+      ],
+      "design_features": [
+        "gradient",
+        "painted_detail",
+        "glitter"
+      ],
+      "accent_fingers": [
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透裸粉",
+        "tip_style": "无",
+        "pattern": "满甲分布多色小圆点",
+        "finish": [
+          "glossy",
+          "jelly"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "tiny",
+            "color": "红、白、蓝多色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸果冻底，彩色圆点装饰",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "透裸粉",
+        "tip_style": "无",
+        "pattern": "满甲分布多色小圆点",
+        "finish": [
+          "glossy",
+          "jelly"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "tiny",
+            "color": "红、白、蓝、黄多色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸果冻底，彩色圆点装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸粉",
+        "tip_style": "无",
+        "pattern": "满甲分布多色小圆点",
+        "finish": [
+          "glossy",
+          "jelly"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "tiny",
+            "color": "红、白、蓝多色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸果冻底，彩色圆点装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "透裸粉渐变玫粉色",
+        "tip_style": "渐变",
+        "pattern": "无",
+        "finish": [
+          "glossy",
+          "jelly"
+        ],
+        "decorations": [],
+        "notes": "透裸底从根部到指尖渐变玫粉色",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透裸粉",
+        "tip_style": "无",
+        "pattern": "满甲分布多色小圆点",
+        "finish": [
+          "glossy",
+          "jelly"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "tiny",
+            "color": "红、白、蓝多色",
+            "position": "full_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸果冻底，彩色圆点装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "painted_detail",
+        "count": "approx",
+        "size": "tiny",
+        "position": "full_nail",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "painted_detail",
+        "count": "approx",
+        "size": "tiny",
+        "position": "full_nail",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "painted_detail",
+        "count": "approx",
+        "size": "tiny",
+        "position": "full_nail",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "painted_detail",
+        "count": "approx",
+        "size": "tiny",
+        "position": "full_nail",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留无名指的玫粉色渐变设计，其他手指保留彩点",
+      "保持透裸果冻透感的底色质感",
+      "保持美甲亮面光泽质感",
+      "保持medium长度椭圆甲型",
+      "只修改指甲区域，保留用户原手特征",
+      "保留彩色小点的多色分布特征"
+    ],
+    "tryon_prompt": "Image 1 is user's original hand image, Image 2 is the reference nail design. Keep Image 1's original canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail areas to match the reference design from Image 2: medium length oval nails, glossy jelly finish. Thumb, index, middle, pinky have sheer warm nude base with full nail tiny multi-colored dot details. Ring finger has sheer nude to warm magenta gradient from base to tip. Keep all design features as described, do not alter any design details. Do not output Image 2, do not output collage, only output the edited hand image with new nails.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose dot decorations, do not change nail color, do not distort the gradient on ring finger, do not add extra nails, do not output collage, do not output reference image, do not change finger positions, do not remove decorations, do not distort design, do not change texture",
+    "quality_checks": [
+      "仅修改指甲区域，未改变原手肤色手型背景",
+      "无名指保留玫粉色渐变设计，渐变方向正确",
+      "其余四根手指保留满甲彩色小圆点设计",
+      "保留透裸果冻亮面的质感，没有改变透度",
+      "甲型长度和参考款式一致",
+      "没有生成拼图或参考图，输出完整单图",
+      "没有新增或丢失装饰，颜色符合参考设计"
+    ]
+  },
+  "skipped": false
+}

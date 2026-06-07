@@ -1,0 +1,196 @@
+{
+  "id": "olive-knit-cat-eye",
+  "name": "橄榄毛衣猫眼",
+  "image": "/nails/02_162afb52255bd908ba3ec418fd61824a2254875.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/02_162afb52255bd908ba3ec418fd61824a2254875.png",
+  "reason": "橄榄绿和裸色错落搭配，带一点复古毛衣感和冷调光泽。",
+  "tags": [
+    "橄榄绿",
+    "复古",
+    "显白"
+  ],
+  "generatedAt": "2026-06-05T00:48:16",
+  "latencyMs": 43546,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1421427,
+    "prepared_bytes": 126318,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "橄榄绿跳色裸奶茶亮面美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "squoval",
+      "base_colors": [
+        {
+          "name": "橄榄绿",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "奶杏色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "奶茶棕",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "all"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "solid_color"
+      ],
+      "accent_fingers": [
+        "middle",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "partial",
+        "base_color": "橄榄绿",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "部分被布料遮挡，仅露出甲片",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "橄榄绿",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "全甲纯色橄榄绿",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "奶杏色",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "全甲纯色奶杏跳色",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "橄榄绿",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "全甲纯色橄榄绿",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "奶茶棕",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "全甲纯色奶茶棕跳色",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [],
+    "transfer_priority": [
+      "按同名手指迁移，还原跳色搭配",
+      "保留中长度方圆形甲型",
+      "保留全甲亮面纯色质感",
+      "仅修改指甲区域，保留用户原图所有特征"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, you must use Image 1's canvas, composition, lighting, skin tone, background and hand shape. Image 2 is the reference nail design. Only change the nail areas of Image 1, transfer the design to matching fingers: thumb, index, ring are solid opaque olive green glossy, middle finger is solid warm beige glossy, pinky is solid warm light brown glossy. Keep nail length medium, nail shape squoval, keep the jump solid color design. Do not output Image 2, do not output collage, do not change any content except nail areas.",
+    "negative_prompt": "do not change background, skin tone, hand shape, composition, do not change finger positions, do not alter the target nail colors incorrectly, do not add extra decorations, do not add extra nails, do not output reference image, do not output collage, do not modify non-nail areas.",
+    "quality_checks": [
+      "仅修改指甲区域，保留用户原图手型肤色背景",
+      "对应手指正确还原跳色颜色搭配",
+      "保留中长度方圆形甲型",
+      "保留亮面纯色的质感，光泽正确",
+      "无多余修改，未输出参考图或拼图"
+    ]
+  },
+  "skipped": false
+}

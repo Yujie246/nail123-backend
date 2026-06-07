@@ -1,0 +1,248 @@
+{
+  "id": "champagne-sheer-almond",
+  "name": "香槟裸透杏仁",
+  "image": "/nails/11_bc153edf655dd6961dc9f8e95ad8cd1e2561531.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/11_bc153edf655dd6961dc9f8e95ad8cd1e2561531.png",
+  "reason": "香槟裸色和杏仁甲型拉长手指，适合精致但不张扬的风格。",
+  "tags": [
+    "香槟",
+    "杏仁甲",
+    "裸透"
+  ],
+  "generatedAt": "2026-06-05T00:56:07",
+  "latencyMs": 47780,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1470606,
+    "prepared_bytes": 150744,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "冰透裸色手绘白花长杏仁美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "long",
+      "nail_shape": "almond",
+      "base_colors": [
+        {
+          "name": "裸粉色",
+          "tone": "warm",
+          "opacity": "translucent",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "jelly",
+        "glitter"
+      ],
+      "design_features": [
+        "gradient",
+        "floral",
+        "hand_painted",
+        "glitter"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "index",
+        "middle",
+        "ring",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "透裸粉色渐变",
+        "tip_style": "无",
+        "pattern": "细闪装饰在靠近指尖位置",
+        "finish": [
+          "glossy",
+          "jelly",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "银白色",
+            "position": "near_tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸透渐变底色，指尖点缀少量细闪",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "透裸粉色渐变",
+        "tip_style": "无",
+        "pattern": "三朵白色手绘五瓣花沿甲面纵向排列",
+        "finish": [
+          "glossy",
+          "jelly",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "白色",
+            "position": "full_nail_surface",
+            "must_keep": true
+          },
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "银色",
+            "position": "between_patterns",
+            "must_keep": true
+          }
+        ],
+        "notes": "手绘白色五瓣花搭配细闪线条装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸粉色渐变",
+        "tip_style": "无",
+        "pattern": "两朵白色手绘五瓣花加枝叶在甲面",
+        "finish": [
+          "glossy",
+          "jelly",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "白色",
+            "position": "center_nail",
+            "must_keep": true
+          },
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "银色",
+            "position": "flower_branch",
+            "must_keep": true
+          }
+        ],
+        "notes": "手绘双白花配银色细闪枝叶点缀",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "透裸粉色渐变",
+        "tip_style": "无",
+        "pattern": "一朵大白色花加一朵小白色花在甲面",
+        "finish": [
+          "glossy",
+          "jelly",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx",
+            "size": "small",
+            "color": "白色",
+            "position": "center_nail",
+            "must_keep": true
+          },
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "银色",
+            "position": "around_flower",
+            "must_keep": true
+          }
+        ],
+        "notes": "大小手绘白花搭配细闪背景点缀",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "透裸粉色渐变",
+        "tip_style": "无",
+        "pattern": "银色细闪线条在甲面中心",
+        "finish": [
+          "glossy",
+          "jelly",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "glitter",
+            "count": "approx",
+            "size": "tiny",
+            "color": "银色",
+            "position": "center_nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "仅中心细闪线条装饰，无手绘大花",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "all",
+        "type": "painted_detail",
+        "count": "approx",
+        "size": "small",
+        "position": "对应指甲甲面",
+        "must_keep": true
+      },
+      {
+        "finger": "all",
+        "type": "glitter",
+        "count": "approx",
+        "size": "tiny",
+        "position": "对应装饰区域",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保持冰透裸粉渐变果冻底色不变",
+      "保持长杏仁甲型和甲长不变",
+      "按同名手指对应迁移手绘白花位置",
+      "保留所有银色细闪装饰细节",
+      "保持亮面果冻透质感不变",
+      "不要改动用户原手的任何非指甲部分"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, keep its entire canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area of Image 1: apply the design of long almond nails, translucent warm nude pink gradient base, glossy jelly finish, hand-painted white floral patterns with tiny silver glitter accents on matching fingers. Transfer the design exactly to corresponding finger positions of Image 1, keep all design details. Do not output Image 2, do not output collage, do not change any part except nails.",
+    "negative_prompt": "do not change background, skin tone, hand shape or composition, do not lose white floral details or silver glitter decorations, do not alter the base nail color, do not change finger positions, do not add extra nails, do not output collage, do not output reference image, do not deform the almond nail shape, do not remove any decorations, do not change the opacity of base color",
+    "quality_checks": [
+      "检查是否保持原手图的肤色、背景、构图不变",
+      "检查甲型为长杏仁形，长度匹配参考款式",
+      "检查底色为透感裸粉色渐变，果冻质感正确",
+      "检查手绘白花的位置和参考图一致对应",
+      "检查所有细闪装饰都完整保留没有丢失",
+      "检查仅修改指甲区域，未改动其他部分",
+      "检查没有生成拼图或参考款式图输出",
+      "检查没有额外新增多余甲片或装饰"
+    ]
+  },
+  "skipped": false
+}

@@ -1,0 +1,225 @@
+{
+  "id": "moonlight-silver-french",
+  "name": "月光银闪法式",
+  "image": "/nails/13_682c173ae3a95d0b838655e8337b30d72213857.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/13_682c173ae3a95d0b838655e8337b30d72213857.png",
+  "reason": "裸透底叠银闪法式边，像月光一样清冷干净。",
+  "tags": [
+    "银闪",
+    "法式",
+    "清冷"
+  ],
+  "generatedAt": "2026-06-05T00:58:16",
+  "latencyMs": 55105,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1549984,
+    "prepared_bytes": 155090,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "月光银闪法式",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "long",
+      "nail_shape": "coffin",
+      "base_colors": [
+        {
+          "name": "裸粉色",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "gradient"
+        },
+        {
+          "name": "奶白色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "glitter"
+      ],
+      "design_features": [
+        "gradient",
+        "line_art",
+        "rhinestone"
+      ],
+      "accent_fingers": [
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "partial",
+        "base_color": "裸粉到奶白渐变",
+        "tip_style": "渐变奶白",
+        "pattern": "银色闪粉曲线线条",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "tiny",
+            "color": "银色闪粉",
+            "position": "center to tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "裸粉到奶白渐变",
+        "tip_style": "渐变奶白",
+        "pattern": "银色闪粉曲线线条",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "tiny",
+            "color": "银色闪粉",
+            "position": "center to tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "裸粉到奶白渐变",
+        "tip_style": "渐变奶白",
+        "pattern": "银色闪粉曲线线条",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "tiny",
+            "color": "银色闪粉",
+            "position": "center to tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "裸粉到奶白渐变",
+        "tip_style": "渐变奶白",
+        "pattern": "银色闪粉线条加拼钻",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "tiny",
+            "color": "银色闪粉",
+            "position": "center to tip",
+            "must_keep": true
+          },
+          {
+            "type": "rhinestone",
+            "count": "approx 4",
+            "size": "unknown",
+            "color": "透明银色",
+            "position": "near tip side",
+            "must_keep": true
+          }
+        ],
+        "notes": "跳指设计，附加拼钻装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "裸粉到奶白渐变",
+        "tip_style": "渐变奶白",
+        "pattern": "银色闪粉曲线线条",
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "tiny",
+            "color": "银色闪粉",
+            "position": "center to tip",
+            "must_keep": true
+          }
+        ],
+        "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "ring",
+        "type": "rhinestone",
+        "count": "approx 4",
+        "size": "unknown",
+        "position": "near tip side of nail",
+        "must_keep": true
+      },
+      {
+        "finger": "all",
+        "type": "painted_detail",
+        "count": "1",
+        "size": "tiny",
+        "position": "nail surface from center to tip",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留裸粉根部到奶白指尖的渐变底色",
+      "保留每根指甲的银色闪粉曲线线条设计",
+      "保留无名指的拼钻装饰位置和细节",
+      "保持目标款式的长 coffin 甲型",
+      "保持整体亮面带闪的光泽质感",
+      "保留用户原图的手型、肤色、背景和构图"
+    ],
+    "tryon_prompt": "Image 1 is the user's real hand image, you must keep its canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail style: long coffin nails, nude pink at base to milky white at tip gradient base, silver glitter curved line art on every nail, accent ring finger with clustered clear rhinestones, glossy glitter finish. Only change the nail area of Image 1 to match this style, transfer the design to corresponding fingers of Image 1, keep all design details and decorations, do not output Image 2, do not output collage, do not change anything outside the nail area.",
+    "negative_prompt": "do not change background, skin tone, hand shape or composition, do not lose rhinestone decorations on ring finger, do not distort silver glitter line art, do not alter base gradient colors, do not add extra nails, do not output collage or reference image, do not change finger positions, do not remove any design details, do not change nail shape and length",
+    "quality_checks": [
+      "仅修改指甲区域，保留用户原图的手型肤色背景构图",
+      "无名指保留拼钻装饰的位置、大小和数量",
+      "每根指甲都保留银色闪粉曲线线条",
+      "保留裸粉根部到奶白指尖的渐变底色",
+      "最终输出不是拼图，不是参考款式图",
+      "甲型长度匹配目标款式的长 coffin 甲型"
+    ]
+  },
+  "skipped": false
+}

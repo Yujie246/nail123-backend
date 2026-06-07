@@ -1,0 +1,251 @@
+{
+  "id": "dopamine-gem-party",
+  "name": "多巴胺宝石派对",
+  "image": "/nails/15_1248ad42d355b98257e5fbcdf90efc552138079.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/15_1248ad42d355b98257e5fbcdf90efc552138079.png",
+  "reason": "彩色宝石、跳色和高明度组合，适合节日和派对拍照。",
+  "tags": [
+    "宝石",
+    "跳色",
+    "派对"
+  ],
+  "generatedAt": "2026-06-05T01:00:10",
+  "latencyMs": 58551,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1338550,
+    "prepared_bytes": 101371,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "春日撞色小花格纹短美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "short",
+      "nail_shape": "round",
+      "base_colors": [
+        {
+          "name": "浅暖橙色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "浅豆沙粉色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "accent"
+        },
+        {
+          "name": "酒红色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "accent"
+        },
+        {
+          "name": "浅雾霾蓝色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "accent"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "floral",
+        "plaid",
+        "line_art",
+        "hand_painted"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "index",
+        "middle",
+        "ring",
+        "pinky"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "浅豆沙粉色",
+        "tip_style": "无",
+        "pattern": "指甲面散布彩色小波点",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx 4",
+            "size": "tiny",
+            "color": "蓝、白、浅红",
+            "position": "distributed on nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "浅豆沙底，手绘彩色小波点",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "浅雾霾蓝色",
+        "tip_style": "无",
+        "pattern": "两个彩色波点，一上一下分布",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "2",
+            "size": "tiny",
+            "color": "黄色、深绿色",
+            "position": "one upper, one lower",
+            "must_keep": true
+          }
+        ],
+        "notes": "浅蓝底两个纯色波点装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "酒红色",
+        "tip_style": "无",
+        "pattern": "指甲中心一朵白色五瓣小花",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "1",
+            "size": "medium",
+            "color": "白色花瓣黄色花心",
+            "position": "center of nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "酒红底中心手绘白色小花装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "浅豆沙粉色",
+        "tip_style": "无",
+        "pattern": "指甲面散布多色小波点",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "painted_detail",
+            "count": "approx 6",
+            "size": "tiny",
+            "color": "白、蓝、红、浅粉",
+            "position": "distributed on nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "豆沙粉底多色手绘小波点",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "浅暖橙色",
+        "tip_style": "无",
+        "pattern": "红色线条绘制的格纹布满整甲",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "unknown",
+            "count": "approx 6",
+            "size": "unknown",
+            "color": "红色",
+            "position": "full nail",
+            "must_keep": true
+          }
+        ],
+        "notes": "浅橙底红色手绘格纹",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "thumb",
+        "type": "painted_detail",
+        "count": "approx 4",
+        "size": "tiny",
+        "position": "distributed across nail",
+        "must_keep": true
+      },
+      {
+        "finger": "index",
+        "type": "painted_detail",
+        "count": "2",
+        "size": "tiny",
+        "position": "upper yellow dot, lower green dot",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "painted_detail",
+        "count": "1",
+        "size": "medium",
+        "position": "center of nail",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "painted_detail",
+        "count": "approx 6",
+        "size": "tiny",
+        "position": "distributed across nail",
+        "must_keep": true
+      },
+      {
+        "finger": "pinky",
+        "type": "unknown",
+        "count": "approx 6",
+        "size": "unknown",
+        "position": "full nail grid",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "按同名手指对应迁移款式，不能错配手指",
+      "保留每个指甲的对应底色，不能错换颜色",
+      "保留所有手绘图案和纹理，不能丢失装饰",
+      "保留短圆甲型和亮面光泽质感",
+      "保留用户原图的手型、肤色、背景和构图"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand photograph, keep Image 1's canvas, composition, lighting, skin tone, background, hand shape completely unchanged, only modify the nail area. Image 2 is the reference nail design: short round glossy nails with mixed jumping base colors, thumb has nude pink base with tiny colored polka dots, index has light blue base with two colored dots, middle has burgundy base with a white flower in center, ring has nude pink base with tiny colored polka dots, pinky has light orange base with red plaid. Transfer the design to the corresponding finger of Image 1, replicate all design features, colors and textures exactly, do not output Image 2, do not output collage, output only the final hand with the new nails applied.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not remove patterns or decorations, do not alter nail colors, do not mismatch finger designs, do not add extra nails, do not output reference image, do not output collage, do not deform nails, do not blur patterns",
+    "quality_checks": [
+      "款式对应同名手指，没有错配",
+      "底色和图案颜色正确，没有错色",
+      "所有手绘图案完整保留，没有丢失",
+      "未修改手型、肤色、背景和原图构图",
+      "没有输出参考图或拼图，仅输出修改后的手",
+      "保留了短圆甲型和亮面光泽质感"
+    ]
+  },
+  "skipped": false
+}

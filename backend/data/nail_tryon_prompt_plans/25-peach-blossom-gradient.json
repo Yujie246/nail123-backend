@@ -1,0 +1,212 @@
+{
+  "id": "peach-blossom-gradient",
+  "name": "桃花果冻渐变",
+  "image": "/nails/25_73ee568aa09547d8bfc0168113ac9ebc2712329.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/25_73ee568aa09547d8bfc0168113ac9ebc2712329.png",
+  "reason": "桃粉果冻渐变和花瓣氛围，甜美但不厚重。",
+  "tags": [
+    "桃粉",
+    "果冻",
+    "渐变"
+  ],
+  "generatedAt": "2026-06-05T01:09:08",
+  "latencyMs": 51512,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1501913,
+    "prepared_bytes": 154445,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "酒红法式丝带钻饰美甲",
+    "confidence": 0.98,
+    "style_spec": {
+      "nail_length": "medium",
+      "nail_shape": "squoval",
+      "base_colors": [
+        {
+          "name": "裸粉色",
+          "tone": "neutral",
+          "opacity": "sheer",
+          "coverage": "most"
+        },
+        {
+          "name": "酒红色",
+          "tone": "warm",
+          "opacity": "opaque",
+          "coverage": "tip"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "french_tip",
+        "line_art",
+        "bow",
+        "hand_painted",
+        "rhinestone"
+      ],
+      "accent_fingers": [
+        "index",
+        "ring"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "裸粉色",
+        "tip_style": "法式边",
+        "pattern": "无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "酒红色斜边法式，亮面无额外装饰",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "裸粉色",
+        "tip_style": "法式边",
+        "pattern": "甲面中部手绘红色蝴蝶结",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "tiny",
+            "color": "透明闪钻",
+            "position": "蝴蝶结中心",
+            "must_keep": true
+          }
+        ],
+        "notes": "酒红法式，手绘红蝴蝶结中心带小钻",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "裸粉色",
+        "tip_style": "法式边",
+        "pattern": "无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色裸粉底酒红法式，无额外装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "裸粉色",
+        "tip_style": "法式边",
+        "pattern": "甲面中部手绘红色丝带结",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "rhinestone",
+            "count": "1",
+            "size": "tiny",
+            "color": "透明闪钻",
+            "position": "丝带结中心",
+            "must_keep": true
+          }
+        ],
+        "notes": "酒红法式，手绘红丝带结中心带小钻",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "裸粉色",
+        "tip_style": "法式边",
+        "pattern": "无额外图案",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": false
+          }
+        ],
+        "notes": "纯色裸粉底酒红法式，无额外装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "index",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "tiny",
+        "position": "手绘蝴蝶结中心",
+        "must_keep": true
+      },
+      {
+        "finger": "ring",
+        "type": "rhinestone",
+        "count": "1",
+        "size": "tiny",
+        "position": "手绘丝带结中心",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保留中等长度方圆形甲型与酒红法式边设计",
+      "保留食指和无名指的红色手绘丝带蝴蝶结",
+      "保留蝴蝶结中心的细小闪钻装饰",
+      "保留裸透底色和亮面质感",
+      "保持用户原图的手型、肤色、背景、构图不变"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, Image 2 is the reference nail design. Only modify the nail area, keep the original canvas, composition, lighting, skin tone, hand shape and background from Image 1. The target design: medium length squoval nails, sheer nude pink base, opaque warm wine red french tip, glossy finish. Index and ring fingers have hand painted red bow/ribbon with one tiny clear rhinestone at center, other fingers have plain french tip. Transfer the design to matching fingers of Image 1, do not output Image 2, do not output collage, only change nails.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone decorations, do not deform the bow pattern, do not change nail colors, do not add extra nails, do not output collage, do not output reference image, do not change finger positions, do not modify non-nail areas, do not remove french tip",
+    "quality_checks": [
+      "仅修改指甲区域，不改变原图手型肤色背景构图",
+      "保留食指和无名指的小钻装饰，不丢失",
+      "酒红法式边和蝴蝶结图案位置正确",
+      "颜色还原准确，裸粉透底酒红法式正确",
+      "无多余拼贴，只输出修改指甲后的手图"
+    ]
+  },
+  "skipped": false
+}

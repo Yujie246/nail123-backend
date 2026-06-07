@@ -1,0 +1,221 @@
+{
+  "id": "milky-pearl-office",
+  "name": "奶白珍珠通勤",
+  "image": "/nails/05_3c0d090e20f0cb56f70fcb56c54dd6582416974.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/05_3c0d090e20f0cb56f70fcb56c54dd6582416974.png",
+  "reason": "奶白短甲点缀珍珠光，低调但精致，适合上班和约会。",
+  "tags": [
+    "奶白",
+    "珍珠",
+    "短甲"
+  ],
+  "generatedAt": "2026-06-05T00:51:27",
+  "latencyMs": 75231,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1961389,
+    "prepared_bytes": 204425,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "奶牛纹奶白跳色法式短美甲",
+    "confidence": 0.98,
+    "style_spec": {
+      "nail_length": "short",
+      "nail_shape": "squoval",
+      "base_colors": [
+        {
+          "name": "奶白色",
+          "tone": "neutral",
+          "opacity": "opaque",
+          "coverage": "all"
+        },
+        {
+          "name": "透裸粉色",
+          "tone": "neutral",
+          "opacity": "sheer",
+          "coverage": "all"
+        }
+      ],
+      "finish": [
+        "glossy"
+      ],
+      "design_features": [
+        "solid_color",
+        "french_tip",
+        "hand_painted"
+      ],
+      "accent_fingers": [
+        "thumb",
+        "index"
+      ]
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "partial",
+        "base_color": "奶白色",
+        "tip_style": "无",
+        "pattern": "黑色不规则奶牛斑点布满整甲",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "部分可见奶牛纹跳色美甲",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "奶白色",
+        "tip_style": "无",
+        "pattern": "黑色不规则奶牛斑点布满全甲",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "全可见奶牛纹跳色美甲",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "透裸粉色",
+        "tip_style": "法式白边",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "透裸粉基底白色法式边美甲",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "奶白色",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色奶白美甲",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "奶白色",
+        "tip_style": "无",
+        "pattern": "无",
+        "finish": [
+          "glossy"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "纯色奶白美甲",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [
+      {
+        "finger": "index",
+        "type": "painted_detail",
+        "count": "approx 6",
+        "size": "medium",
+        "position": "full_nail",
+        "must_keep": true
+      },
+      {
+        "finger": "thumb",
+        "type": "painted_detail",
+        "count": "approx 3",
+        "size": "medium",
+        "position": "full_nail",
+        "must_keep": true
+      },
+      {
+        "finger": "middle",
+        "type": "unknown",
+        "count": "1",
+        "size": "small",
+        "position": "tip_edge",
+        "must_keep": true
+      }
+    ],
+    "transfer_priority": [
+      "保持原手的手型、肤色、背景、构图和光照不变",
+      "仅修改指甲区域，按照对应手指迁移目标款式",
+      "保留大拇指、食指的黑色奶牛纹图案特征",
+      "保留中指透裸粉加白色法式边的设计",
+      "保留无名指、小拇指的奶白色纯色设计",
+      "保留原款式的亮面光泽质感"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand photo, keep its canvas, composition, lighting, skin tone, background and hand shape unchanged. Image 2 is the reference nail art style, please only modify the nail area of Image 1, replicate the design: short squoval glossy nails, thumb and index are off-white base with black cow spots, middle finger is sheer nude pink base with white french tip, ring and pinky are solid off-white. Apply the design to corresponding fingers of Image 1, do not output Image 2, do not output collage, do not change anything outside nail area.",
+    "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose cow print details, do not deform french tip, do not alter original nail colors, do not add extra nails, do not output collage, do not output reference image, do not distort hand, do not shift finger positions",
+    "quality_checks": [
+      "仅修改指甲区域，未改动背景、肤色、手型和构图",
+      "对应手指的款式正确，奶牛纹位置形状准确",
+      "中指法式边的颜色和形状符合参考款式",
+      "纯色指甲颜色正确，未额外添加错误图案",
+      "保留了亮面光泽质感，没有错误变成哑光",
+      "未输出拼图或参考图，仅输出修改后的手部图",
+      "没有新增多余装饰或甲片，完全复刻原款式"
+    ]
+  },
+  "skipped": false
+}

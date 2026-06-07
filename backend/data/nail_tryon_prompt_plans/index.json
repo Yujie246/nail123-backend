@@ -1,0 +1,4983 @@
+{
+  "schemaVersion": "nail_tryon_prompt_plan_index_v1",
+  "summary": {
+    "generatedAt": "2026-06-05T01:09:08",
+    "total": 25,
+    "success": 25,
+    "failed": 0,
+    "skipped": 0,
+    "styles": [
+      {
+        "id": "nude-mica-french",
+        "name": "云母裸粉轻法式",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/01-nude-mica-french.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 40578,
+        "overallStyle": "奶裸色纯色通勤美甲",
+        "error": ""
+      },
+      {
+        "id": "olive-knit-cat-eye",
+        "name": "橄榄毛衣猫眼",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/02-olive-knit-cat-eye.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 43546,
+        "overallStyle": "橄榄绿跳色裸奶茶亮面美甲",
+        "error": ""
+      },
+      {
+        "id": "rose-black-french",
+        "name": "玫瑰黑茶法式",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/03-rose-black-french.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 62232,
+        "overallStyle": "甜酷红黑棋盘格跳色美甲",
+        "error": ""
+      },
+      {
+        "id": "silver-mirror-french",
+        "name": "银镜冷光法式",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/04-silver-mirror-french.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 53148,
+        "overallStyle": "奶灰银调跳色镜面美甲",
+        "error": ""
+      },
+      {
+        "id": "milky-pearl-office",
+        "name": "奶白珍珠通勤",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/05-milky-pearl-office.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 75231,
+        "overallStyle": "奶牛纹奶白跳色法式短美甲",
+        "error": ""
+      },
+      {
+        "id": "clear-crystal-bow",
+        "name": "冰透水晶蝴蝶结",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/06-clear-crystal-bow.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 41419,
+        "overallStyle": "裸棕渐变爱心钻长款美甲",
+        "error": ""
+      },
+      {
+        "id": "black-white-grid",
+        "name": "黑白棋盘涂鸦",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/07-black-white-grid.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 54033,
+        "overallStyle": "银渐变豹纹超长尖款美甲",
+        "error": ""
+      },
+      {
+        "id": "black-gold-short",
+        "name": "黑金短甲小香",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/08-black-gold-short.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 36353,
+        "overallStyle": "透裸黑法式钻饰轻奢长美甲",
+        "error": ""
+      },
+      {
+        "id": "black-cat-eye-aura",
+        "name": "黑曜猫眼气场",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/09-black-cat-eye-aura.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 33094,
+        "overallStyle": "透裸黑星星钻饰跳色长美甲",
+        "error": ""
+      },
+      {
+        "id": "rose-jelly-french",
+        "name": "玫瑰果冻法式",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/10-rose-jelly-french.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 66967,
+        "overallStyle": "裸透白星钻饰长款美甲",
+        "error": ""
+      },
+      {
+        "id": "champagne-sheer-almond",
+        "name": "香槟裸透杏仁",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/11-champagne-sheer-almond.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 47780,
+        "overallStyle": "冰透裸色手绘白花长杏仁美甲",
+        "error": ""
+      },
+      {
+        "id": "jungle-black-bow",
+        "name": "森野黑钻蝴蝶结",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/12-jungle-black-bow.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 74346,
+        "overallStyle": "黑金小花法式超长美甲",
+        "error": ""
+      },
+      {
+        "id": "moonlight-silver-french",
+        "name": "月光银闪法式",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/13-moonlight-silver-french.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 55105,
+        "overallStyle": "月光银闪法式",
+        "error": ""
+      },
+      {
+        "id": "shell-pearl-almond",
+        "name": "贝母珍珠杏仁",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/14-shell-pearl-almond.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 55184,
+        "overallStyle": "裸粉猫眼渐变长杏仁美甲",
+        "error": ""
+      },
+      {
+        "id": "dopamine-gem-party",
+        "name": "多巴胺宝石派对",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/15-dopamine-gem-party.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 58551,
+        "overallStyle": "春日撞色小花格纹短美甲",
+        "error": ""
+      },
+      {
+        "id": "fuchsia-flower-gem",
+        "name": "玫粉花园宝石",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/16-fuchsia-flower-gem.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 80352,
+        "overallStyle": "透裸彩点玫粉渐变约会美甲",
+        "error": ""
+      },
+      {
+        "id": "milk-white-bow",
+        "name": "奶白蝴蝶结短甲",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/17-milk-white-bow.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 61877,
+        "overallStyle": "裸粉奶白法式钻饰珍珠长美甲",
+        "error": ""
+      },
+      {
+        "id": "wine-heart-gem",
+        "name": "酒红爱心钻饰",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/18-wine-heart-gem.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 69065,
+        "overallStyle": "裸底彩色撞钻轻奢美甲",
+        "error": ""
+      },
+      {
+        "id": "champagne-crystal-almond",
+        "name": "香槟水钻杏仁",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/19-champagne-crystal-almond.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 56847,
+        "overallStyle": "香槟裸钻精致长杏仁美甲",
+        "error": ""
+      },
+      {
+        "id": "espresso-leopard-grid",
+        "name": "咖啡豹纹格纹",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/20-espresso-leopard-grid.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 51259,
+        "overallStyle": "裸透闪棕大钻豹纹长款美甲",
+        "error": ""
+      },
+      {
+        "id": "caramel-tortoise-short",
+        "name": "焦糖玳瑁短甲",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/21-caramel-tortoise-short.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 45542,
+        "overallStyle": "焦糖蓝边渐变钻饰短美甲",
+        "error": ""
+      },
+      {
+        "id": "aurora-silver-cat-eye",
+        "name": "极光银猫眼",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/22-aurora-silver-cat-eye.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 39739,
+        "overallStyle": "玫瑰金镜面纯色美甲",
+        "error": ""
+      },
+      {
+        "id": "satin-nude-almond",
+        "name": "缎光裸粉杏仁",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/23-satin-nude-almond.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 44667,
+        "overallStyle": "裸粉渐变钻饰长杏仁美甲",
+        "error": ""
+      },
+      {
+        "id": "mirror-french-diamond",
+        "name": "镜面法式钻饰",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/24-mirror-french-diamond.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 35958,
+        "overallStyle": "银灰猫眼跳幻彩亮片美甲",
+        "error": ""
+      },
+      {
+        "id": "peach-blossom-gradient",
+        "name": "桃花果冻渐变",
+        "path": "/Users/yangyuang/Desktop/meituanhaikesong/backend/data/nail_tryon_prompt_plans/25-peach-blossom-gradient.json",
+        "success": true,
+        "skipped": false,
+        "latencyMs": 51512,
+        "overallStyle": "酒红法式丝带钻饰美甲",
+        "error": ""
+      }
+    ]
+  },
+  "promptPlans": {
+    "nude-mica-french": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "奶裸色纯色通勤美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "oval",
+        "base_colors": [
+          {
+            "name": "奶裸色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "all"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "solid_color"
+        ],
+        "accent_fingers": []
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "not_visible",
+          "base_color": "unknown",
+          "tip_style": "unknown",
+          "pattern": "unknown",
+          "finish": [],
+          "decorations": [],
+          "notes": "拇指不可见，无法识别款式",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "奶裸色",
+          "tip_style": "无",
+          "pattern": "纯色无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色奶裸亮面美甲，无装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "奶裸色",
+          "tip_style": "无",
+          "pattern": "纯色无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色奶裸亮面美甲，无装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "奶裸色",
+          "tip_style": "无",
+          "pattern": "纯色无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色奶裸亮面美甲，无装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "奶裸色",
+          "tip_style": "无",
+          "pattern": "纯色无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色奶裸亮面美甲，无装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [],
+      "transfer_priority": [
+        "保持所有可见指甲为统一奶裸纯色亮面",
+        "保留中等长度椭圆形甲型",
+        "仅修改指甲区域，保留原图手型肤色背景",
+        "按同名手指迁移目标美甲款式"
+      ],
+      "tryon_prompt": "Use Image 1 (user's real hand image) as base image, keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail area of Image 1 to match the nail style from Image 2. Target style: medium length oval nails, solid warm nude beige, full coverage, glossy finish, no extra decorations. Apply the style to corresponding fingers of Image 1. Do not output Image 2, do not output collage, do not change content outside nail area.",
+      "negative_prompt": "change background, change skin tone, change hand shape, alter original composition, add extra decorations, change nail color, deform nail shape, lose design details, output collage, output reference image, add extra fake nail pieces, change finger positions",
+      "quality_checks": [
+        "仅修改指甲区域，保留原图手型肤色背景构图",
+        "所有指甲保持统一奶裸纯色亮面质感",
+        "甲型为椭圆形，长度中等，符合目标款式",
+        "无额外装饰，未输出参考图或拼接图"
+      ]
+    },
+    "olive-knit-cat-eye": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "橄榄绿跳色裸奶茶亮面美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "squoval",
+        "base_colors": [
+          {
+            "name": "橄榄绿",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "奶杏色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "奶茶棕",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "all"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "solid_color"
+        ],
+        "accent_fingers": [
+          "middle",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "橄榄绿",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "部分被布料遮挡，仅露出甲片",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "橄榄绿",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "全甲纯色橄榄绿",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "奶杏色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "全甲纯色奶杏跳色",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "橄榄绿",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "全甲纯色橄榄绿",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "奶茶棕",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "全甲纯色奶茶棕跳色",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [],
+      "transfer_priority": [
+        "按同名手指迁移，还原跳色搭配",
+        "保留中长度方圆形甲型",
+        "保留全甲亮面纯色质感",
+        "仅修改指甲区域，保留用户原图所有特征"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, you must use Image 1's canvas, composition, lighting, skin tone, background and hand shape. Image 2 is the reference nail design. Only change the nail areas of Image 1, transfer the design to matching fingers: thumb, index, ring are solid opaque olive green glossy, middle finger is solid warm beige glossy, pinky is solid warm light brown glossy. Keep nail length medium, nail shape squoval, keep the jump solid color design. Do not output Image 2, do not output collage, do not change any content except nail areas.",
+      "negative_prompt": "do not change background, skin tone, hand shape, composition, do not change finger positions, do not alter the target nail colors incorrectly, do not add extra decorations, do not add extra nails, do not output reference image, do not output collage, do not modify non-nail areas.",
+      "quality_checks": [
+        "仅修改指甲区域，保留用户原图手型肤色背景",
+        "对应手指正确还原跳色颜色搭配",
+        "保留中长度方圆形甲型",
+        "保留亮面纯色的质感，光泽正确",
+        "无多余修改，未输出参考图或拼图"
+      ]
+    },
+    "rose-black-french": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "甜酷红黑棋盘格跳色美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "squoval",
+        "base_colors": [
+          {
+            "name": "纯黑色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "桃红色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "accent"
+          },
+          {
+            "name": "透棕色",
+            "tone": "warm",
+            "opacity": "translucent",
+            "coverage": "accent"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "solid_color",
+          "plaid",
+          "painted_detail"
+        ],
+        "accent_fingers": [
+          "index",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "纯黑色",
+          "tip_style": "无",
+          "pattern": "无图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯亮面黑色纯色美甲",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "桃红色",
+          "tip_style": "无",
+          "pattern": "全甲红黑棋盘格",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "全甲红黑棋盘格图案设计",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "纯黑色",
+          "tip_style": "无",
+          "pattern": "甲面中上有一颗粉色桃心",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "small",
+              "color": "粉色",
+              "position": "center near cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "黑色底带手绘粉色小桃心",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透棕色",
+          "tip_style": "无",
+          "pattern": "全甲带星星和小圆点手绘",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx 4",
+              "size": "tiny",
+              "color": "深棕色",
+              "position": "full nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "透棕底带手绘星星圆点装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "桃红色",
+          "tip_style": "无",
+          "pattern": "全甲红黑棋盘格",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "全甲红黑棋盘格图案设计",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "middle",
+          "type": "painted_detail",
+          "count": "1",
+          "size": "small",
+          "position": "nail center near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "painted_detail",
+          "count": "approx 4",
+          "size": "tiny",
+          "position": "full nail",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留原甲型甲长，所有指甲保持亮面质感",
+        "拇指保持纯黑色纯色设计，不添加额外图案",
+        "食指和小指保持全甲红黑棋盘格图案",
+        "中指保留黑色底加粉色手绘桃心设计",
+        "无名指保留透棕色底加手绘星点设计",
+        "仅修改指甲区域，保留原图手型肤色背景"
+      ],
+      "tryon_prompt": "Image 1 is user's original hand image, keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area on Image 1, transfer the nail design to matching fingers: thumb is medium length squoval glossy solid opaque black nail; index is medium length squoval glossy red and black full nail checkered; middle is medium length squoval glossy black nail with a small pink painted heart on center; ring is medium length squoval glossy translucent warm brown nail with tiny painted star and dot details; pinky is medium length squoval glossy red and black full nail checkered. Replicate all design features exactly according to the specification, do not change any design details, do not output Image 2, do not output collage, keep all decorations correctly.",
+      "negative_prompt": "do not change background, do not alter skin tone, do not modify hand shape, do not change original composition, do not lose any painted decorations, do not reorder fingers, do not change nail colors incorrectly, do not add extra nail pieces, do not output reference image, do not output collage, do not remove the pink heart or star dot details, do not distort the checkered pattern.",
+      "quality_checks": [
+        "仅修改指甲区域，保留原手的背景、肤色、手型和构图",
+        "准确还原食指和小指的红黑棋盘格图案",
+        "保留中指甲面的粉色手绘小桃心",
+        "保留无名指透棕色底和手绘星点细节",
+        "保持所有指甲的亮面 glossy 质感",
+        "没有输出参考图、拼图或者额外内容",
+        "指甲数量正确，没有新增或者缺失指甲",
+        "颜色和设计细节和目标款式一致"
+      ]
+    },
+    "silver-mirror-french": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "奶灰银调跳色镜面美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "squoval",
+        "base_colors": [
+          {
+            "name": "奶灰色",
+            "tone": "cool",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "爆闪银色",
+            "tone": "cool",
+            "opacity": "opaque",
+            "coverage": "accent"
+          },
+          {
+            "name": "镜面银色",
+            "tone": "cool",
+            "opacity": "opaque",
+            "coverage": "accent"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "chrome",
+          "glitter"
+        ],
+        "design_features": [
+          "solid_color",
+          "line_art",
+          "glitter",
+          "chrome"
+        ],
+        "accent_fingers": [
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "奶灰色",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色奶灰亮面美甲",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "奶灰色",
+          "tip_style": "细金边",
+          "pattern": "细金色线沿指甲边缘描边",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "nail_edge",
+              "must_keep": true
+            }
+          ],
+          "notes": "奶灰底加细金色边缘描边",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "奶灰色",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色奶灰亮面美甲",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "镜面银色",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "chrome",
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "unknown",
+              "count": "1",
+              "size": "large",
+              "color": "镜面银色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "全甲镜面银色美甲",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "爆闪银色",
+          "tip_style": "无",
+          "pattern": "全甲铺银色闪粉",
+          "finish": [
+            "glitter",
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "medium",
+              "color": "爆闪银色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "全甲铺满银色爆闪粉",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "index",
+          "type": "painted_detail",
+          "count": "1",
+          "size": "tiny",
+          "position": "nail edge",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "unknown",
+          "count": "1",
+          "size": "large",
+          "position": "full nail",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "glitter",
+          "count": "approx",
+          "size": "medium",
+          "position": "full nail",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留用户原图的手型、肤色、背景、构图，仅修改指甲",
+        "按同名手指迁移对应美甲款式，不要错位",
+        "保留奶灰纯色+金边+镜面银+爆闪银的跳色设计",
+        "保留各指甲对应光泽质感，不要改变材质",
+        "不要新增、删除装饰，不要改变装饰位置"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, keep its canvas, composition, lighting, skin tone, hand shape and background completely, only modify the nail area. Image 2 is the reference nail style to replicate. Replicate this style: medium length squoval nails, main color is cool milk gray glossy solid, index finger has thin gold edge line, ring finger is full nail chrome silver, pinky is full nail silver glitter. Apply the design to matching fingers of Image 1, do not change any content except nails, do not output Image 2, do not output collage, do not alter original hand features.",
+      "negative_prompt": "change background, change skin tone, change hand shape, change composition, lose decorations, change design position, wrong color, add extra nails, output collage, output reference image, distort chrome finish, remove silver glitter, mismatch nail shape, mismatch nail length, blur gold line detail",
+      "quality_checks": [
+        "仅修改指甲区域，未改动原手的手型肤色背景",
+        "款式对应到正确同名手指，未发生错位",
+        "保留了金边、镜面银、爆闪银的设计与质感",
+        "未新增丢失装饰，装饰位置符合原款式",
+        "输出不是拼图，未包含参考图，符合要求"
+      ]
+    },
+    "milky-pearl-office": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "奶牛纹奶白跳色法式短美甲",
+      "confidence": 0.98,
+      "style_spec": {
+        "nail_length": "short",
+        "nail_shape": "squoval",
+        "base_colors": [
+          {
+            "name": "奶白色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "透裸粉色",
+            "tone": "neutral",
+            "opacity": "sheer",
+            "coverage": "all"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "solid_color",
+          "french_tip",
+          "hand_painted"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "奶白色",
+          "tip_style": "无",
+          "pattern": "黑色不规则奶牛斑点布满整甲",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "部分可见奶牛纹跳色美甲",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "奶白色",
+          "tip_style": "无",
+          "pattern": "黑色不规则奶牛斑点布满全甲",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "全可见奶牛纹跳色美甲",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸粉色",
+          "tip_style": "法式白边",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸粉基底白色法式边美甲",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "奶白色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色奶白美甲",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "奶白色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色奶白美甲",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "index",
+          "type": "painted_detail",
+          "count": "approx 6",
+          "size": "medium",
+          "position": "full_nail",
+          "must_keep": true
+        },
+        {
+          "finger": "thumb",
+          "type": "painted_detail",
+          "count": "approx 3",
+          "size": "medium",
+          "position": "full_nail",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "unknown",
+          "count": "1",
+          "size": "small",
+          "position": "tip_edge",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保持原手的手型、肤色、背景、构图和光照不变",
+        "仅修改指甲区域，按照对应手指迁移目标款式",
+        "保留大拇指、食指的黑色奶牛纹图案特征",
+        "保留中指透裸粉加白色法式边的设计",
+        "保留无名指、小拇指的奶白色纯色设计",
+        "保留原款式的亮面光泽质感"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand photo, keep its canvas, composition, lighting, skin tone, background and hand shape unchanged. Image 2 is the reference nail art style, please only modify the nail area of Image 1, replicate the design: short squoval glossy nails, thumb and index are off-white base with black cow spots, middle finger is sheer nude pink base with white french tip, ring and pinky are solid off-white. Apply the design to corresponding fingers of Image 1, do not output Image 2, do not output collage, do not change anything outside nail area.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose cow print details, do not deform french tip, do not alter original nail colors, do not add extra nails, do not output collage, do not output reference image, do not distort hand, do not shift finger positions",
+      "quality_checks": [
+        "仅修改指甲区域，未改动背景、肤色、手型和构图",
+        "对应手指的款式正确，奶牛纹位置形状准确",
+        "中指法式边的颜色和形状符合参考款式",
+        "纯色指甲颜色正确，未额外添加错误图案",
+        "保留了亮面光泽质感，没有错误变成哑光",
+        "未输出拼图或参考图，仅输出修改后的手部图",
+        "没有新增多余装饰或甲片，完全复刻原款式"
+      ]
+    },
+    "clear-crystal-bow": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸棕渐变爱心钻长款美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "coffin",
+        "base_colors": [
+          {
+            "name": "裸棕色",
+            "tone": "warm",
+            "opacity": "translucent",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "gradient",
+          "glitter",
+          "rhinestone",
+          "metal_charm",
+          "three_d_decoration"
+        ],
+        "accent_fingers": [
+          "middle",
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "裸棕透渐变",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "small",
+              "color": "银色闪钻",
+              "position": "tip_edge",
+              "must_keep": true
+            }
+          ],
+          "notes": "部分可见，渐变裸棕亮面甲",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "裸棕透渐变",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [],
+          "notes": "纯色渐变长亮面甲，无额外装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "裸棕透渐变",
+          "tip_style": "无",
+          "pattern": "渐变底加银闪粉",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "large",
+              "color": "银白立体爱心",
+              "position": "center_near_tip",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "银色闪粉",
+              "position": "root_area",
+              "must_keep": true
+            }
+          ],
+          "notes": "主款带立体爱心装饰和闪粉",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "裸棕透渐变",
+          "tip_style": "无",
+          "pattern": "幻彩小圆亮片搭配细闪",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "幻彩浅色系亮片",
+              "position": "center_near_tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "跳款带幻彩亮片装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "裸棕透渐变",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [],
+          "notes": "纯色渐变长亮面甲，无额外装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "middle",
+          "type": "metal_charm",
+          "count": "1",
+          "size": "large",
+          "position": "center of nail near tip",
+          "must_keep": true
+        },
+        {
+          "finger": "thumb",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "small",
+          "position": "nail tip edge",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "glitter",
+          "count": "approx",
+          "size": "tiny",
+          "position": "center of nail near tip",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留原款式裸棕透渐变底色和亮面光泽",
+        "保留对应手指的装饰，立体爱心不能丢失变形",
+        "保持原款式长 coffin 甲型和长度",
+        "仅修改指甲区域，保留用户原图的手型肤色背景",
+        "按照同名手指对应迁移美甲款式",
+        "保持渐变过渡自然，质感清透"
+      ],
+      "tryon_prompt": "Use Image 1 as the base hand image, keep Image 1's original canvas, composition, lighting, skin tone, hand shape and background. Only modify the nail area to match the nail style from Image 2. This style is long coffin nails, warm translucent nude brown gradient base, glossy finish, with large 3D silver heart charm and glitter on middle finger, iridescent glitter accents on ring finger, small rhinestone on partial thumb, other fingers are solid gradient. Transfer the design to the corresponding matching fingers of Image 1's hand, do not output Image 2, do not output collage, do not change anything except nails.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose decorations, do not change nail shape, do not alter base color, do not add extra nails, do not output collage, do not output reference image, do not deform the 3D heart charm, do not remove glitter accents, do not change gradient transition.",
+      "quality_checks": [
+        "仅修改指甲区域，保留原手所有特征不变",
+        "装饰位置和样式保留对应手指，无丢失",
+        "裸棕渐变底色正确，清透亮面质感保留",
+        "没有输出拼图或者参考款式图",
+        "甲型长度符合原款式要求",
+        "立体爱心装饰没有变形丢失"
+      ]
+    },
+    "black-white-grid": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "银渐变豹纹超长尖款美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "stiletto",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "neutral",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          },
+          {
+            "name": "银色",
+            "tone": "cool",
+            "opacity": "opaque",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "gradient",
+          "glitter",
+          "hand_painted"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "裸粉色渐变银色闪粉",
+          "tip_style": "无",
+          "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "棕黑色",
+              "position": "silver gradient area",
+              "must_keep": true
+            }
+          ],
+          "notes": "同全手统一设计",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "裸粉色渐变银色闪粉",
+          "tip_style": "无",
+          "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "棕黑色",
+              "position": "silver gradient area",
+              "must_keep": true
+            }
+          ],
+          "notes": "同全手统一设计",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "裸粉色渐变银色闪粉",
+          "tip_style": "无",
+          "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "棕黑色",
+              "position": "silver gradient area",
+              "must_keep": true
+            }
+          ],
+          "notes": "同全手统一设计",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "裸粉色渐变银色闪粉",
+          "tip_style": "无",
+          "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "棕黑色",
+              "position": "silver gradient area",
+              "must_keep": true
+            }
+          ],
+          "notes": "同全手统一设计",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "裸粉色渐变银色闪粉",
+          "tip_style": "无",
+          "pattern": "棕黑色豹纹斑点分布在银色渐变区域",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "棕黑色",
+              "position": "silver gradient area",
+              "must_keep": true
+            }
+          ],
+          "notes": "同全手统一设计",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "all",
+          "type": "painted_detail",
+          "count": "approx",
+          "size": "small",
+          "position": "银色渐变区域",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留裸粉色根部到银闪尖的自然渐变过渡",
+        "保留银闪区域棕黑色手绘豹纹斑点",
+        "保持超长细尖头甲型不变",
+        "保留亮面闪粉的质感",
+        "全手所有手指均应用该同款设计",
+        "保留用户原手的肤色手型背景构图"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, retain Image 1's canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Image 2 is the reference nail design: extra long stiletto nails, sheer nude pink base gradient to silver glitter tip, small brown black leopard spots painted on the silver area, glossy finish. Transfer the design to matching fingers of Image 1, exactly reproduce all design features in this JSON, do not output Image 2, do not output collage, do not change any content except nails.",
+      "negative_prompt": "do not change background, skin tone, hand shape or composition, do not lose leopard print details, do not distort gradient colors, do not remove silver glitter, do not change nail shape, do not add extra nails, do not output collage or reference image, do not alter the original design",
+      "quality_checks": [
+        "仅修改指甲区域，保留用户原手所有特征",
+        "保持裸粉根部到银尖的自然渐变过渡",
+        "正确保留银区的棕黑色豹纹手绘斑点",
+        "保持超长细尖头的甲型不变",
+        "保持亮面闪粉的质感正确",
+        "不新增多余装饰，不修改原有设计",
+        "输出不是拼图也不是原参考图",
+        "所有手指保持设计一致"
+      ]
+    },
+    "black-gold-short": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "透裸黑法式钻饰轻奢长美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "stiletto",
+        "base_colors": [
+          {
+            "name": "透裸色",
+            "tone": "neutral",
+            "opacity": "translucent",
+            "coverage": "most"
+          },
+          {
+            "name": "黑色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "tip"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "french_tip",
+          "glitter",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "index",
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "unknown",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "银色透明",
+              "position": "near_tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "指甲部分可见，带小钻装饰",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "黑色法式",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "approx",
+              "size": "unknown",
+              "color": "银色透明",
+              "position": "french junction",
+              "must_keep": true
+            }
+          ],
+          "notes": "错位黑色法式，分界处堆钻",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸色带细闪",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [],
+          "notes": "全甲透闪裸色",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "黑色法式",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "small",
+              "color": "银色方形",
+              "position": "center near cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "错位黑色法式，甲根带小方钻",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸色带细闪",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [],
+          "notes": "全甲透闪裸色",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "tiny",
+          "position": "near nail tip",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "rhinestone",
+          "count": "approx",
+          "size": "unknown",
+          "position": "black french tip junction",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "small",
+          "position": "nail center near cuticle",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留extra_long stiletto甲型和错位黑法式设计",
+        "保留所有钻饰的位置、大小，不丢失装饰",
+        "保留透裸底+跳甲细闪的设计布局",
+        "保留亮面高光质感不变",
+        "仅修改指甲区域，保留原手的手型、肤色、背景"
+      ],
+      "tryon_prompt": "Image 1 is the target hand to modify, Image 2 is the reference nail design. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged, only change the nail areas. Apply the reference design: extra long stiletto nails, sheer nude neutral base, black french tips on index and ring fingers, scattered glitter on middle and pinky nails, keep all rhinestone decorations on correct positions per corresponding finger, retain glossy finish, replicate all design details exactly. Do not output Image 2, do not output collage, do not change any content outside the nail area.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone decorations, do not alter nail shape, do not change base or french tip color, do not add extra nails, do not output collage, do not output reference image, do not move design elements, do not remove glitter, do not distort nail shape",
+      "quality_checks": [
+        "仅修改指甲区域，未改变原手的手型、肤色和背景",
+        "所有钻饰位置和大小都保留，没有丢失",
+        "黑法式的位置和颜色正确，错位设计保留",
+        "透裸底加细闪跳甲的布局正确",
+        "甲型长度和参考一致，是超长尖头",
+        "输出不是拼图，只有修改后的完整手部"
+      ]
+    },
+    "black-cat-eye-aura": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "透裸黑星星钻饰跳色长美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "almond",
+        "base_colors": [
+          {
+            "name": "透裸色",
+            "tone": "warm",
+            "opacity": "translucent",
+            "coverage": "accent"
+          },
+          {
+            "name": "纯黑色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "accent"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "solid_color",
+          "sticker",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "middle",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "两颗黑色五角星分布在甲面",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "透明",
+              "position": "between two stars",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸底搭配黑色五角星，带一颗小钻",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "纯黑色",
+          "tip_style": "无",
+          "pattern": "无图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [],
+          "notes": "全纯黑色亮面美甲",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "三颗黑色五角星沿甲面分布",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "2",
+              "size": "tiny",
+              "color": "透明",
+              "position": "near cuticle and center",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸底搭配三颗黑色五角星，带两颗小钻",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "纯黑色",
+          "tip_style": "无",
+          "pattern": "无图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [],
+          "notes": "全纯黑色亮面美甲",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "一颗黑色五角星在甲面下半部分",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "2",
+              "size": "tiny",
+              "color": "透明",
+              "position": "center and near tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸底搭配一颗黑色五角星，带两颗小钻",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "tiny",
+          "position": "between two black stars",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "rhinestone",
+          "count": "2",
+          "size": "tiny",
+          "position": "near cuticle and center of nail",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "rhinestone",
+          "count": "2",
+          "size": "tiny",
+          "position": "center and near tip of nail",
+          "must_keep": true
+        },
+        {
+          "finger": "all",
+          "type": "sticker",
+          "count": "approx",
+          "size": "medium",
+          "position": "accent nail surface",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留跳色设计：食指无名指全黑，其余为裸底",
+        "保留黑色五角星的数量、位置和颜色",
+        "保留所有小透明钻的位置和数量",
+        "保留长杏仁甲型和亮面质感",
+        "仅修改指甲区域，保留原手的所有特征",
+        "颜色按参考款式复刻，不要自行改色"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand photo, Image 2 is the reference nail art style. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Replicate the reference nail style: long almond shaped glossy nails, jump color design: index and ring fingers are solid opaque black, thumb, middle and pinky fingers are translucent warm nude base with black star decals and small clear rhinestones. Apply the design to matching fingers of Image 1's hand, do not output Image 2, do not output collage or reference board.",
+      "negative_prompt": "do not change background, do not alter skin tone, do not modify hand shape and composition, do not remove decorations, do not change finger positions, do not alter original color of the style, do not add extra nail pieces, do not output collage or reference images, do not distort rhinestones or star patterns, do not change the jump color design, do not delete existing decorations.",
+      "quality_checks": [
+        "Only modify nail area, keep all original hand features",
+        "Jump color design is correct: index and ring are solid black",
+        "Positions of black stars and rhinestones are correct",
+        "Keep glossy finish and correct long almond nail shape",
+        "No extra or missing decorations",
+        "Output is a single try-on image, not a collage",
+        "Color matches the reference style",
+        "Background and skin tone are unchanged from original"
+      ]
+    },
+    "rose-jelly-french": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸透白星钻饰长款美甲",
+      "confidence": 0.98,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "coffin",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "all"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "hand_painted",
+          "glitter",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "裸粉色",
+          "tip_style": "白色抽象星纹",
+          "pattern": "白色菱形星纹位于指甲尖端",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "medium",
+              "color": "白色",
+              "position": "tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "部分指甲可见",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透感裸粉色",
+          "tip_style": "无",
+          "pattern": "白色菱形星纹位于甲面中上部",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "2",
+              "size": "tiny",
+              "color": "透明白钻",
+              "position": "一靠近甲根一靠近甲尖",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "1",
+              "size": "small",
+              "color": "银闪",
+              "position": "甲尖区域",
+              "must_keep": true
+            }
+          ],
+          "notes": "全可见完整设计",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透感裸粉色",
+          "tip_style": "无",
+          "pattern": "白色菱形星纹位于甲面中上部",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "2",
+              "size": "tiny",
+              "color": "透明白钻",
+              "position": "一靠近甲根一靠近甲尖",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "1",
+              "size": "small",
+              "color": "银闪",
+              "position": "甲尖区域",
+              "must_keep": true
+            }
+          ],
+          "notes": "全可见完整设计",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透感裸粉色",
+          "tip_style": "无",
+          "pattern": "白色菱形星纹位于甲面中上部",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "2",
+              "size": "tiny",
+              "color": "透明白钻",
+              "position": "一靠近甲根一靠近甲尖",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "1",
+              "size": "small",
+              "color": "银闪",
+              "position": "甲尖区域",
+              "must_keep": true
+            }
+          ],
+          "notes": "全可见完整设计",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透感裸粉色",
+          "tip_style": "无",
+          "pattern": "白色菱形星纹位于指甲尖端",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "透明白钻",
+              "position": "靠近甲根位置",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "1",
+              "size": "tiny",
+              "color": "银闪",
+              "position": "甲根侧边",
+              "must_keep": true
+            }
+          ],
+          "notes": "全可见完整设计",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "all",
+          "type": "rhinestone",
+          "count": "approx 1-2 per nail",
+          "size": "tiny",
+          "position": "corresponding positions per finger",
+          "must_keep": true
+        },
+        {
+          "finger": "unknown",
+          "type": "glitter",
+          "count": "1",
+          "size": "small",
+          "position": "nail tip area",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留参考图的超长 coffin 甲型",
+        "保留透感暖调裸粉色全甲基底",
+        "保留每根手指的白色菱形星纹位置",
+        "保留所有细钻和银闪装饰不丢失",
+        "保留美甲亮面质感",
+        "仅改指甲保留原图手型肤色背景"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, retain its original canvas, composition, lighting, skin tone, background and hand shape. Image 2 is the reference nail design to transfer. Only change the nail regions of Image 1, apply the design from Image 2 to Image 1's fingers matching same finger positions. The design is extra long coffin nails with sheer warm nude base, glossy finish, white abstract diamond star pattern on each nail, decorated with tiny clear rhinestones and silver glitter accents. Do not output Image 2, do not output collage, do not output reference display board, only output the edited hand with new nails.",
+      "negative_prompt": "change background, alter skin tone, modify hand shape, change composition, lose decorations, deform rhinestones, remove glitter, change nail shape, alter base color, change pattern color, add extra nails, output collage, output reference image, distort design, wrong pattern position",
+      "quality_checks": [
+        "仅修改指甲区域，保留Image 1原有手型肤色背景光照",
+        "保留参考图的超长 coffin 甲型正确",
+        "保留透裸底色和白色星纹位置正确",
+        "所有钻饰闪粉装饰无丢失",
+        "不新增额外甲片，不输出拼图",
+        "保留美甲亮面质感",
+        "每根手指图案位置对应正确",
+        "不输出参考图仅输出试戴结果"
+      ]
+    },
+    "champagne-sheer-almond": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "冰透裸色手绘白花长杏仁美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "almond",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "warm",
+            "opacity": "translucent",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "jelly",
+          "glitter"
+        ],
+        "design_features": [
+          "gradient",
+          "floral",
+          "hand_painted",
+          "glitter"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透裸粉色渐变",
+          "tip_style": "无",
+          "pattern": "细闪装饰在靠近指尖位置",
+          "finish": [
+            "glossy",
+            "jelly",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "银白色",
+              "position": "near_tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸透渐变底色，指尖点缀少量细闪",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透裸粉色渐变",
+          "tip_style": "无",
+          "pattern": "三朵白色手绘五瓣花沿甲面纵向排列",
+          "finish": [
+            "glossy",
+            "jelly",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "白色",
+              "position": "full_nail_surface",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "银色",
+              "position": "between_patterns",
+              "must_keep": true
+            }
+          ],
+          "notes": "手绘白色五瓣花搭配细闪线条装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸粉色渐变",
+          "tip_style": "无",
+          "pattern": "两朵白色手绘五瓣花加枝叶在甲面",
+          "finish": [
+            "glossy",
+            "jelly",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "白色",
+              "position": "center_nail",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "银色",
+              "position": "flower_branch",
+              "must_keep": true
+            }
+          ],
+          "notes": "手绘双白花配银色细闪枝叶点缀",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透裸粉色渐变",
+          "tip_style": "无",
+          "pattern": "一朵大白色花加一朵小白色花在甲面",
+          "finish": [
+            "glossy",
+            "jelly",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "small",
+              "color": "白色",
+              "position": "center_nail",
+              "must_keep": true
+            },
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "银色",
+              "position": "around_flower",
+              "must_keep": true
+            }
+          ],
+          "notes": "大小手绘白花搭配细闪背景点缀",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸粉色渐变",
+          "tip_style": "无",
+          "pattern": "银色细闪线条在甲面中心",
+          "finish": [
+            "glossy",
+            "jelly",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "银色",
+              "position": "center_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "仅中心细闪线条装饰，无手绘大花",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "all",
+          "type": "painted_detail",
+          "count": "approx",
+          "size": "small",
+          "position": "对应指甲甲面",
+          "must_keep": true
+        },
+        {
+          "finger": "all",
+          "type": "glitter",
+          "count": "approx",
+          "size": "tiny",
+          "position": "对应装饰区域",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保持冰透裸粉渐变果冻底色不变",
+        "保持长杏仁甲型和甲长不变",
+        "按同名手指对应迁移手绘白花位置",
+        "保留所有银色细闪装饰细节",
+        "保持亮面果冻透质感不变",
+        "不要改动用户原手的任何非指甲部分"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, keep its entire canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area of Image 1: apply the design of long almond nails, translucent warm nude pink gradient base, glossy jelly finish, hand-painted white floral patterns with tiny silver glitter accents on matching fingers. Transfer the design exactly to corresponding finger positions of Image 1, keep all design details. Do not output Image 2, do not output collage, do not change any part except nails.",
+      "negative_prompt": "do not change background, skin tone, hand shape or composition, do not lose white floral details or silver glitter decorations, do not alter the base nail color, do not change finger positions, do not add extra nails, do not output collage, do not output reference image, do not deform the almond nail shape, do not remove any decorations, do not change the opacity of base color",
+      "quality_checks": [
+        "检查是否保持原手图的肤色、背景、构图不变",
+        "检查甲型为长杏仁形，长度匹配参考款式",
+        "检查底色为透感裸粉色渐变，果冻质感正确",
+        "检查手绘白花的位置和参考图一致对应",
+        "检查所有细闪装饰都完整保留没有丢失",
+        "检查仅修改指甲区域，未改动其他部分",
+        "检查没有生成拼图或参考款式图输出",
+        "检查没有额外新增多余甲片或装饰"
+      ]
+    },
+    "jungle-black-bow": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "黑金小花法式超长美甲",
+      "confidence": 0.98,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "stiletto",
+        "base_colors": [
+          {
+            "name": "裸米色",
+            "tone": "neutral",
+            "opacity": "translucent",
+            "coverage": "most"
+          },
+          {
+            "name": "纯黑色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "tip"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "french_tip",
+          "floral",
+          "hand_painted",
+          "metal_charm"
+        ],
+        "accent_fingers": [
+          "index",
+          "middle",
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透裸米色",
+          "tip_style": "黑色法式边",
+          "pattern": "无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "黑色法式尖，透裸米色基底无花纹",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透裸米色",
+          "tip_style": "无",
+          "pattern": "甲面绘制两朵黑色五瓣小花，上下排列",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "upper flower center",
+              "must_keep": true
+            },
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "lower flower center",
+              "must_keep": true
+            }
+          ],
+          "notes": "全透裸底，两朵黑色实心五瓣花",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸米色",
+          "tip_style": "黑色法式边",
+          "pattern": "甲面绘制两朵描金黑色小花",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "upper flower center",
+              "must_keep": true
+            },
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "lower flower center",
+              "must_keep": true
+            }
+          ],
+          "notes": "尖端黑色法式，两朵描金黑色小花",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透裸米色",
+          "tip_style": "无",
+          "pattern": "甲面绘制两朵黑色五瓣小花上下排列",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "upper flower center",
+              "must_keep": true
+            },
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "tiny",
+              "color": "金色",
+              "position": "lower flower center",
+              "must_keep": true
+            }
+          ],
+          "notes": "全透裸底，两朵黑色实心五瓣小花",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸米色",
+          "tip_style": "黑色斜法式边",
+          "pattern": "无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "黑色斜法式尖，透裸米色基底无花纹",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "index",
+          "type": "metal_charm",
+          "count": "2",
+          "size": "tiny",
+          "position": "flower centers on index nail",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "metal_charm",
+          "count": "2",
+          "size": "tiny",
+          "position": "flower centers on middle nail",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "metal_charm",
+          "count": "2",
+          "size": "tiny",
+          "position": "flower centers on ring nail",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留extra long stiletto甲型和黑金配色设计",
+        "保留透裸米色基底+黑色法式+黑色小花的款式结构",
+        "保留每朵花心的tiny金色金属装饰，不能丢失",
+        "保留用户原手图的背景、肤色、手型、构图，仅改指甲",
+        "按对应手指迁移款式设计，位置匹配"
+      ],
+      "tryon_prompt": "Use Image 1 as the base image, keep Image 1's original canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Use Image 2 as style reference, replicate this extra long stiletto nail design: translucent nude beige base, black french tip on accent nails, black hand-painted floral patterns on selected nails, tiny gold metal charm at each flower center, glossy finish. Transfer the design to matching fingers on Image 1, do not change any content except nails, do not output Image 2, do not output collage or reference board.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose gold metal decorations, do not change flower pattern, do not alter nail shape and length, do not change color palette, do not add extra nails, do not output collage, do not output reference image, do not change finger positions",
+      "quality_checks": [
+        "仅修改指甲区域，保留原手图所有非指甲内容不变",
+        "所有黑色小花和金色花心装饰完整保留",
+        "甲长甲型和黑金配色匹配目标款式",
+        "按对应手指迁移设计，位置正确",
+        "未输出拼图、参考图，仅输出单张试戴结果"
+      ]
+    },
+    "moonlight-silver-french": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "月光银闪法式",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "coffin",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          },
+          {
+            "name": "奶白色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "gradient",
+          "line_art",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "裸粉到奶白渐变",
+          "tip_style": "渐变奶白",
+          "pattern": "银色闪粉曲线线条",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "tiny",
+              "color": "银色闪粉",
+              "position": "center to tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "裸粉到奶白渐变",
+          "tip_style": "渐变奶白",
+          "pattern": "银色闪粉曲线线条",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "tiny",
+              "color": "银色闪粉",
+              "position": "center to tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "裸粉到奶白渐变",
+          "tip_style": "渐变奶白",
+          "pattern": "银色闪粉曲线线条",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "tiny",
+              "color": "银色闪粉",
+              "position": "center to tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "裸粉到奶白渐变",
+          "tip_style": "渐变奶白",
+          "pattern": "银色闪粉线条加拼钻",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "tiny",
+              "color": "银色闪粉",
+              "position": "center to tip",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "approx 4",
+              "size": "unknown",
+              "color": "透明银色",
+              "position": "near tip side",
+              "must_keep": true
+            }
+          ],
+          "notes": "跳指设计，附加拼钻装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "裸粉到奶白渐变",
+          "tip_style": "渐变奶白",
+          "pattern": "银色闪粉曲线线条",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "tiny",
+              "color": "银色闪粉",
+              "position": "center to tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "裸粉根部到奶白指尖渐变，带银闪线条",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "approx 4",
+          "size": "unknown",
+          "position": "near tip side of nail",
+          "must_keep": true
+        },
+        {
+          "finger": "all",
+          "type": "painted_detail",
+          "count": "1",
+          "size": "tiny",
+          "position": "nail surface from center to tip",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留裸粉根部到奶白指尖的渐变底色",
+        "保留每根指甲的银色闪粉曲线线条设计",
+        "保留无名指的拼钻装饰位置和细节",
+        "保持目标款式的长 coffin 甲型",
+        "保持整体亮面带闪的光泽质感",
+        "保留用户原图的手型、肤色、背景和构图"
+      ],
+      "tryon_prompt": "Image 1 is the user's real hand image, you must keep its canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail style: long coffin nails, nude pink at base to milky white at tip gradient base, silver glitter curved line art on every nail, accent ring finger with clustered clear rhinestones, glossy glitter finish. Only change the nail area of Image 1 to match this style, transfer the design to corresponding fingers of Image 1, keep all design details and decorations, do not output Image 2, do not output collage, do not change anything outside the nail area.",
+      "negative_prompt": "do not change background, skin tone, hand shape or composition, do not lose rhinestone decorations on ring finger, do not distort silver glitter line art, do not alter base gradient colors, do not add extra nails, do not output collage or reference image, do not change finger positions, do not remove any design details, do not change nail shape and length",
+      "quality_checks": [
+        "仅修改指甲区域，保留用户原图的手型肤色背景构图",
+        "无名指保留拼钻装饰的位置、大小和数量",
+        "每根指甲都保留银色闪粉曲线线条",
+        "保留裸粉根部到奶白指尖的渐变底色",
+        "最终输出不是拼图，不是参考款式图",
+        "甲型长度匹配目标款式的长 coffin 甲型"
+      ]
+    },
+    "shell-pearl-almond": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸粉猫眼渐变长杏仁美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "almond",
+        "base_colors": [
+          {
+            "name": "裸粉奶白",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "cat_eye",
+          "pearl"
+        ],
+        "design_features": [
+          "gradient",
+          "cat_eye"
+        ],
+        "accent_fingers": []
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变浅奶白",
+          "tip_style": "无",
+          "pattern": "竖向猫眼光带渐变",
+          "finish": [
+            "glossy",
+            "cat_eye",
+            "pearl"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变浅奶白",
+          "tip_style": "无",
+          "pattern": "竖向猫眼光带渐变",
+          "finish": [
+            "glossy",
+            "cat_eye",
+            "pearl"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变浅奶白",
+          "tip_style": "无",
+          "pattern": "竖向猫眼光带渐变",
+          "finish": [
+            "glossy",
+            "cat_eye",
+            "pearl"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变浅奶白",
+          "tip_style": "无",
+          "pattern": "竖向猫眼光带渐变",
+          "finish": [
+            "glossy",
+            "cat_eye",
+            "pearl"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变浅奶白",
+          "tip_style": "无",
+          "pattern": "竖向猫眼光带渐变",
+          "finish": [
+            "glossy",
+            "cat_eye",
+            "pearl"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [],
+      "transfer_priority": [
+        "保留用户原图的手型、肤色、背景、构图、光照，仅修改指甲",
+        "复刻超长杏仁甲型，所有指甲都应用同款式设计",
+        "还原裸粉到浅奶白的渐变效果，保留竖向猫眼光带",
+        "还原高光亮面、贝母猫眼的珠光质感",
+        "不添加额外装饰，保持款式干净简约"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, keep its canvas, composition, lighting, skin tone, background and hand shape, only change the nail area. Image 2 is the reference nail style to replicate. The target style is extra long almond nails, sheer warm nude pink gradient to off-white with vertical cat eye effect, pearlescent glossy finish, no extra decorations. Apply the design to matching fingers of Image 1, do not output Image 2, do not output collage or style reference board.",
+      "negative_prompt": "do not change background, skin tone, hand shape or composition, do not change finger positions, do not distort nail shape, do not lose cat eye or pearlescent effect, do not alter the target color, do not add extra decorations, do not add new unnecessary nail pieces, do not output collage, do not output reference image.",
+      "quality_checks": [
+        "仅修改指甲区域，保留原图手型肤色背景构图",
+        "甲型长度符合目标款式，所有指甲正确应用设计",
+        "渐变效果和猫眼珠光质感正确还原",
+        "未添加额外多余装饰，保持简约干净",
+        "输出不是拼图，未保留参考款式图"
+      ]
+    },
+    "dopamine-gem-party": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "春日撞色小花格纹短美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "short",
+        "nail_shape": "round",
+        "base_colors": [
+          {
+            "name": "浅暖橙色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "浅豆沙粉色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "accent"
+          },
+          {
+            "name": "酒红色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "accent"
+          },
+          {
+            "name": "浅雾霾蓝色",
+            "tone": "neutral",
+            "opacity": "opaque",
+            "coverage": "accent"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "floral",
+          "plaid",
+          "line_art",
+          "hand_painted"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "浅豆沙粉色",
+          "tip_style": "无",
+          "pattern": "指甲面散布彩色小波点",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx 4",
+              "size": "tiny",
+              "color": "蓝、白、浅红",
+              "position": "distributed on nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "浅豆沙底，手绘彩色小波点",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "浅雾霾蓝色",
+          "tip_style": "无",
+          "pattern": "两个彩色波点，一上一下分布",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "2",
+              "size": "tiny",
+              "color": "黄色、深绿色",
+              "position": "one upper, one lower",
+              "must_keep": true
+            }
+          ],
+          "notes": "浅蓝底两个纯色波点装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "酒红色",
+          "tip_style": "无",
+          "pattern": "指甲中心一朵白色五瓣小花",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "1",
+              "size": "medium",
+              "color": "白色花瓣黄色花心",
+              "position": "center of nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "酒红底中心手绘白色小花装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "浅豆沙粉色",
+          "tip_style": "无",
+          "pattern": "指甲面散布多色小波点",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx 6",
+              "size": "tiny",
+              "color": "白、蓝、红、浅粉",
+              "position": "distributed on nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "豆沙粉底多色手绘小波点",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "浅暖橙色",
+          "tip_style": "无",
+          "pattern": "红色线条绘制的格纹布满整甲",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "unknown",
+              "count": "approx 6",
+              "size": "unknown",
+              "color": "红色",
+              "position": "full nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "浅橙底红色手绘格纹",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "painted_detail",
+          "count": "approx 4",
+          "size": "tiny",
+          "position": "distributed across nail",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "painted_detail",
+          "count": "2",
+          "size": "tiny",
+          "position": "upper yellow dot, lower green dot",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "painted_detail",
+          "count": "1",
+          "size": "medium",
+          "position": "center of nail",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "painted_detail",
+          "count": "approx 6",
+          "size": "tiny",
+          "position": "distributed across nail",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "unknown",
+          "count": "approx 6",
+          "size": "unknown",
+          "position": "full nail grid",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "按同名手指对应迁移款式，不能错配手指",
+        "保留每个指甲的对应底色，不能错换颜色",
+        "保留所有手绘图案和纹理，不能丢失装饰",
+        "保留短圆甲型和亮面光泽质感",
+        "保留用户原图的手型、肤色、背景和构图"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand photograph, keep Image 1's canvas, composition, lighting, skin tone, background, hand shape completely unchanged, only modify the nail area. Image 2 is the reference nail design: short round glossy nails with mixed jumping base colors, thumb has nude pink base with tiny colored polka dots, index has light blue base with two colored dots, middle has burgundy base with a white flower in center, ring has nude pink base with tiny colored polka dots, pinky has light orange base with red plaid. Transfer the design to the corresponding finger of Image 1, replicate all design features, colors and textures exactly, do not output Image 2, do not output collage, output only the final hand with the new nails applied.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not remove patterns or decorations, do not alter nail colors, do not mismatch finger designs, do not add extra nails, do not output reference image, do not output collage, do not deform nails, do not blur patterns",
+      "quality_checks": [
+        "款式对应同名手指，没有错配",
+        "底色和图案颜色正确，没有错色",
+        "所有手绘图案完整保留，没有丢失",
+        "未修改手型、肤色、背景和原图构图",
+        "没有输出参考图或拼图，仅输出修改后的手",
+        "保留了短圆甲型和亮面光泽质感"
+      ]
+    },
+    "fuchsia-flower-gem": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "透裸彩点玫粉渐变约会美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "oval",
+        "base_colors": [
+          {
+            "name": "透裸粉",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "accent"
+          },
+          {
+            "name": "玫粉色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "jelly"
+        ],
+        "design_features": [
+          "gradient",
+          "painted_detail",
+          "glitter"
+        ],
+        "accent_fingers": [
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透裸粉",
+          "tip_style": "无",
+          "pattern": "满甲分布多色小圆点",
+          "finish": [
+            "glossy",
+            "jelly"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "tiny",
+              "color": "红、白、蓝多色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸果冻底，彩色圆点装饰",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透裸粉",
+          "tip_style": "无",
+          "pattern": "满甲分布多色小圆点",
+          "finish": [
+            "glossy",
+            "jelly"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "tiny",
+              "color": "红、白、蓝、黄多色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸果冻底，彩色圆点装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸粉",
+          "tip_style": "无",
+          "pattern": "满甲分布多色小圆点",
+          "finish": [
+            "glossy",
+            "jelly"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "tiny",
+              "color": "红、白、蓝多色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸果冻底，彩色圆点装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透裸粉渐变玫粉色",
+          "tip_style": "渐变",
+          "pattern": "无",
+          "finish": [
+            "glossy",
+            "jelly"
+          ],
+          "decorations": [],
+          "notes": "透裸底从根部到指尖渐变玫粉色",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸粉",
+          "tip_style": "无",
+          "pattern": "满甲分布多色小圆点",
+          "finish": [
+            "glossy",
+            "jelly"
+          ],
+          "decorations": [
+            {
+              "type": "painted_detail",
+              "count": "approx",
+              "size": "tiny",
+              "color": "红、白、蓝多色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸果冻底，彩色圆点装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "painted_detail",
+          "count": "approx",
+          "size": "tiny",
+          "position": "full_nail",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "painted_detail",
+          "count": "approx",
+          "size": "tiny",
+          "position": "full_nail",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "painted_detail",
+          "count": "approx",
+          "size": "tiny",
+          "position": "full_nail",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "painted_detail",
+          "count": "approx",
+          "size": "tiny",
+          "position": "full_nail",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留无名指的玫粉色渐变设计，其他手指保留彩点",
+        "保持透裸果冻透感的底色质感",
+        "保持美甲亮面光泽质感",
+        "保持medium长度椭圆甲型",
+        "只修改指甲区域，保留用户原手特征",
+        "保留彩色小点的多色分布特征"
+      ],
+      "tryon_prompt": "Image 1 is user's original hand image, Image 2 is the reference nail design. Keep Image 1's original canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail areas to match the reference design from Image 2: medium length oval nails, glossy jelly finish. Thumb, index, middle, pinky have sheer warm nude base with full nail tiny multi-colored dot details. Ring finger has sheer nude to warm magenta gradient from base to tip. Keep all design features as described, do not alter any design details. Do not output Image 2, do not output collage, only output the edited hand image with new nails.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose dot decorations, do not change nail color, do not distort the gradient on ring finger, do not add extra nails, do not output collage, do not output reference image, do not change finger positions, do not remove decorations, do not distort design, do not change texture",
+      "quality_checks": [
+        "仅修改指甲区域，未改变原手肤色手型背景",
+        "无名指保留玫粉色渐变设计，渐变方向正确",
+        "其余四根手指保留满甲彩色小圆点设计",
+        "保留透裸果冻亮面的质感，没有改变透度",
+        "甲型长度和参考款式一致",
+        "没有生成拼图或参考图，输出完整单图",
+        "没有新增或丢失装饰，颜色符合参考设计"
+      ]
+    },
+    "milk-white-bow": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸粉奶白法式钻饰珍珠长美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "coffin",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          },
+          {
+            "name": "奶白色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "tip"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "french_tip",
+          "rhinestone",
+          "pearl",
+          "three_d_decoration"
+        ],
+        "accent_fingers": [
+          "middle",
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透裸粉色甲床+奶白色甲尖",
+          "tip_style": "奶白法式",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "pearl",
+              "count": "approx 5",
+              "size": "small",
+              "color": "白色",
+              "position": "boundary between pink base and white tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "法式拼接设计，珍珠排列装饰",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透裸粉色甲床+奶白色甲尖",
+          "tip_style": "奶白法式",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "pearl",
+              "count": "approx 4",
+              "size": "small",
+              "color": "白色",
+              "position": "boundary between pink base and white tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "法式拼接设计，珍珠排列装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸粉色甲床+奶白色甲尖",
+          "tip_style": "奶白法式",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "large",
+              "color": "透明切割水钻",
+              "position": "boundary between pink base and white tip",
+              "must_keep": true
+            },
+            {
+              "type": "pearl",
+              "count": "1",
+              "size": "small",
+              "color": "白色",
+              "position": "next to large rhinestone",
+              "must_keep": true
+            }
+          ],
+          "notes": "法式拼接设计，大钻加珍珠装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透裸粉色甲床+奶白色甲尖",
+          "tip_style": "奶白法式",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "large",
+              "color": "透明切割水钻",
+              "position": "boundary between pink base and white tip",
+              "must_keep": true
+            },
+            {
+              "type": "pearl",
+              "count": "approx 3",
+              "size": "small",
+              "color": "白色",
+              "position": "next to large rhinestone",
+              "must_keep": true
+            }
+          ],
+          "notes": "法式拼接设计，大钻加珍珠装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸粉色甲床+奶白色甲尖",
+          "tip_style": "奶白法式",
+          "pattern": "none",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "pearl",
+              "count": "approx 3",
+              "size": "small",
+              "color": "白色",
+              "position": "boundary between pink base and white tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "法式拼接设计，珍珠排列装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "all",
+          "type": "pearl",
+          "count": "approx",
+          "size": "small",
+          "position": "boundary between base and tip",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "large",
+          "position": "boundary between base and tip",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "large",
+          "position": "boundary between base and tip",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留裸粉+奶白法式拼接的配色设计",
+        "保留长梯形（coffin）甲型",
+        "保留所有珍珠和大钻的装饰位置",
+        "中指和无名指保留大颗主钻装饰",
+        "保留亮面高光的美甲质感",
+        "只修改指甲区域，保留原手所有特征"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape completely unchanged. Image 2 is the reference nail design. Only change the nail area of Image 1 to replicate the design from Image 2: long coffin shaped nails, sheer warm pink base, opaque warm off-white french tip at nail end, glossy finish, small pearls and large clear 3d rhinestones placed on the boundary between pink base and white tip. Transfer the design to the corresponding same-named finger of Image 1, do not change anything except the nail area. Do not output Image 2, do not output collage, do not output reference design board, keep all decorations as reference.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone or pearl decorations, do not deform 3d decorations, do not change nail color, do not add extra nail pieces, do not output collage, do not output reference image, do not swap fingers, do not move decorations, do not change nail shape",
+      "quality_checks": [
+        "仅修改指甲区域，保留原手肤色手型背景不变",
+        "装饰位置类型大小与参考图保持一致",
+        "保留裸粉加奶白的法式配色设计",
+        "保留长 coffin 甲型",
+        "所有立体钻和珍珠不丢失不变形",
+        "输出不是拼图，仅保留试戴后的手",
+        "无额外新增的甲片或错误装饰"
+      ]
+    },
+    "wine-heart-gem": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸底彩色撞钻轻奢美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "square",
+        "base_colors": [
+          {
+            "name": "裸色",
+            "tone": "neutral",
+            "opacity": "sheer",
+            "coverage": "all"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "rhinestone",
+          "three_d_decoration"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "medium",
+              "color": "红色",
+              "position": "upper side",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "medium",
+              "color": "蓝色",
+              "position": "lower side",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸底，侧边竖放两颗彩色切割钻",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "large",
+              "color": "透明闪白",
+              "position": "nail center",
+              "must_keep": true
+            }
+          ],
+          "notes": "单颗大方形透明钻放置在指甲中心",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "medium",
+              "color": "粉色",
+              "position": "upper center",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "蓝色",
+              "position": "left side",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "small",
+              "color": "黄色",
+              "position": "lower center",
+              "must_keep": true
+            }
+          ],
+          "notes": "斜向排列三颗不同尺寸彩色钻",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "medium",
+              "color": "红色",
+              "position": "upper center",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "small",
+              "color": "香槟金色",
+              "position": "lower center",
+              "must_keep": true
+            }
+          ],
+          "notes": "竖排两颗不同形状切割钻饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透裸色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "small",
+              "color": "深蓝色",
+              "position": "upper side",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "浅粉色",
+              "position": "middle",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "透明白色",
+              "position": "lower",
+              "must_keep": true
+            }
+          ],
+          "notes": "错落排列三颗不同大小钻饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "pinky",
+          "type": "rhinestone",
+          "count": "approx 3",
+          "size": "unknown",
+          "position": "nail surface top to bottom",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "2",
+          "size": "unknown",
+          "position": "nail center vertical",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "rhinestone",
+          "count": "3",
+          "size": "unknown",
+          "position": "diagonal on nail",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "large",
+          "position": "nail center",
+          "must_keep": true
+        },
+        {
+          "finger": "thumb",
+          "type": "rhinestone",
+          "count": "2",
+          "size": "medium",
+          "position": "nail side vertical",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留每个手指对应位置的彩色异形钻饰",
+        "保留透裸色果冻感透明基底",
+        "保留方形甲型和长款指甲长度",
+        "保留亮面封层的光泽质感",
+        "按同名手指对应迁移钻的位置颜色大小",
+        "不改变用户原手的手型、肤色、背景构图"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand photo. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area of Image 1, apply this nail design to corresponding fingers of Image 1. The design features sheer nude glossy base, long square nails, multi-color cut rhinestones decorations on each finger, keep each rhinestone's color, size and position exactly as reference. Do not output Image 2, do not output collage, do not change anything except nails.",
+      "negative_prompt": "do not change background, skin tone, hand shape or original composition of Image 1. Do not remove rhinestone decorations, do not alter rhinestone color, do not change finger positions, do not add extra nails, do not output collage or reference image, do not change base nail color, do not distort nail shape.",
+      "quality_checks": [
+        "所有钻饰保留原参考的颜色大小位置",
+        "仅修改指甲区域，未改动原手肤色手型背景",
+        "基底保持透裸色，封层保持亮面质感",
+        "输出仅为修改后的手图，无拼图无参考图",
+        "甲型为方形，长度和参考款式一致",
+        "无装饰丢失，无多余新增装饰"
+      ]
+    },
+    "champagne-crystal-almond": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "香槟裸钻精致长杏仁美甲",
+      "confidence": 0.98,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "almond",
+        "base_colors": [
+          {
+            "name": "浅香槟裸色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "gradient",
+          "glitter",
+          "rhinestone",
+          "pearl",
+          "metal_charm",
+          "three_d_decoration"
+        ],
+        "accent_fingers": [
+          "middle"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "浅香槟裸渐变透底",
+          "tip_style": "无",
+          "pattern": "金闪分布靠近甲根半甲",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "small",
+              "color": "香槟金色",
+              "position": "side near tip",
+              "must_keep": true
+            }
+          ],
+          "notes": "小钻点缀侧边缘",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "浅香槟裸渐变透底",
+          "tip_style": "无",
+          "pattern": "金闪分布靠近甲根半甲",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "pearl",
+              "count": "1",
+              "size": "tiny",
+              "color": "米白色",
+              "position": "center near cuticle",
+              "must_keep": true
+            },
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "small",
+              "color": "香槟金色",
+              "position": "center below pearl",
+              "must_keep": true
+            }
+          ],
+          "notes": "珍珠加金属饰组合点缀",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "浅奶香槟半实底色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "approx",
+              "size": "large",
+              "color": "香槟金主钻配小闪钻",
+              "position": "nail center",
+              "must_keep": true
+            }
+          ],
+          "notes": "大颗香槟主钻，周围配小碎钻",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "浅香槟裸渐变透底",
+          "tip_style": "无",
+          "pattern": "金闪分布靠近甲根半甲",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "香槟金色",
+              "position": "half nail near cuticle",
+              "must_keep": true
+            },
+            {
+              "type": "rhinestone",
+              "count": "approx",
+              "size": "small",
+              "color": "香槟金色",
+              "position": "center near cuticle",
+              "must_keep": true
+            },
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "small",
+              "color": "香槟金色",
+              "position": "center near cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "金闪加混合小装饰点缀半甲",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "浅香槟裸渐变透底",
+          "tip_style": "无",
+          "pattern": "金闪分布靠近甲根半甲",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "metal_charm",
+              "count": "1",
+              "size": "small",
+              "color": "香槟金色",
+              "position": "center near cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "单金属小饰点缀甲根",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "small",
+          "position": "side near tip",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "pearl",
+          "count": "1",
+          "size": "tiny",
+          "position": "center near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "metal_charm",
+          "count": "1",
+          "size": "small",
+          "position": "center near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "rhinestone",
+          "count": "approx",
+          "size": "large",
+          "position": "center of nail",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "unknown",
+          "count": "approx",
+          "size": "unknown",
+          "position": "half nail near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "metal_charm",
+          "count": "1",
+          "size": "small",
+          "position": "center near cuticle",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留浅香槟裸渐变透底加金闪的基础配色",
+        "保留extra long杏仁甲型的长度和形状",
+        "保留中指大香槟钻作为主装饰的设计",
+        "保留每个手指对应装饰的大小和位置",
+        "保留整体亮面精致的质感",
+        "保留所有立体装饰的闪耀效果"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape completely, only modify the nail area. Image 2 is the reference nail style: extra long almond nails, sheer warm champagne nude gradient base, glossy finish, with gold glitter and 3D champagne rhinestone, pearl and metal charm decorations, accent middle finger with a large main rhinestone. Transfer the design to matching fingers of Image 1, replicate all color, shape, texture, pattern and decorations exactly as the style in Image 2. Do not output Image 2, do not output collage, do not change anything except nails.",
+      "negative_prompt": "do not change background, skin tone, hand shape, composition of Image 1. Do not lose rhinestone, pearl, metal charm or glitter decorations, do not deform decorations. Do not change finger positions, do not alter base color, do not add extra nails. Do not output collage, do not output reference image, do not change the size and position of decorations.",
+      "quality_checks": [
+        "仅修改指甲区域，保留原手的肤色手型背景",
+        "装饰位置大小和原款式一致，不能丢失钻饰",
+        "保留浅香槟裸渐变底色的颜色和透感",
+        "保留长杏仁甲型，长度符合原款式",
+        "中指必须保留大颗香槟主钻设计",
+        "保持整体亮面质感，保留钻饰闪耀感",
+        "不要拼接图片，输出完整的试戴手图",
+        "不要改变原有手指的位置和数量"
+      ]
+    },
+    "espresso-leopard-grid": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸透闪棕大钻豹纹长款美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "extra_long",
+        "nail_shape": "almond",
+        "base_colors": [
+          {
+            "name": "冰透裸粉色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "glitter",
+          "hand_painted",
+          "rhinestone",
+          "three_d_decoration"
+        ],
+        "accent_fingers": [
+          "middle"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "partial",
+          "base_color": "冰透裸粉色带细闪",
+          "tip_style": "无",
+          "pattern": "深棕色豹纹斑点在指甲远端",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "approx",
+              "size": "small",
+              "color": "透明",
+              "position": "near_cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸闪底加豹纹加小钻",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "冰透裸粉色带细闪",
+          "tip_style": "无",
+          "pattern": "深棕色手绘豹纹斑点分布甲面",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "approx",
+              "size": "small",
+              "color": "透明",
+              "position": "near_cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸闪底加豹纹加小堆钻",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "冰透裸粉色带细闪",
+          "tip_style": "无",
+          "pattern": "甲面中下部有一根细白色线条",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1 large + approx sma",
+              "size": "large",
+              "color": "透明切割水钻",
+              "position": "near_cuticle_center",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸闪底加细白线加超大主钻",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "冰透裸粉色带细闪",
+          "tip_style": "无",
+          "pattern": "深棕色豹纹斑点分布甲面",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "3",
+              "size": "small",
+              "color": "透明",
+              "position": "near_cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸闪底加豹纹加三小钻",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "冰透裸粉色带细闪",
+          "tip_style": "无",
+          "pattern": "深棕色豹纹斑点分布甲面",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "3",
+              "size": "small",
+              "color": "透明",
+              "position": "near_cuticle",
+              "must_keep": true
+            }
+          ],
+          "notes": "透裸闪底加豹纹加三小钻",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "rhinestone",
+          "count": "approx",
+          "size": "small",
+          "position": "near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "rhinestone",
+          "count": "approx",
+          "size": "small",
+          "position": "near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "rhinestone",
+          "count": "1 large + approx 3 s",
+          "size": "large",
+          "position": "near cuticle center",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "3",
+          "size": "small",
+          "position": "near cuticle",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "rhinestone",
+          "count": "3",
+          "size": "small",
+          "position": "near cuticle",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留超长杏仁甲型，保留冰透裸粉闪粉渐变底",
+        "保留所有手指对应位置的深棕色豹纹图案",
+        "保留所有钻饰的位置大小，中指必须保留大钻",
+        "保留中指甲面的细白色线条装饰",
+        "保留亮面带细闪的甲面质感"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Image 2 is the reference nail art design. Only modify the nail area of Image 1, transfer the nail design to matching fingers of Image 1: the design is extra long almond nails with sheer warm nude pink gradient glitter base, glossy finish, hand-painted dark brown leopard spots, rhinestone decorations on all visible fingers, large oval accent rhinestone on middle finger, thin white line on middle finger. Replicate all design features exactly, do not output Image 2, do not output collage, do not change non-nail areas.",
+      "negative_prompt": "do not change background, skin tone, hand shape or composition of Image 1. do not remove or deform rhinestones, do not change the original design color, do not change finger positions, do not add extra nails, do not output collage or reference image, do not change leopard pattern, do not alter nail shape, do not lose decorations.",
+      "quality_checks": [
+        "保持用户原手的手型、肤色、背景完全不变",
+        "所有钻饰位置大小正确，中指大钻完整保留",
+        "豹纹图案正确复刻到对应手指上",
+        "甲型长度正确，为超长杏仁形",
+        "底色质感正确，冰透裸粉色带细闪亮面",
+        "没有产生拼图，没有输出参考图，无多余内容"
+      ]
+    },
+    "caramel-tortoise-short": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "焦糖蓝边渐变钻饰短美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "short",
+        "nail_shape": "squoval",
+        "base_colors": [
+          {
+            "name": "焦糖奶棕色",
+            "tone": "warm",
+            "opacity": "translucent",
+            "coverage": "gradient"
+          },
+          {
+            "name": "雾霾蓝色",
+            "tone": "cool",
+            "opacity": "opaque",
+            "coverage": "tip"
+          },
+          {
+            "name": "透灰蓝色",
+            "tone": "cool",
+            "opacity": "translucent",
+            "coverage": "accent"
+          }
+        ],
+        "finish": [
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "gradient",
+          "french_tip",
+          "glitter",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透奶茶棕渐变",
+          "tip_style": "蓝色法式边",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [],
+          "notes": "透色渐变棕底搭配蓝色法式边",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "透棕灰渐变",
+          "tip_style": "无",
+          "pattern": "金箔闪粉分布甲面",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "金色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "渐变底搭配金色闪粉装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "奶茶棕渐变",
+          "tip_style": "蓝色法式边",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [],
+          "notes": "渐变棕底搭配蓝色法式边",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "焦糖棕色",
+          "tip_style": "无",
+          "pattern": "无",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "large",
+              "color": "香槟金色方形",
+              "position": "center",
+              "must_keep": true
+            }
+          ],
+          "notes": "焦糖底中心镶嵌大方形香槟钻",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "透灰棕渐变",
+          "tip_style": "无",
+          "pattern": "金箔闪粉分布甲面",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "tiny",
+              "color": "金色",
+              "position": "partial nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "透渐变底搭配金色闪粉装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "large",
+          "position": "nail center",
+          "must_keep": true
+        },
+        {
+          "finger": "index",
+          "type": "glitter",
+          "count": "approx",
+          "size": "tiny",
+          "position": "nail surface",
+          "must_keep": true
+        },
+        {
+          "finger": "pinky",
+          "type": "glitter",
+          "count": "approx",
+          "size": "tiny",
+          "position": "nail surface",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留无名指中心的大方形香槟钻装饰",
+        "保留食指和小指的金色闪粉金箔装饰",
+        "保留拇指、中指的蓝色法式边设计",
+        "保持焦糖棕渐变底色和亮面质感",
+        "保持短款方圆形甲型",
+        "仅修改指甲区域，保留用户原手所有特征"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand photo, keep its canvas, composition, lighting, skin tone, background and hand shape completely unchanged, only modify the nail areas. Image 2 is the reference nail style to replicate: short squoval nails, warm caramel brown translucent gradient base, blue french tip on thumb and middle finger, gold glitter on index and pinky nails, one large champagne square rhinestone at the center of ring finger, glossy finish. Transfer the design to matching fingers on Image 1, do not output Image 2, do not output collage, do not change anything except nails, keep all decorations correctly placed.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone or glitter decorations, do not deform the large diamond, do not change the original color scheme, do not add extra fake nails, do not output collage, do not output reference image, do not change finger positions, do not remove the blue french tip",
+      "quality_checks": [
+        "检查是否仅修改指甲，保留原手肤色背景手型构图",
+        "检查无名指中心大香槟钻位置大小是否正确",
+        "检查食指小指的金色闪粉是否保留",
+        "检查拇指中指蓝色法式边是否正确还原",
+        "检查甲型长度是否为短款方圆形",
+        "检查是否保持亮面glossy质感",
+        "检查没有多余输出或拼图"
+      ]
+    },
+    "aurora-silver-cat-eye": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "玫瑰金镜面纯色美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "square",
+        "base_colors": [
+          {
+            "name": "玫瑰金",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "all"
+          }
+        ],
+        "finish": [
+          "chrome"
+        ],
+        "design_features": [
+          "solid_color",
+          "chrome"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "index",
+          "middle",
+          "ring",
+          "pinky"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "玫瑰金",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "chrome"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色镜面无额外装饰",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "玫瑰金",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "chrome"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色镜面无额外装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "玫瑰金",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "chrome"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色镜面无额外装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "玫瑰金",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "chrome"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色镜面无额外装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "玫瑰金",
+          "tip_style": "无",
+          "pattern": "none",
+          "finish": [
+            "chrome"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "unknown",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": true
+            }
+          ],
+          "notes": "纯色镜面无额外装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "all",
+          "type": "unknown",
+          "count": "unknown",
+          "size": "unknown",
+          "position": "full_nail",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留用户原手的手型、肤色、背景和构图，仅修改指甲",
+        "全手所有指甲复刻玫瑰金镜面纯色款式",
+        "保持甲型为方形，甲长为中等长度",
+        "保留镀铬镜面的高亮金属质感"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, Image 2 is the reference nail style. Keep Image 1's canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail area. Replicate the rose gold solid color chrome mirror nail style, use medium length square nail shape, all nails get full coverage opaque warm rose gold chrome finish, no extra decorations. Apply the design to matching fingers of Image 1, do not output Image 2, do not output collage, do not change any content except nail area.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not distort nail style, do not alter rose gold color, do not add extra nails, do not add extra decorations, do not output collage, do not output reference image, do not change original hand pose.",
+      "quality_checks": [
+        "仅修改指甲区域，保留原图所有非指甲内容不变",
+        "所有指甲均为玫瑰金纯色镜面镀铬质感",
+        "甲形保持方形，长度符合要求",
+        "无额外装饰添加，未改变原款式",
+        "输出为单张试戴图，无拼接参考图"
+      ]
+    },
+    "satin-nude-almond": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "裸粉渐变钻饰长杏仁美甲",
+      "confidence": 0.98,
+      "style_spec": {
+        "nail_length": "long",
+        "nail_shape": "almond",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          },
+          {
+            "name": "奶白色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "gradient"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "gradient",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "not_visible",
+          "base_color": "unknown",
+          "tip_style": "unknown",
+          "pattern": "unknown",
+          "finish": [
+            "unknown"
+          ],
+          "decorations": [],
+          "notes": "拇指不可见",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变奶白指尖",
+          "tip_style": "无",
+          "pattern": "竖渐变从根部裸粉到指尖奶白",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变奶白指尖",
+          "tip_style": "无",
+          "pattern": "竖渐变从根部裸粉到指尖奶白",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变奶白指尖",
+          "tip_style": "无",
+          "pattern": "竖渐变从根部裸粉到指尖奶白",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "approx",
+              "size": "small",
+              "color": "透明闪银",
+              "position": "near_cuticle_center",
+              "must_keep": true
+            }
+          ],
+          "notes": "靠近甲根处有一排小碎钻装饰",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "裸粉渐变奶白指尖",
+          "tip_style": "无",
+          "pattern": "竖渐变从根部裸粉到指尖奶白",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "无额外装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "approx",
+          "size": "small",
+          "position": "near_cuticle_center",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留裸粉根部到奶白指尖的竖向渐变效果",
+        "保留无名指靠近甲根处的小碎钻装饰",
+        "保留长杏仁甲型和亮面光泽质感",
+        "保留用户原图的手型、肤色、背景和构图",
+        "按对应手指迁移美甲款式，只修改指甲区域",
+        "不要新增额外装饰或改变颜色"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, keep its canvas, composition, lighting, skin tone, hand shape and background completely unchanged. Only modify the nail areas to match the reference style from Image 2. Image 2 is the reference nail design: long almond shaped glossy nails, vertical gradient from warm sheer nude pink at the cuticle to sheer creamy off-white at the tip, only the ring finger has small clear rhinestones placed near the cuticle. Apply this design to the corresponding fingers of Image 1, do not output Image 2, do not output collage, keep everything except nails unchanged.",
+      "negative_prompt": "do not change background, skin tone, hand shape, composition of Image 1, do not lose the rhinestone decoration on ring finger, do not alter the gradient color effect, do not change nail shape, do not add extra nails, do not change finger positions, do not output collage, do not output reference image, do not distort decorations",
+      "quality_checks": [
+        "仅修改指甲区域，不改变手型、肤色和背景",
+        "渐变效果正确：根部裸粉，指尖奶白",
+        "仅无名指保留小钻装饰，位置正确不丢失",
+        "甲型为长杏仁形，保持亮面光泽质感",
+        "对应手指迁移款式，不改变原有手指布局",
+        "不生成拼图，不输出参考款式图"
+      ]
+    },
+    "mirror-french-diamond": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "银灰猫眼跳幻彩亮片美甲",
+      "confidence": 0.95,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "oval",
+        "base_colors": [
+          {
+            "name": "银灰色",
+            "tone": "cool",
+            "opacity": "opaque",
+            "coverage": "all"
+          },
+          {
+            "name": "透粉色",
+            "tone": "warm",
+            "opacity": "sheer",
+            "coverage": "accent"
+          }
+        ],
+        "finish": [
+          "cat_eye",
+          "glossy",
+          "glitter"
+        ],
+        "design_features": [
+          "cat_eye",
+          "glitter",
+          "solid_color"
+        ],
+        "accent_fingers": [
+          "thumb",
+          "middle"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "透粉色",
+          "tip_style": "无",
+          "pattern": "满甲铺幻彩大颗粒亮片",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "unknown",
+              "color": "幻彩多色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "满甲铺混合尺寸幻彩大亮片，透粉底色",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "银灰色",
+          "tip_style": "无",
+          "pattern": "纯色",
+          "finish": [
+            "glossy",
+            "cat_eye"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "none",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色银灰猫眼，镜面光泽",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "透粉色",
+          "tip_style": "无",
+          "pattern": "满甲铺幻彩大颗粒亮片",
+          "finish": [
+            "glossy",
+            "glitter"
+          ],
+          "decorations": [
+            {
+              "type": "glitter",
+              "count": "approx",
+              "size": "unknown",
+              "color": "幻彩多色",
+              "position": "full_nail",
+              "must_keep": true
+            }
+          ],
+          "notes": "满甲铺混合尺寸幻彩大亮片，透粉底色",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "银灰色",
+          "tip_style": "无",
+          "pattern": "纯色",
+          "finish": [
+            "glossy",
+            "cat_eye"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "none",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色银灰猫眼，镜面光泽",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "银灰色",
+          "tip_style": "无",
+          "pattern": "纯色",
+          "finish": [
+            "glossy",
+            "cat_eye"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "none",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色银灰猫眼，镜面光泽",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "thumb",
+          "type": "glitter",
+          "count": "approx",
+          "size": "unknown",
+          "position": "full_nail",
+          "must_keep": true
+        },
+        {
+          "finger": "middle",
+          "type": "glitter",
+          "count": "approx",
+          "size": "unknown",
+          "position": "full_nail",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留跳款设计：拇指中指做亮片款，其余做银灰猫眼",
+        "保留 medium 长度椭圆甲型",
+        "保留银灰猫眼的光泽猫眼光感",
+        "保留跳甲满甲幻彩亮片的质感",
+        "保持原手的手型肤色背景构图，仅修改指甲"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, Image 2 is the reference nail style. Keep Image 1's canvas, composition, lighting, skin tone, background and hand shape, only modify the nail area. Replicate the nail style from Image 2: medium length oval nails, glossy cool silver gray cat eye on index, ring and pinky fingers, full nail mixed iridescent glitter on accent thumb and middle fingers. Follow same finger mapping, keep all design features, do not output Image 2, do not output collage, only output the modified hand image with new nails.",
+      "negative_prompt": "do not change background, skin tone, hand shape, composition, do not lose glitter decoration, do not remove cat eye effect, do not swap finger designs, do not change nail colors, do not add extra nails, do not output collage, do not output reference image, do not distort nail shape, do not remove decorations",
+      "quality_checks": [
+        "保持原手手型肤色构图背景完全不变",
+        "仅修改指甲区域，其余部分不做修改",
+        "拇指中指为满甲幻彩亮片，其余为银灰猫眼",
+        "正确还原猫眼光泽和亮片闪粉质感",
+        "跳色设计正确，没有调换手指款式",
+        "没有输出拼图、参考图，只输出修改后的手图"
+      ]
+    },
+    "peach-blossom-gradient": {
+      "schema_version": "nail_tryon_prompt_plan_v1",
+      "overall_style": "酒红法式丝带钻饰美甲",
+      "confidence": 0.98,
+      "style_spec": {
+        "nail_length": "medium",
+        "nail_shape": "squoval",
+        "base_colors": [
+          {
+            "name": "裸粉色",
+            "tone": "neutral",
+            "opacity": "sheer",
+            "coverage": "most"
+          },
+          {
+            "name": "酒红色",
+            "tone": "warm",
+            "opacity": "opaque",
+            "coverage": "tip"
+          }
+        ],
+        "finish": [
+          "glossy"
+        ],
+        "design_features": [
+          "french_tip",
+          "line_art",
+          "bow",
+          "hand_painted",
+          "rhinestone"
+        ],
+        "accent_fingers": [
+          "index",
+          "ring"
+        ]
+      },
+      "finger_designs": {
+        "thumb": {
+          "visibility": "visible",
+          "base_color": "裸粉色",
+          "tip_style": "法式边",
+          "pattern": "无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "酒红色斜边法式，亮面无额外装饰",
+          "finger": "thumb"
+        },
+        "index": {
+          "visibility": "visible",
+          "base_color": "裸粉色",
+          "tip_style": "法式边",
+          "pattern": "甲面中部手绘红色蝴蝶结",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "透明闪钻",
+              "position": "蝴蝶结中心",
+              "must_keep": true
+            }
+          ],
+          "notes": "酒红法式，手绘红蝴蝶结中心带小钻",
+          "finger": "index"
+        },
+        "middle": {
+          "visibility": "visible",
+          "base_color": "裸粉色",
+          "tip_style": "法式边",
+          "pattern": "无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色裸粉底酒红法式，无额外装饰",
+          "finger": "middle"
+        },
+        "ring": {
+          "visibility": "visible",
+          "base_color": "裸粉色",
+          "tip_style": "法式边",
+          "pattern": "甲面中部手绘红色丝带结",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "rhinestone",
+              "count": "1",
+              "size": "tiny",
+              "color": "透明闪钻",
+              "position": "丝带结中心",
+              "must_keep": true
+            }
+          ],
+          "notes": "酒红法式，手绘红丝带结中心带小钻",
+          "finger": "ring"
+        },
+        "pinky": {
+          "visibility": "visible",
+          "base_color": "裸粉色",
+          "tip_style": "法式边",
+          "pattern": "无额外图案",
+          "finish": [
+            "glossy"
+          ],
+          "decorations": [
+            {
+              "type": "none",
+              "count": "0",
+              "size": "unknown",
+              "color": "unknown",
+              "position": "unknown",
+              "must_keep": false
+            }
+          ],
+          "notes": "纯色裸粉底酒红法式，无额外装饰",
+          "finger": "pinky"
+        }
+      },
+      "decoration_locks": [
+        {
+          "finger": "index",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "tiny",
+          "position": "手绘蝴蝶结中心",
+          "must_keep": true
+        },
+        {
+          "finger": "ring",
+          "type": "rhinestone",
+          "count": "1",
+          "size": "tiny",
+          "position": "手绘丝带结中心",
+          "must_keep": true
+        }
+      ],
+      "transfer_priority": [
+        "保留中等长度方圆形甲型与酒红法式边设计",
+        "保留食指和无名指的红色手绘丝带蝴蝶结",
+        "保留蝴蝶结中心的细小闪钻装饰",
+        "保留裸透底色和亮面质感",
+        "保持用户原图的手型、肤色、背景、构图不变"
+      ],
+      "tryon_prompt": "Image 1 is the user's original hand image, Image 2 is the reference nail design. Only modify the nail area, keep the original canvas, composition, lighting, skin tone, hand shape and background from Image 1. The target design: medium length squoval nails, sheer nude pink base, opaque warm wine red french tip, glossy finish. Index and ring fingers have hand painted red bow/ribbon with one tiny clear rhinestone at center, other fingers have plain french tip. Transfer the design to matching fingers of Image 1, do not output Image 2, do not output collage, only change nails.",
+      "negative_prompt": "do not change background, do not change skin tone, do not change hand shape, do not change composition, do not lose rhinestone decorations, do not deform the bow pattern, do not change nail colors, do not add extra nails, do not output collage, do not output reference image, do not change finger positions, do not modify non-nail areas, do not remove french tip",
+      "quality_checks": [
+        "仅修改指甲区域，不改变原图手型肤色背景构图",
+        "保留食指和无名指的小钻装饰，不丢失",
+        "酒红法式边和蝴蝶结图案位置正确",
+        "颜色还原准确，裸粉透底酒红法式正确",
+        "无多余拼贴，只输出修改指甲后的手图"
+      ]
+    }
+  }
+}

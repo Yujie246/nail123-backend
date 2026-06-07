@@ -1,0 +1,195 @@
+{
+  "id": "shell-pearl-almond",
+  "name": "贝母珍珠杏仁",
+  "image": "/nails/14_eecfba4ab276e895b579a79491b2d0211982788.png",
+  "imagePath": "/Users/yangyuang/Desktop/meituanhaikesong/public/nails/14_eecfba4ab276e895b579a79491b2d0211982788.png",
+  "reason": "贝母光泽和珍珠感叠在杏仁甲上，温柔又显贵。",
+  "tags": [
+    "贝母",
+    "珍珠",
+    "杏仁甲"
+  ],
+  "generatedAt": "2026-06-05T00:59:11",
+  "latencyMs": 55184,
+  "attempts": 1,
+  "lengthMode": "match_reference",
+  "imagePrepare": {
+    "role": "style",
+    "original_bytes": 1267184,
+    "prepared_bytes": 94952,
+    "original_size": [
+      896,
+      1200
+    ],
+    "prepared_size": [
+      765,
+      1024
+    ],
+    "prepared_mime": "image/jpeg",
+    "resized": true,
+    "reencoded": true,
+    "error": ""
+  },
+  "promptPlan": {
+    "schema_version": "nail_tryon_prompt_plan_v1",
+    "overall_style": "裸粉猫眼渐变长杏仁美甲",
+    "confidence": 0.95,
+    "style_spec": {
+      "nail_length": "extra_long",
+      "nail_shape": "almond",
+      "base_colors": [
+        {
+          "name": "裸粉奶白",
+          "tone": "warm",
+          "opacity": "sheer",
+          "coverage": "gradient"
+        }
+      ],
+      "finish": [
+        "glossy",
+        "cat_eye",
+        "pearl"
+      ],
+      "design_features": [
+        "gradient",
+        "cat_eye"
+      ],
+      "accent_fingers": []
+    },
+    "finger_designs": {
+      "thumb": {
+        "visibility": "visible",
+        "base_color": "裸粉渐变浅奶白",
+        "tip_style": "无",
+        "pattern": "竖向猫眼光带渐变",
+        "finish": [
+          "glossy",
+          "cat_eye",
+          "pearl"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "无额外装饰",
+        "finger": "thumb"
+      },
+      "index": {
+        "visibility": "visible",
+        "base_color": "裸粉渐变浅奶白",
+        "tip_style": "无",
+        "pattern": "竖向猫眼光带渐变",
+        "finish": [
+          "glossy",
+          "cat_eye",
+          "pearl"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "无额外装饰",
+        "finger": "index"
+      },
+      "middle": {
+        "visibility": "visible",
+        "base_color": "裸粉渐变浅奶白",
+        "tip_style": "无",
+        "pattern": "竖向猫眼光带渐变",
+        "finish": [
+          "glossy",
+          "cat_eye",
+          "pearl"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "无额外装饰",
+        "finger": "middle"
+      },
+      "ring": {
+        "visibility": "visible",
+        "base_color": "裸粉渐变浅奶白",
+        "tip_style": "无",
+        "pattern": "竖向猫眼光带渐变",
+        "finish": [
+          "glossy",
+          "cat_eye",
+          "pearl"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "无额外装饰",
+        "finger": "ring"
+      },
+      "pinky": {
+        "visibility": "visible",
+        "base_color": "裸粉渐变浅奶白",
+        "tip_style": "无",
+        "pattern": "竖向猫眼光带渐变",
+        "finish": [
+          "glossy",
+          "cat_eye",
+          "pearl"
+        ],
+        "decorations": [
+          {
+            "type": "none",
+            "count": "0",
+            "size": "unknown",
+            "color": "unknown",
+            "position": "unknown",
+            "must_keep": true
+          }
+        ],
+        "notes": "无额外装饰",
+        "finger": "pinky"
+      }
+    },
+    "decoration_locks": [],
+    "transfer_priority": [
+      "保留用户原图的手型、肤色、背景、构图、光照，仅修改指甲",
+      "复刻超长杏仁甲型，所有指甲都应用同款式设计",
+      "还原裸粉到浅奶白的渐变效果，保留竖向猫眼光带",
+      "还原高光亮面、贝母猫眼的珠光质感",
+      "不添加额外装饰，保持款式干净简约"
+    ],
+    "tryon_prompt": "Image 1 is the user's original hand image, keep its canvas, composition, lighting, skin tone, background and hand shape, only change the nail area. Image 2 is the reference nail style to replicate. The target style is extra long almond nails, sheer warm nude pink gradient to off-white with vertical cat eye effect, pearlescent glossy finish, no extra decorations. Apply the design to matching fingers of Image 1, do not output Image 2, do not output collage or style reference board.",
+    "negative_prompt": "do not change background, skin tone, hand shape or composition, do not change finger positions, do not distort nail shape, do not lose cat eye or pearlescent effect, do not alter the target color, do not add extra decorations, do not add new unnecessary nail pieces, do not output collage, do not output reference image.",
+    "quality_checks": [
+      "仅修改指甲区域，保留原图手型肤色背景构图",
+      "甲型长度符合目标款式，所有指甲正确应用设计",
+      "渐变效果和猫眼珠光质感正确还原",
+      "未添加额外多余装饰，保持简约干净",
+      "输出不是拼图，未保留参考款式图"
+    ]
+  },
+  "skipped": false
+}

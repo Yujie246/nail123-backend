@@ -1,0 +1,87 @@
+{
+  "keyword": "美甲",
+  "run_id": "20260607_063350",
+  "run_dir": "/Users/liuyujie/Documents/meijia-integrated-20260606/xhs/runs/20260607_063350",
+  "analysis_days": 90,
+  "image_days": 30,
+  "count": 4,
+  "generated_at": "2026-06-07T06:35:03",
+  "items": [
+    {
+      "title": "💅🏻春日淡颜系美甲",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/9acb6c1c9cbdb99d4ec8a5e982e4cc29/1040g00831th7hhqh62605nbtgsug8tqf7bjgsq0!nc_n_webp_mw_1",
+      "image_path": "",
+      "likes": 4414,
+      "collects": 0,
+      "comments": 0,
+      "url": "https://www.xiaohongshu.com/explore/69afa8c6000000000601df0f",
+      "published_at": "2026-03-10T13:14:46",
+      "days_old": 88,
+      "vision_keep": null,
+      "vision_reason": "",
+      "vision_category": "",
+      "style_tags": [
+        "淡人高级感",
+        "春夏显白"
+      ],
+      "analysis_keep": true
+    },
+    {
+      "title": "终于找到了我的梦中情甲！",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/8bf5f337c30fedaea4c1092b1080b1c3/1040g2sg31tt1nk6r6u605qagh3lto5s8vklnbo8!nc_n_webp_mw_1",
+      "image_path": "",
+      "likes": 8220,
+      "collects": 0,
+      "comments": 0,
+      "url": "https://www.xiaohongshu.com/explore/69bbc432000000002003a2c6",
+      "published_at": "2026-03-19T17:38:58",
+      "days_old": 79,
+      "vision_keep": null,
+      "vision_reason": "",
+      "vision_category": "",
+      "style_tags": [],
+      "analysis_keep": true
+    },
+    {
+      "title": "buling闪闪✨ 冰透蓝眼泪法式🌊好适合度假喔",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/71431da01fb48d6e87e7b510ad933f39/notes_pre_post/1040g3k831vch646oiihg5pnvl0d7earfb8upeqo!nc_n_webp_mw_1",
+      "image_path": "",
+      "likes": 9792,
+      "collects": 0,
+      "comments": 0,
+      "url": "https://www.xiaohongshu.com/explore/69ec6530000000001b0229d6",
+      "published_at": "2026-04-25T14:54:40",
+      "days_old": 42,
+      "vision_keep": null,
+      "vision_reason": "",
+      "vision_category": "",
+      "style_tags": [
+        "冰感清透",
+        "闪粉亮片",
+        "轻法式",
+        "清透水光"
+      ],
+      "analysis_keep": true
+    },
+    {
+      "title": "ins风 超级美✨粉粉嫩嫩的美甲💅敲温柔",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202606070633/1278320e2931d5d477fb7ddfbaf60d13/notes_pre_post/1040g3k8320a7s9gnm2b05pcdc22oihak5f5scv0!nc_n_webp_mw_1",
+      "image_path": "",
+      "likes": 1381,
+      "collects": 0,
+      "comments": 0,
+      "url": "https://www.xiaohongshu.com/explore/6a0acf6d000000003700d16d",
+      "published_at": "2026-05-18T16:35:57",
+      "days_old": 19,
+      "vision_keep": null,
+      "vision_reason": "",
+      "vision_category": "",
+      "style_tags": [
+        "春夏显白",
+        "显白纯欲"
+      ],
+      "analysis_keep": true,
+      "reject_reason": "图片下载/识别失败：<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1020)>"
+    }
+  ]
+}
