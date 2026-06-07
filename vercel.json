@@ -8,7 +8,7 @@
   ],
   "functions": {
     "api/index.py": {
-      "maxDuration": 60,
+      "maxDuration": 300,
       "excludeFiles": "{models/**,services/**,scripts/**,requirements-yolo.txt,requirements-mobile-sam.txt,**/__pycache__/**,**/*.pyc,**/*.pyo}"
     }
   }
