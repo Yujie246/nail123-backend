@@ -15,6 +15,7 @@ XHS_ROOT = PROJECT_ROOT / "xhs"
 RUNS_DIR = XHS_ROOT / "runs"
 CRAWLER = XHS_ROOT / "main.py"
 TREND_ASSET_DIR = PROJECT_ROOT / "Nail-main" / "public" / "assets" / "xhs-trends" / "latest"
+FALLBACK_TREND_IMAGE_COUNT = 8
 
 sync_lock = threading.Lock()
 sync_state: dict[str, Any] = {
@@ -105,17 +106,29 @@ def resolve_item_image_path(item: dict[str, Any], run: Path) -> tuple[str, Path 
 
 
 def copy_latest_images(items: list[dict[str, Any]], run: Path) -> dict[str, str]:
-    TREND_ASSET_DIR.mkdir(parents=True, exist_ok=True)
     mapping: dict[str, str] = {}
+    try:
+        TREND_ASSET_DIR.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        return mapping
+
     for index, item in enumerate(items, start=1):
         src_key, src = resolve_item_image_path(item, run)
         if not src_key or not src:
             continue
         dest_name = f"xhs_latest_{index:02d}{src.suffix or '.webp'}"
         dest = TREND_ASSET_DIR / dest_name
-        shutil.copy2(src, dest)
+        try:
+            shutil.copy2(src, dest)
+        except OSError:
+            continue
         mapping[src_key] = f"xhs-trends/latest/{dest_name}"
     return mapping
+
+
+def fallback_trend_image(index: int) -> str:
+    fallback_index = ((index - 1) % FALLBACK_TREND_IMAGE_COUNT) + 1
+    return f"xhs-trends/latest/xhs_latest_{fallback_index:02d}.webp"
 
 
 def merchant_label(item: dict[str, Any], index: int) -> tuple[str, list[str], str, str]:
@@ -167,7 +180,7 @@ def build_frontend_payload() -> dict[str, Any]:
                 "label": tags[0] if tags else f"趋势款 {index}",
                 "merchantTitle": merchant_title,
                 "title": item.get("title", ""),
-                "img": image_mapping.get(image_path, f"xhs-trends/latest/xhs_latest_{index:02d}.webp"),
+                "img": image_mapping.get(image_path, fallback_trend_image(index)),
                 "likes": item.get("likes", 0),
                 "publishedAt": as_date(item.get("published_at")),
                 "daysOld": item.get("days_old"),
